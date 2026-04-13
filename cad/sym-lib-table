@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "kbd") (type "KiCad") (uri "/Users/mori/Downloads/kbd-main/kicad-symbols/kbd.kicad_sym") (options "") (descr ""))
+	(lib (name "alice-cache") (type "Legacy") (uri "/Users/mori/Documents/MyProject/mami-kbd/cad/alice-cache.lib") (options "") (descr "レガシー プロジェクト キャッシュ ライブラリ"))
+)
