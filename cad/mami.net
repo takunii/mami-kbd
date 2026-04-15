@@ -1,0 +1,6810 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/mori/Documents/MyProject/mami-kbd/cad/mami.kicad_sch")
+		(date "2026-04-15T18:17:05")
+		(tool "Eeschema 10.0.0")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "mami.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "D1")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f1038ab-28a7-4cff-83c5-970acf4984f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "06bfdb88-74dd-4571-817f-1aad5ec8bff9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "148a43c7-6785-4fc7-bd4c-581f1f31303e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b8e99b1a-6ae0-463f-907d-bc3a1434b453")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1789d997-be28-4a66-a640-94e74c1b619d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D6")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ee2d1593-465b-420e-93a8-567a9c9567aa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D7")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2de65bb4-19e4-4beb-a5dd-dded4fefb509")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e8384e5f-5fd7-4a1b-abab-7f9d8b611d7d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D9")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f57ffd14-3a13-4096-abaf-4e9575ef0d0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D10")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "20097e06-3503-42f7-842b-28ac8478a052")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D11")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "54a72f0f-a554-4dc2-a522-ef972694d964")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D12")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b1052220-d666-46a8-bae2-e4c50bdff5bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D13")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d1d0adbf-372d-43fb-b078-f5fa88619607")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D14")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d51ad362-32a8-4d93-9e16-b59c502abfd8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D15")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4e4cc229-0e53-404e-9911-0188cf6b8e54")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D16")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cb5c106b-9206-4f9a-b992-74b748c31f91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D17")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a88d9863-1d88-46b7-a9b9-47c9fd715d95")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D18")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "85b0917f-4169-4829-b689-a99e2c69c517")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D19")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "194d2310-e2f4-4dff-903e-a9eccfc21a7f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D20")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1a00726c-ee93-47e5-b21f-47bdb4784f2a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D21")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6603565e-0625-425a-9ae6-ba1b9c35442f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D22")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a462fd59-7ea5-4e77-9a42-ce567a8aabd8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D23")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "186864d4-5305-43e8-8ff5-565d1c4e7667")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D24")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a48a0ac5-aa70-4b36-9115-92b80240c512")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D25")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2033cff8-388f-4316-8058-6cffc7b80076")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D26")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1fa7b1ee-509d-4a31-87ff-41c94d492ef2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D27")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b80d7947-fc5c-41b0-8c8c-1a89a4f4db4e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D28")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eb647a68-99a4-44d3-8f6d-7182de6b4bb9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D29")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fee335aa-8fb3-4d13-b930-b0629206ef74")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D30")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b2ed5df6-4ce1-4a8f-8835-9a4404c5e882")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D31")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2f8e8a51-47b7-436c-aa59-78a187bd469e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D32")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3898b899-da27-4832-a113-fb246fda72b5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D33")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f70b6c66-9ec7-466c-866a-dffb06b41ec4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D34")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8cb02f32-ea8a-4862-a807-5f79d6d6386c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D35")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eb562852-25ab-4573-908c-4325d72895e8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D36")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e980d596-49f9-4943-9cdc-e9ad78e75224")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D37")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "500b14f1-7385-4c00-af77-82feb5df6c4c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D38")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71241be6-86c5-4eaf-a813-9e35ba9717c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D39")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "24153a7e-bb52-423e-8041-5fc0fe8d6756")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D40")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bb741ced-ce6c-451d-95e2-612aed699a94")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D41")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7513f6f2-42e2-433c-9094-4cf716ad8328")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D42")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148W")
+				(description "75V 0.15A Fast Switching Diode, SOD-123")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?123*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c8619d90-49bb-4b59-89fd-41b1f4335b90")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a7070ef2-e16a-4dc9-8e77-b1189dc11b04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e428bc2a-d7ec-4dc3-a5ef-47f8e5ee8989")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "64da7f97-cbef-4761-9f5f-aa2be51d8e84")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW4")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1c1d095c-a203-4228-9710-af292867772b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW5")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "817d1587-65ed-436e-8bea-48284e6ad3bf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW6")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "630dcf8c-a213-48ec-9362-345b683d182c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW7")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d4b67520-16ac-4b90-b0e7-599f1295fdef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW8")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "95a69ec2-0d1a-4cf0-a65b-7af6fdd7352b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW9")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fd638a9f-7be6-4c04-8aa2-4c5ec63b5b0f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW10")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a605ad6-9e3b-483f-8c33-e741eef03466")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW11")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0305ebe8-b9b9-4112-879e-7d05e34ccc47")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW12")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "18245641-52fd-4d74-84a4-f4a011b6619f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW13")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f12c41c-178e-4915-978f-22415a911614")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW14")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "890a59e7-c011-47a3-9f67-fe432555c817")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW15")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9661f8d3-56c4-4d7d-a08c-be20d37fea29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW16")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c8f93a2-e806-404a-a6f5-fd4a5bdcb510")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW17")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1ff845d7-1d0d-4baf-b985-e2fba968e80d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW18")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dc5a8595-8598-45b9-8459-de5e0708998f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW19")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5e5da074-810b-4e7a-9137-66587ed44c65")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW20")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5b5b747a-70b2-44e0-9320-4316b7321503")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW21")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c4f22e60-558c-4c80-838f-374273377f43")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW22")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12870cd2-207a-4a43-890c-b562c4db7f8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW23")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8b94d8c0-36b0-48e3-888f-fa34166e334d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW24")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d35207d-fe88-44cf-9276-59cdb6c7da2e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW25")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12f8a979-fbbe-4202-97fa-c1bb1f03f50c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW26")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ddae3a6d-5842-4ebd-bba0-5e8c6dffb5a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW27")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "32783b36-1a75-4df4-9f00-43c7d8b87990")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW28")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dc71ecbd-d87c-4482-8160-4a018762cf69")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW29")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8ea1dc45-6240-4ffa-a700-927971e1a276")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW30")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d4fca70-9a7e-4d9d-9531-1eee4914072a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW31")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab0a2112-2ca7-4113-a7b6-18790ba9d8ed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW32")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "33d461a6-2cdb-48ab-9514-c67eddc0e859")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW33")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "81598713-08e2-463e-ba3b-9b425f8ae724")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW34")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d954889-8f47-4b18-829c-1dc46d67532d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW35")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9162ff40-34aa-4798-a822-a06008e264a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW36")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b105da7e-1152-4a2a-9d43-97456a23b01b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW37")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "04460f4f-a19c-4ae5-bafe-118cb44f94da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW38")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "58b74f49-1051-4656-8238-483b1b5c3393")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW39")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "372da9f9-f7b1-4cf7-8fcf-b0747d69d75a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW40")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a9dadd57-1e57-4991-b0fe-384373039b80")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW41")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "69f69dc2-5204-47d0-867c-d3ce99f7c454")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW42")
+			(value "SW_Push")
+			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2cff37d-c394-4099-bc92-d4a22a736869")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW43")
+			(value "ResetSW")
+			(footprint "kbd:ResetSW")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "kbd:ResetSW")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4ee93a82-a193-4737-9000-f2f1d633b735")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ProMicro")
+			(footprint "kbd:ProMicro")
+			(fields
+				(field
+					(name "Footprint") "kbd:ProMicro")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "kbd")
+				(part "ProMicro")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cad.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eca17256-a81b-4220-8086-6c035673e324")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Diode")
+			(part "1N4148W")
+			(description "75V 0.15A Fast Switching Diode, SOD-123")
+			(docs "https://www.vishay.com/docs/85748/1n4148w.pdf")
+			(footprints
+				(fp "D*SOD?123*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "1N4148W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85748/1n4148w.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast Switching Diode, SOD-123")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Push")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "kbd")
+			(part "ProMicro")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ProMicro")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TX0/D3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "RX1/D2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "2/D1/SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "3/D0/SCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "4/D4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "5/C6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "6/D7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "7/E6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "8/B4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "9/B5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "B6/10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "B2/16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "B3/14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "B1/15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "F7/A0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "F6/A1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "F5/A2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "F4/A3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "22")
+					(name "RST")
+					(type "input")
+				)
+				(pin
+					(num "23")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "24")
+					(name "RAW")
+					(type "power_out")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Diode")
+			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "kbd")
+			(uri "/Users/mori/Downloads/kbd-main/kicad-symbols/kbd.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "SW43")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "GND_23")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "Net-(D1-A)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "Net-(D2-A)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(D3-A)")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "Net-(D4-A)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "Net-(D5-A)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "Net-(D6-A)")
+			(class "Default")
+			(node
+				(ref "D6")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(D7-A)")
+			(class "Default")
+			(node
+				(ref "D7")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(D8-A)")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(D9-A)")
+			(class "Default")
+			(node
+				(ref "D9")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(D10-A)")
+			(class "Default")
+			(node
+				(ref "D10")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(D11-A)")
+			(class "Default")
+			(node
+				(ref "D11")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(D12-A)")
+			(class "Default")
+			(node
+				(ref "D12")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(D13-A)")
+			(class "Default")
+			(node
+				(ref "D13")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "Net-(D14-A)")
+			(class "Default")
+			(node
+				(ref "D14")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW14")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "Net-(D15-A)")
+			(class "Default")
+			(node
+				(ref "D15")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW15")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "Net-(D16-A)")
+			(class "Default")
+			(node
+				(ref "D16")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW16")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "Net-(D17-A)")
+			(class "Default")
+			(node
+				(ref "D17")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW17")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(D18-A)")
+			(class "Default")
+			(node
+				(ref "D18")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW18")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(D19-A)")
+			(class "Default")
+			(node
+				(ref "D19")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW19")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(D20-A)")
+			(class "Default")
+			(node
+				(ref "D20")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW20")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "Net-(D21-A)")
+			(class "Default")
+			(node
+				(ref "D21")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW21")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(D22-A)")
+			(class "Default")
+			(node
+				(ref "D22")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW22")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(D23-A)")
+			(class "Default")
+			(node
+				(ref "D23")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW23")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(D24-A)")
+			(class "Default")
+			(node
+				(ref "D24")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW24")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(D25-A)")
+			(class "Default")
+			(node
+				(ref "D25")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW25")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(D26-A)")
+			(class "Default")
+			(node
+				(ref "D26")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW26")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(D27-A)")
+			(class "Default")
+			(node
+				(ref "D27")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW27")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(D28-A)")
+			(class "Default")
+			(node
+				(ref "D28")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW28")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(D29-A)")
+			(class "Default")
+			(node
+				(ref "D29")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW29")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(D30-A)")
+			(class "Default")
+			(node
+				(ref "D30")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW30")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(D31-A)")
+			(class "Default")
+			(node
+				(ref "D31")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW31")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(D32-A)")
+			(class "Default")
+			(node
+				(ref "D32")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW32")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(D33-A)")
+			(class "Default")
+			(node
+				(ref "D33")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW33")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(D34-A)")
+			(class "Default")
+			(node
+				(ref "D34")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW34")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(D35-A)")
+			(class "Default")
+			(node
+				(ref "D35")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW35")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(D36-A)")
+			(class "Default")
+			(node
+				(ref "D36")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW36")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(D37-A)")
+			(class "Default")
+			(node
+				(ref "D37")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW37")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(D38-A)")
+			(class "Default")
+			(node
+				(ref "D38")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW38")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "Net-(D39-A)")
+			(class "Default")
+			(node
+				(ref "D39")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW39")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(D40-A)")
+			(class "Default")
+			(node
+				(ref "D40")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW40")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(D41-A)")
+			(class "Default")
+			(node
+				(ref "D41")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW41")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "Net-(D42-A)")
+			(class "Default")
+			(node
+				(ref "D42")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW42")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "VCC")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "VCC_21")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "45")
+			(name "col0")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW40")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW41")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW42")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "4/D4_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "46")
+			(name "col1")
+			(class "Default")
+			(node
+				(ref "SW36")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW37")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW38")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW39")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "5/C6_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "47")
+			(name "col2")
+			(class "Default")
+			(node
+				(ref "SW10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW33")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW34")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW35")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "6/D7_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "48")
+			(name "col3")
+			(class "Default")
+			(node
+				(ref "SW11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW14")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW29")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW30")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW31")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW32")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "7/E6_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "49")
+			(name "col4")
+			(class "Default")
+			(node
+				(ref "SW15")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW16")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW17")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW26")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW27")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW28")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "8/B4_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "50")
+			(name "col5")
+			(class "Default")
+			(node
+				(ref "SW18")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW19")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW20")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW21")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW22")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW23")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW24")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW25")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "9/B5_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "51")
+			(name "reset")
+			(class "Default")
+			(node
+				(ref "SW43")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "RST_22")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "52")
+			(name "row0")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D11")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D15")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D18")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "F4/A3_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "53")
+			(name "row1")
+			(class "Default")
+			(node
+				(ref "D12")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D16")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D19")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D9")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "F5/A2_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "54")
+			(name "row2")
+			(class "Default")
+			(node
+				(ref "D10")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D13")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D17")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D20")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "row3")
+			(class "Default")
+			(node
+				(ref "D14")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D21")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D7")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "F6/A1_18")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "56")
+			(name "row4")
+			(class "Default")
+			(node
+				(ref "D22")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D26")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D29")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D33")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D36")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D40")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "F7/A0_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "57")
+			(name "row5")
+			(class "Default")
+			(node
+				(ref "D23")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D27")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D30")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D34")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D37")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D41")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "B1/15_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "58")
+			(name "row6")
+			(class "Default")
+			(node
+				(ref "D24")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D28")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D31")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D35")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D38")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D42")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "B3/14_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "59")
+			(name "row7")
+			(class "Default")
+			(node
+				(ref "D25")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D32")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D39")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "B2/16_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(U1-2{slash}D1{slash}SDA-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "2/D1/SDA_5")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(U1-3{slash}D0{slash}SCL-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "3/D0/SCL_6")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(U1-B6{slash}10-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "B6/10_13")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(U1-RAW-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "RAW_24")
+				(pintype "power_out+no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(U1-RX1{slash}D2-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "RX1/D2_2")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U1-TX0{slash}D3-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "TX0/D3_1")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+	)
+)

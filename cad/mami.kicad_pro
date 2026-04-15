@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "cad.kicad_pro",
+    "filename": "mami.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -507,7 +507,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "mami.net",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
@@ -635,7 +635,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "cad.kicad_sch",
+        "filename": "mami.kicad_sch",
         "name": "ルート",
         "uuid": "03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
       }

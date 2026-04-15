@@ -3495,7 +3495,7 @@
 			(uuid "fdd86be5-f87c-4d71-850e-eede5f08e70f")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW11")
 					(unit 1)
@@ -3575,7 +3575,7 @@
 			(uuid "20ea900a-0c93-42f0-9fc1-ad71daf76796")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW37")
 					(unit 1)
@@ -3679,7 +3679,7 @@
 			(uuid "66386dd1-4707-4f6c-b2a0-49d3ff57a5e6")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D2")
 					(unit 1)
@@ -3759,7 +3759,7 @@
 			(uuid "24f16a4a-5a46-4a1a-88b2-12bee1cb9bf4")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW24")
 					(unit 1)
@@ -3839,7 +3839,7 @@
 			(uuid "6ada392a-3726-46f0-ad3d-4979cb7d9f98")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW22")
 					(unit 1)
@@ -3919,7 +3919,7 @@
 			(uuid "e7a4f2e0-6a9d-4fa1-b2d1-7773e8f8cdb0")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW25")
 					(unit 1)
@@ -4023,7 +4023,7 @@
 			(uuid "790d8c72-d5ae-4240-b316-822a047f8b97")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D3")
 					(unit 1)
@@ -4127,7 +4127,7 @@
 			(uuid "ae494736-ab79-40b9-be6a-a96a0b244a60")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D5")
 					(unit 1)
@@ -4205,7 +4205,7 @@
 			(uuid "96ffbfbb-c668-4b7f-a6f6-d965d7fd941f")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#FLG02")
 					(unit 1)
@@ -4285,7 +4285,7 @@
 			(uuid "e50efa39-9d3f-46c2-997b-5d0a0ccadfe4")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW12")
 					(unit 1)
@@ -4389,7 +4389,7 @@
 			(uuid "4d284b37-d631-4d4f-aa08-f032e9536856")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D23")
 					(unit 1)
@@ -4493,7 +4493,7 @@
 			(uuid "06a95867-662b-4325-8121-6e7951675dd1")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D19")
 					(unit 1)
@@ -4570,7 +4570,7 @@
 			(uuid "06d235c6-86fb-4e65-b7ff-4a49601e581e")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#PWR05")
 					(unit 1)
@@ -4674,7 +4674,7 @@
 			(uuid "9a488dd0-44d0-490a-8520-f23113295edb")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D20")
 					(unit 1)
@@ -4754,7 +4754,7 @@
 			(uuid "6fa3de42-df3d-4fad-ba4f-5e23842c93ca")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW4")
 					(unit 1)
@@ -4834,7 +4834,7 @@
 			(uuid "dfe61d2a-bba6-47a0-abee-b664cda624e5")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW34")
 					(unit 1)
@@ -4912,7 +4912,7 @@
 			(uuid "a2afecea-f09c-438f-8677-ece0ab2504e1")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#FLG01")
 					(unit 1)
@@ -5016,7 +5016,7 @@
 			(uuid "2eaae7e5-b7d2-48c2-a337-adb0d7ffd6e1")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D26")
 					(unit 1)
@@ -5096,7 +5096,7 @@
 			(uuid "90082bf7-9d87-49c4-84a7-8d6b0b3cfaa8")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW17")
 					(unit 1)
@@ -5200,7 +5200,7 @@
 			(uuid "b5158f6a-621d-43da-8729-8d4512ded197")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D10")
 					(unit 1)
@@ -5304,7 +5304,7 @@
 			(uuid "c04b98d5-959d-483b-a1e0-e7ad7370e7f5")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D25")
 					(unit 1)
@@ -5408,7 +5408,7 @@
 			(uuid "14aeb872-526f-4832-87c9-b7597496e035")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D39")
 					(unit 1)
@@ -5488,7 +5488,7 @@
 			(uuid "656788eb-2e0b-4273-9818-15533caf7294")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW10")
 					(unit 1)
@@ -5592,7 +5592,7 @@
 			(uuid "33f914d5-2e5d-4ac7-ba03-dd6d3e90e853")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D7")
 					(unit 1)
@@ -5696,7 +5696,7 @@
 			(uuid "eec48d61-7391-4f66-87ae-9fc500683bdc")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D31")
 					(unit 1)
@@ -5776,7 +5776,7 @@
 			(uuid "b83573f4-8703-4bd0-b019-0909ab75bce2")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW27")
 					(unit 1)
@@ -5856,7 +5856,7 @@
 			(uuid "b3a11cbc-1da2-4605-af95-ae78854217eb")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW32")
 					(unit 1)
@@ -5936,7 +5936,7 @@
 			(uuid "e6ec398a-f1a2-4e6c-9e0f-67040f33d2ea")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW39")
 					(unit 1)
@@ -6040,7 +6040,7 @@
 			(uuid "8b99f66d-5dd5-4cdb-b1ef-0bbc606c2b1f")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D32")
 					(unit 1)
@@ -6144,7 +6144,7 @@
 			(uuid "d842aab1-ea13-4086-9db1-d7cabbc032d6")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D1")
 					(unit 1)
@@ -6221,7 +6221,7 @@
 			(uuid "c9cd0ae1-fd5f-46cf-b6aa-ac5629aab339")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#PWR01")
 					(unit 1)
@@ -6301,7 +6301,7 @@
 			(uuid "9c89d7a8-a149-40fa-978c-475c93d98010")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW16")
 					(unit 1)
@@ -6405,7 +6405,7 @@
 			(uuid "5d50d590-c044-4f8d-b925-d08bc71126b9")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D15")
 					(unit 1)
@@ -6485,7 +6485,7 @@
 			(uuid "05d64ce6-8415-46b5-9dd9-6e75a289cb83")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW43")
 					(unit 1)
@@ -6589,7 +6589,7 @@
 			(uuid "a244e1f8-f9ca-4902-a37f-71e32ef700cb")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D37")
 					(unit 1)
@@ -6667,7 +6667,7 @@
 			(uuid "57ec58cf-68ec-4723-98b2-e065d08703c4")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#PWR06")
 					(unit 1)
@@ -6771,7 +6771,7 @@
 			(uuid "db0f34f0-95ef-4f9d-a6e6-160a8c508850")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D11")
 					(unit 1)
@@ -6851,7 +6851,7 @@
 			(uuid "17835e2e-fd2b-4155-aa2d-a82d28f78acf")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW38")
 					(unit 1)
@@ -6931,7 +6931,7 @@
 			(uuid "4ac7e85a-53f9-4975-8426-4fdcf741deec")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW20")
 					(unit 1)
@@ -7011,7 +7011,7 @@
 			(uuid "0e4d0678-4660-4d0f-a3c2-40fe20439ffe")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW30")
 					(unit 1)
@@ -7091,7 +7091,7 @@
 			(uuid "c29fcaa5-e9a9-4340-bc09-a42530f08b4f")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW19")
 					(unit 1)
@@ -7171,7 +7171,7 @@
 			(uuid "8fdf6e70-56e0-41f5-9abb-7a72b689e6af")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW6")
 					(unit 1)
@@ -7251,7 +7251,7 @@
 			(uuid "324e1e68-e992-49fa-a037-adf7c2abe589")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW3")
 					(unit 1)
@@ -7355,7 +7355,7 @@
 			(uuid "e10098a5-8db5-435d-abcd-7b12107cf661")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D21")
 					(unit 1)
@@ -7435,7 +7435,7 @@
 			(uuid "45f70679-45ed-41aa-b6ba-6cea158c2ffe")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW41")
 					(unit 1)
@@ -7513,7 +7513,7 @@
 			(uuid "77dabc36-a14b-4d71-a913-5a6665c5a957")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#PWR02")
 					(unit 1)
@@ -7617,7 +7617,7 @@
 			(uuid "a7c056a7-0a67-48fd-b5ab-ef13536472e1")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D38")
 					(unit 1)
@@ -7721,7 +7721,7 @@
 			(uuid "087f07a7-c130-470b-9440-32c51a6f6bc8")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D41")
 					(unit 1)
@@ -7801,7 +7801,7 @@
 			(uuid "b183462a-41f7-442e-b296-ef77b8cc65f9")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW33")
 					(unit 1)
@@ -7881,7 +7881,7 @@
 			(uuid "cd2a257a-73f6-479c-9ca9-c5a7d09ffd7d")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW5")
 					(unit 1)
@@ -7985,7 +7985,7 @@
 			(uuid "46bcc7b2-52f3-4e04-a381-08c19d26df9f")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D18")
 					(unit 1)
@@ -8065,7 +8065,7 @@
 			(uuid "d6dfbd63-363b-4751-8a55-fe4effa3b90a")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW14")
 					(unit 1)
@@ -8145,7 +8145,7 @@
 			(uuid "8aea464c-a0b7-461e-9dc9-9afdd7736c6e")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW23")
 					(unit 1)
@@ -8249,7 +8249,7 @@
 			(uuid "7afd4c2d-d33f-4d80-a7a2-1442bced7adc")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D34")
 					(unit 1)
@@ -8329,7 +8329,7 @@
 			(uuid "afa3e1c4-febb-4775-83ec-3b01eaf89db7")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW29")
 					(unit 1)
@@ -8409,7 +8409,7 @@
 			(uuid "f4edb800-190f-4185-b345-71a85f412854")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW35")
 					(unit 1)
@@ -8489,7 +8489,7 @@
 			(uuid "81e05098-ef99-4dc2-b860-5f006b14cf6a")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW8")
 					(unit 1)
@@ -8569,7 +8569,7 @@
 			(uuid "e045b64b-a091-49cd-a5af-9ae3988d9c36")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW15")
 					(unit 1)
@@ -8649,7 +8649,7 @@
 			(uuid "1cba58a6-3e0d-4106-a9f1-390160c4c6f7")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW13")
 					(unit 1)
@@ -8753,7 +8753,7 @@
 			(uuid "32c79afe-b04a-4215-a8a0-cf9344159acb")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D22")
 					(unit 1)
@@ -8857,7 +8857,7 @@
 			(uuid "9890e412-1181-4f40-bb18-cec365d2c3ff")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D24")
 					(unit 1)
@@ -8937,7 +8937,7 @@
 			(uuid "4fde8199-6f01-437e-a622-75cfc958c554")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW1")
 					(unit 1)
@@ -9041,7 +9041,7 @@
 			(uuid "12471df7-8d76-4aac-9b36-3ac7400b87f9")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D17")
 					(unit 1)
@@ -9121,7 +9121,7 @@
 			(uuid "bc86b3d1-5be6-4b38-96fa-006ca59d3b93")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW40")
 					(unit 1)
@@ -9201,7 +9201,7 @@
 			(uuid "c5f44993-843e-4433-a1ba-0bebe74a2eb9")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW31")
 					(unit 1)
@@ -9305,7 +9305,7 @@
 			(uuid "10d928ed-8b39-4ac4-8889-154b4b28c0c2")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D12")
 					(unit 1)
@@ -9385,7 +9385,7 @@
 			(uuid "612454d6-814d-47db-bf3d-a34c8aaa4376")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW36")
 					(unit 1)
@@ -9489,7 +9489,7 @@
 			(uuid "b44b84f2-2a2b-49be-82fb-8b2d84af63fd")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D30")
 					(unit 1)
@@ -9593,7 +9593,7 @@
 			(uuid "6ff9bdf4-3cb7-4bfa-889b-988bf04c75e5")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D27")
 					(unit 1)
@@ -9697,7 +9697,7 @@
 			(uuid "082d2786-c7f0-48b1-a8fe-2ad3f485d1dc")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D4")
 					(unit 1)
@@ -9801,7 +9801,7 @@
 			(uuid "3ce8caa1-5880-42a7-81f7-1851d5922f8c")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D40")
 					(unit 1)
@@ -9881,7 +9881,7 @@
 			(uuid "5f61f38b-aac2-4a18-8f7f-52a683636c40")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW21")
 					(unit 1)
@@ -9985,7 +9985,7 @@
 			(uuid "8afc0786-6bf0-454d-b389-ddfb00e89306")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D42")
 					(unit 1)
@@ -10089,7 +10089,7 @@
 			(uuid "ce233be1-7089-43b6-bce9-15d25f90e4ad")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D16")
 					(unit 1)
@@ -10193,7 +10193,7 @@
 			(uuid "7d2128b4-a5db-43e7-835a-580cbf4a5781")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D13")
 					(unit 1)
@@ -10273,7 +10273,7 @@
 			(uuid "94eeedb4-c118-44ce-844e-1dda7bfdca46")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW42")
 					(unit 1)
@@ -10353,7 +10353,7 @@
 			(uuid "0a81e257-f74a-46ea-ac59-dbf9e29e557d")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW7")
 					(unit 1)
@@ -10457,7 +10457,7 @@
 			(uuid "a1529f6a-d97e-4593-8b2b-24bf6ea48cc0")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D14")
 					(unit 1)
@@ -10535,7 +10535,7 @@
 			(uuid "87cb7a62-1b98-4a92-8e6c-f48ddb54c21c")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#PWR04")
 					(unit 1)
@@ -10615,7 +10615,7 @@
 			(uuid "85814a6e-1cce-436b-904f-f9ddd7bd1654")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW18")
 					(unit 1)
@@ -10695,7 +10695,7 @@
 			(uuid "4a8245e8-ab0b-4ac9-bee5-ab0b400b43e4")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW28")
 					(unit 1)
@@ -10775,7 +10775,7 @@
 			(uuid "dfae2b6b-42be-4f1a-9add-f2e813937dde")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW26")
 					(unit 1)
@@ -10855,7 +10855,7 @@
 			(uuid "34767016-3ded-4a49-b08c-c77658166ed6")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW2")
 					(unit 1)
@@ -10959,7 +10959,7 @@
 			(uuid "ac9946b8-1d94-4c32-a8dd-dc1914b148be")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D8")
 					(unit 1)
@@ -11063,7 +11063,7 @@
 			(uuid "e7c39fec-f17c-48d1-b60e-c26281ff4bbf")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D36")
 					(unit 1)
@@ -11167,7 +11167,7 @@
 			(uuid "9e2a2600-1d7b-4156-8e90-498faa8a1fa2")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D35")
 					(unit 1)
@@ -11271,7 +11271,7 @@
 			(uuid "1206c2b8-71f6-4a6b-b2c6-b36cfc7c34ca")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D28")
 					(unit 1)
@@ -11416,7 +11416,7 @@
 			(uuid "6a9a3315-ec67-45b4-98e3-176f016a058e")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "U1")
 					(unit 1)
@@ -11520,7 +11520,7 @@
 			(uuid "cbe6d21e-cdd1-441c-bb6d-8e914e1d27cd")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D6")
 					(unit 1)
@@ -11598,7 +11598,7 @@
 			(uuid "ff386a97-8442-42d3-a491-ef26e89016d9")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "#PWR03")
 					(unit 1)
@@ -11702,7 +11702,7 @@
 			(uuid "2c852e51-2bc6-40ed-ab7f-fbeb358f8b1d")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D9")
 					(unit 1)
@@ -11806,7 +11806,7 @@
 			(uuid "4d9c86b8-ab52-4ba0-b53b-e72031bdc7a6")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D33")
 					(unit 1)
@@ -11886,7 +11886,7 @@
 			(uuid "1400c17f-44ec-4b82-9107-8e3464e61633")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "SW9")
 					(unit 1)
@@ -11990,7 +11990,7 @@
 			(uuid "33421b8b-ae62-48ee-b9cf-add0cdc6b72a")
 		)
 		(instances
-			(project "cad"
+			(project "mami"
 				(path "/03b8bdc3-a3aa-42a3-983b-e8e3ae7b5f4d"
 					(reference "D29")
 					(unit 1)
