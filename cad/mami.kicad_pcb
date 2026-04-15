@@ -1102,7 +1102,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "09183697-2fd4-4b40-b4b0-4acd51ccd23d")
-		(at 271 83.54)
+		(at 268.59625 83.54)
 		(property "Reference" "SW41"
 			(at 0 -7.5 0)
 			(layer "F.SilkS")
@@ -12592,7 +12592,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "70099437-205b-4c69-8967-51b8d85a7494")
-		(at 29.75 102.54)
+		(at 34.405 102.54)
 		(property "Reference" "SW3"
 			(at 0 -7.5 0)
 			(layer "F.SilkS")
@@ -19452,7 +19452,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "b15674da-bcf6-4a1e-a663-83fef34e049e")
-		(at 27.75 83.54)
+		(at 29.98375 83.54)
 		(property "Reference" "SW2"
 			(at 0 -7.5 0)
 			(layer "F.SilkS")
@@ -24365,7 +24365,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "f2c75ffd-30f0-454b-8ad3-15e10259cfb1")
-		(at 269 102.54)
+		(at 264.342 102.58)
 		(property "Reference" "SW42"
 			(at 0 -7.5 0)
 			(layer "F.SilkS")
