@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(property "Value" "ProMicro_r"
+		(property "Value" "ProMicro"
 			(at -0.1 0.05 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3374,6 +3374,14 @@
 		(path "/eca17256-a81b-4220-8086-6c035673e324")
 		(sheetname "/")
 		(sheetfile "cad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "24" "23" "22"
+					"21" "20" "19" "18" "17" "16" "15" "14" "13"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4050,7 +4058,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "col2")
+			(net "row4")
 			(pinfunction "6/D7_9")
 			(pintype "bidirectional")
 			(uuid "519808ec-cc51-4c16-bf69-63ccc5208427")
@@ -4061,7 +4069,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "col3")
+			(net "row5")
 			(pinfunction "7/E6_10")
 			(pintype "bidirectional")
 			(uuid "cd990c5d-989a-4837-afda-ee601faec053")
@@ -4072,7 +4080,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "col4")
+			(net "row6")
 			(pinfunction "8/B4_11")
 			(pintype "bidirectional")
 			(uuid "b0336d47-14cb-4e99-bee6-5a7a16cd2a79")
@@ -4083,7 +4091,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "col5")
+			(net "row7")
 			(pinfunction "9/B5_12")
 			(pintype "bidirectional")
 			(uuid "30d1195d-c8fa-4b00-8388-2c4a56a3a78b")
@@ -4094,9 +4102,9 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-B6{slash}10-Pad13)")
+			(net "row3")
 			(pinfunction "B6/10_13")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "46bfa2a5-7c89-43da-bff0-1709d92895a7")
 		)
 		(pad "14" thru_hole circle
@@ -4105,7 +4113,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "row7")
+			(net "row2")
 			(pinfunction "B2/16_14")
 			(pintype "bidirectional")
 			(uuid "4ead25c0-7ab4-42e7-9226-8a57435318bc")
@@ -4116,7 +4124,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "row6")
+			(net "row1")
 			(pinfunction "B3/14_15")
 			(pintype "bidirectional")
 			(uuid "91145a9d-c430-43ab-acd2-60eeb1cfd26f")
@@ -4127,7 +4135,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "row5")
+			(net "row0")
 			(pinfunction "B1/15_16")
 			(pintype "bidirectional")
 			(uuid "bdc8fcd1-e9e9-4ddf-a9df-fb38873da686")
@@ -4138,7 +4146,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "row4")
+			(net "col5")
 			(pinfunction "F7/A0_17")
 			(pintype "bidirectional")
 			(uuid "29ef7012-ff95-4c57-9b49-b857f90f588a")
@@ -4149,7 +4157,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "row3")
+			(net "col4")
 			(pinfunction "F6/A1_18")
 			(pintype "bidirectional")
 			(uuid "60c7a446-3aa4-4ead-aa96-bee3a76d705a")
@@ -4160,7 +4168,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "row1")
+			(net "col3")
 			(pinfunction "F5/A2_19")
 			(pintype "bidirectional")
 			(uuid "dc7669ec-1cae-4a8d-92d0-64280c9dc150")
@@ -4171,7 +4179,7 @@
 			(drill 0.8128)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net "row0")
+			(net "col2")
 			(pinfunction "F4/A3_20")
 			(pintype "bidirectional")
 			(uuid "1f8c322e-8ea0-4059-88af-fa06c8706e2d")
@@ -27257,58 +27265,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "5350b7ae-22c5-41eb-a07c-355cff3b558a")
-	)
-	(group ""
-		(uuid "1a914b2e-ee18-4725-a8bd-53a5a0d2528e")
-		(members "26bba0ad-1259-4c20-8ca0-bbbe22d0c1cf" "2c8e5274-9f7e-4c18-b42d-74b082c9ebbc"
-			"7e3b1762-c40e-473e-b731-31f37ddeb1cd" "c13e9b8a-f726-4ec3-ab06-08bf7ee6e159"
-		)
-	)
-	(group ""
-		(uuid "3402fb18-8b9f-4d26-bc39-fc0b496f2e44")
-		(members "08696400-f1e4-4e1c-b43b-994e49bb2c5a" "3e4fb591-dd65-43f9-8410-0eaeb50dfa53"
-			"efa77993-f028-4e6e-be9f-4cb1f3a92106"
-		)
-	)
-	(group ""
-		(uuid "3e95a0e9-cdc8-40d6-86ea-d20d41047ae4")
-		(members "2013a222-d54d-4acc-bed1-dab7a8965a24" "3e336dfe-bc99-48c2-bd98-a728052d3605"
-			"409e5932-ec59-4324-8344-45defc3a6457" "99f9ad64-6e67-4c40-99ce-ab39c0270623"
-		)
-	)
-	(group ""
-		(uuid "4cbb4627-4a6c-4480-91a2-53c653f91ced")
-		(members "3402fb18-8b9f-4d26-bc39-fc0b496f2e44")
-	)
-	(group ""
-		(uuid "5d9adf75-4305-42b0-bfd2-7b658702a089")
-		(members "16feb0ae-c85c-4e76-be81-f2e88505dbb5" "21a6e801-458b-4682-800a-cdec8e5ae010"
-			"253f15a2-e907-4f27-861c-501bcb850ccf" "956eee99-8c02-4c89-a877-443d151d94ac"
-		)
-	)
-	(group ""
-		(uuid "84ba8195-90e2-40de-bb7a-8f54793613f7")
-		(members "43dbddb4-4099-435d-97a7-59eecd84e631" "82533b0e-2bdd-4f74-a108-55453b39bd6a"
-			"bc5a6c31-a099-4f11-b8a4-7bd303880050" "c6957c1f-a049-40ce-addf-dc1fb77a262c"
-		)
-	)
-	(group ""
-		(uuid "a28eefcd-c40c-4a6c-8172-8fe06de77a09")
-		(members "31ee5643-105b-4fe0-a464-1ab74040a90d" "5b8b948d-2c4a-490f-b59e-a80a058c6522"
-			"b3345de9-52b4-42bc-a867-8c21e72011b3" "e3f85bb4-2776-4858-820f-f756c7a047e1"
-		)
-	)
-	(group ""
-		(uuid "ce2ee7a4-21a5-4808-968d-161afb472264")
-		(members "92e678f6-6be9-416b-a46b-6b1a3720fa44" "9ec8d110-25c7-4ffa-9308-d119fb02a7d3"
-			"f1adad40-d754-4a1e-90de-422a538e7c7e"
-		)
-	)
-	(group ""
-		(uuid "f53d88bc-935c-4b73-913c-affca8b0a546")
-		(members "051e4c7c-4623-46c9-883b-e88839dbc6d7" "6644cd97-e081-4fc0-8023-ab27cfbd1545"
-			"b029441f-af6a-419b-bb52-ab16a8a3547b" "bdc986a7-0bec-4dec-8797-aba4f1e60c39"
-		)
 	)
 	(group ""
 		(uuid "25d29d11-925d-4383-a496-fcd0f105d67a")

@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/mori/Documents/MyProject/mami-kbd/cad/mami.kicad_sch")
-		(date "2026-04-15T18:17:05")
+		(date "2026-04-17T08:54:10")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -6219,8 +6219,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "9")
-				(pinfunction "6/D7_9")
+				(pin "20")
+				(pinfunction "F4/A3_20")
 				(pintype "bidirectional")
 			)
 		)
@@ -6278,8 +6278,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "10")
-				(pinfunction "7/E6_10")
+				(pin "19")
+				(pinfunction "F5/A2_19")
 				(pintype "bidirectional")
 			)
 		)
@@ -6325,8 +6325,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "11")
-				(pinfunction "8/B4_11")
+				(pin "18")
+				(pinfunction "F6/A1_18")
 				(pintype "bidirectional")
 			)
 		)
@@ -6384,8 +6384,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "12")
-				(pinfunction "9/B5_12")
+				(pin "17")
+				(pinfunction "F7/A0_17")
 				(pintype "bidirectional")
 			)
 		)
@@ -6448,8 +6448,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "20")
-				(pinfunction "F4/A3_20")
+				(pin "16")
+				(pinfunction "B1/15_16")
 				(pintype "bidirectional")
 			)
 		)
@@ -6495,8 +6495,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "19")
-				(pinfunction "F5/A2_19")
+				(pin "15")
+				(pinfunction "B3/14_15")
 				(pintype "bidirectional")
 			)
 		)
@@ -6540,6 +6540,12 @@
 				(pinfunction "K_1")
 				(pintype "passive")
 			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "B2/16_14")
+				(pintype "bidirectional")
+			)
 		)
 		(net
 			(code "55")
@@ -6565,8 +6571,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "18")
-				(pinfunction "F6/A1_18")
+				(pin "13")
+				(pinfunction "B6/10_13")
 				(pintype "bidirectional")
 			)
 		)
@@ -6612,8 +6618,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "17")
-				(pinfunction "F7/A0_17")
+				(pin "9")
+				(pinfunction "6/D7_9")
 				(pintype "bidirectional")
 			)
 		)
@@ -6659,8 +6665,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "16")
-				(pinfunction "B1/15_16")
+				(pin "10")
+				(pinfunction "7/E6_10")
 				(pintype "bidirectional")
 			)
 		)
@@ -6706,8 +6712,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "15")
-				(pinfunction "B3/14_15")
+				(pin "11")
+				(pinfunction "8/B4_11")
 				(pintype "bidirectional")
 			)
 		)
@@ -6735,8 +6741,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "14")
-				(pinfunction "B2/16_14")
+				(pin "12")
+				(pinfunction "9/B5_12")
 				(pintype "bidirectional")
 			)
 		)
@@ -6764,17 +6770,6 @@
 		)
 		(net
 			(code "62")
-			(name "unconnected-(U1-B6{slash}10-Pad13)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "13")
-				(pinfunction "B6/10_13")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "63")
 			(name "unconnected-(U1-RAW-Pad24)")
 			(class "Default")
 			(node
@@ -6785,7 +6780,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "63")
 			(name "unconnected-(U1-RX1{slash}D2-Pad2)")
 			(class "Default")
 			(node
@@ -6796,7 +6791,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "64")
 			(name "unconnected-(U1-TX0{slash}D3-Pad1)")
 			(class "Default")
 			(node
