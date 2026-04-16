@@ -507,7 +507,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "mami.net",
+      "netlist": "",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
