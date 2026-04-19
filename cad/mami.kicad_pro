@@ -194,7 +194,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -537,7 +538,7 @@
       "idf": "",
       "netlist": "mami.net",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../routing/mami.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""

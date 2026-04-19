@@ -209,7 +209,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/b2ed5df6-4ce1-4a8f-8835-9a4404c5e882")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -495,7 +495,7 @@
 		)
 		(path "/9661f8d3-56c4-4d7d-a08c-be20d37fea29")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -710,9 +710,9 @@
 	(footprint "kbd:ResetSW"
 		(layer "F.Cu")
 		(uuid "080ef603-b139-457c-933c-4b165b108914")
-		(at 206.791874 40.15515)
+		(at 138.225 50.1 90)
 		(property "Reference" "SW43"
-			(at 0 2.55 0)
+			(at 0 2.55 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9cdc3bfb-621e-4e4c-842c-2982c62dea23")
@@ -724,7 +724,7 @@
 			)
 		)
 		(property "Value" "ResetSW"
-			(at 0 -2.55 0)
+			(at 0 -2.55 90)
 			(layer "F.Fab")
 			(uuid "dc8fa0b2-95ce-469d-8ee4-b1691be65182")
 			(effects
@@ -735,7 +735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99013eb3-1d85-4707-a9c4-0eebb611b1b7")
@@ -746,7 +746,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ddaa5c1d-58d5-42c4-abdd-648940b5ef7a")
@@ -758,7 +758,7 @@
 		)
 		(path "/4ee93a82-a193-4737-9000-f2f1d633b735")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -767,6 +767,26 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 2.85 -1.6)
+			(end 2.85 -1.35)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18a596ea-4e9d-4d33-b169-e52519db188e")
+		)
+		(fp_line
+			(start -2.85 -1.6)
+			(end 2.85 -1.6)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a167b93d-68cf-4d4c-b0a2-a53955a8c3d7")
+		)
 		(fp_line
 			(start -2.85 -1.6)
 			(end -2.85 -1.35)
@@ -778,14 +798,14 @@
 			(uuid "4dc1bcc3-6c49-4bf2-8dd3-056492802071")
 		)
 		(fp_line
-			(start -2.85 -1.6)
-			(end 2.85 -1.6)
+			(start 2.85 1.6)
+			(end 2.85 1.35)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a167b93d-68cf-4d4c-b0a2-a53955a8c3d7")
+			(uuid "de10fe12-c074-4c44-a17b-26fc11e6a96f")
 		)
 		(fp_line
 			(start -2.85 1.6)
@@ -807,28 +827,8 @@
 			(layer "F.SilkS")
 			(uuid "d22258c5-1ba4-4f83-bfde-13eb41c1a6ce")
 		)
-		(fp_line
-			(start 2.85 -1.6)
-			(end 2.85 -1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "18a596ea-4e9d-4d33-b169-e52519db188e")
-		)
-		(fp_line
-			(start 2.85 1.6)
-			(end 2.85 1.35)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "de10fe12-c074-4c44-a17b-26fc11e6a96f")
-		)
 		(fp_text user "RESET"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "3f1970bf-f658-42de-a9e0-1edbccca3051")
 			(effects
@@ -839,7 +839,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 3.25 0)
+			(at 3.25 0 90)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "B.Mask")
@@ -850,7 +850,7 @@
 			(uuid "61a6f642-99b0-46f0-8366-073577912ec5")
 		)
 		(pad "2" thru_hole circle
-			(at -3.25 0)
+			(at -3.25 0 90)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "B.Mask")
@@ -926,7 +926,7 @@
 		)
 		(path "/12f8a979-fbbe-4202-97fa-c1bb1f03f50c")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1191,7 +1191,7 @@
 		)
 		(path "/69f69dc2-5204-47d0-867c-d3ce99f7c454")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1486,7 +1486,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/3898b899-da27-4832-a113-fb246fda72b5")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1722,8 +1722,8 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "0d11f1af-a757-4788-ae23-0b7592632224")
-		(at 248.0025 76.165)
-		(property "Reference" "SW38"
+		(at 246.19 95.14)
+		(property "Reference" "SW39"
 			(at 0 -7.5 0)
 			(layer "F.SilkS")
 			(uuid "b7e0dee4-68a0-4658-a15a-cb25f83bad29")
@@ -1772,7 +1772,7 @@
 		)
 		(path "/58b74f49-1051-4656-8238-483b1b5c3393")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1966,7 +1966,7 @@
 			(at -5.842 -5.08 180)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D38-A)")
+			(net "Net-(D39-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "cc919d16-1af3-4cf9-a327-5021a216fb68")
@@ -2037,7 +2037,7 @@
 		)
 		(path "/12870cd2-207a-4a43-890c-b562c4db7f8d")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2252,9 +2252,9 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "17d4916b-d8ab-4eca-a212-e82d8abc1797")
-		(at 246.2525 95.165)
-		(property "Reference" "SW39"
-			(at 0 -7.5 0)
+		(at 227.975 113.675 8)
+		(property "Reference" "SW36"
+			(at 0 -7.5 8)
 			(layer "F.SilkS")
 			(uuid "43d12c31-cb84-4d8d-b76d-38cb94fa1ebc")
 			(effects
@@ -2266,7 +2266,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 -7.8 0)
+			(at 0 -7.8 8)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37318724-87b8-407f-8ece-60ede72075c3")
@@ -2279,7 +2279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72a6a0f8-c575-4491-86ca-2124f0e29e8e")
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 0)
+			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b5406b4-896a-44a5-990b-0a2d0ddfd85a")
@@ -2302,7 +2302,7 @@
 		)
 		(path "/372da9f9-f7b1-4cf7-8fcf-b0747d69d75a")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2317,8 +2317,8 @@
 				(xy 5.1 -5.85) (xy 5.25 -5.65) (xy 5.4 -5.4) (xy 5.5 -5) (xy 5.5 -4.6) (xy 5.35 -4.5) (xy 5.2 -4.4)
 				(xy 4.75 -4.65) (xy 4.5 -4.75) (xy 4.05 -4.85) (xy 3.55 -4.85) (xy 2.95 -4.7) (xy 2.45 -4.4) (xy 2.15 -4.15)
 				(xy 1.75 -3.6) (xy 1.55 -3.05) (xy 1.5 -2.6) (xy 1.25 -2.8) (xy 0.9 -2.9) (xy 0.4 -2.95) (xy -1.65 -2.95)
-				(xy -1.2 -3.2) (xy -0.95 -3.4) (xy -0.65 -3.75) (xy -0.5 -4) (xy -0.35 -4.35) (xy -0.25 -4.75) (xy -0.25 -5.05)
-				(xy -0.25 -5.4) (xy -0.3 -5.65) (xy -0.45 -6.05) (xy -0.75 -6.5)
+				(xy -1.2 -3.2) (xy -0.95 -3.4) (xy -0.65 -3.75) (xy -0.5 -4) (xy -0.35 -4.350001) (xy -0.25 -4.75)
+				(xy -0.25 -5.05) (xy -0.25 -5.4) (xy -0.3 -5.65) (xy -0.45 -6.05) (xy -0.75 -6.5)
 			)
 			(stroke
 				(width 0.4)
@@ -2449,54 +2449,54 @@
 			(uuid "7e63eb01-9d37-4ba7-990c-40acc5517fb1")
 		)
 		(pad "" np_thru_hole circle
-			(at -5.08 0)
+			(at -5.08 0 8)
 			(size 1.9 1.9)
 			(drill 1.9)
 			(layers "*.Cu" "*.Mask")
 			(uuid "a484b075-3908-4ca6-ad86-e4cd95ba5257")
 		)
 		(pad "" np_thru_hole circle
-			(at -2.54 -5.08)
+			(at -2.54 -5.08 8)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(uuid "e5abce06-7950-4421-aa59-11d7370aa9e6")
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0 270)
+			(at 0 0 278)
 			(size 4.1 4.1)
 			(drill 4.1)
 			(layers "*.Cu" "*.Mask")
 			(uuid "121aaa56-b7bd-4bac-8de7-650ccb648473")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.54)
+			(at 3.81 -2.54 8)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(uuid "70344ee9-3e44-44c7-a8ad-c8eceff42453")
 		)
 		(pad "" np_thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 8)
 			(size 1.9 1.9)
 			(drill 1.9)
 			(layers "*.Cu" "*.Mask")
 			(uuid "24d1105d-a7cc-4149-9a2f-1fc2b5094d35")
 		)
 		(pad "1" smd rect
-			(at 7.085 -2.54 180)
+			(at 7.085 -2.54 188)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "col1")
+			(net "col2")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "d72dd6ba-11e6-48e0-80c7-220a2f096737")
 		)
 		(pad "2" smd rect
-			(at -5.842 -5.08 180)
+			(at -5.842 -5.08 188)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D39-A)")
+			(net "Net-(D36-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "d6a96d91-08be-4c04-931a-a9099bd1a860")
@@ -2597,7 +2597,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/54a72f0f-a554-4dc2-a522-ef972694d964")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2883,7 +2883,7 @@
 		)
 		(path "/18245641-52fd-4d74-84a4-f4a011b6619f")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3148,7 +3148,7 @@
 		)
 		(path "/81598713-08e2-463e-ba3b-9b425f8ae724")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3412,7 +3412,7 @@
 		)
 		(path "/eca17256-a81b-4220-8086-6c035673e324")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4333,7 +4333,7 @@
 		)
 		(path "/8ea1dc45-6240-4ffa-a700-927971e1a276")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4548,10 +4548,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "25954f6a-db43-48ee-af58-b84957dacb67")
-		(at 79.8375 48.625 -8)
+		(at 78.408942 106.079636 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D7"
+		(property "Reference" "D10"
 			(at 0 -2 172)
 			(layer "F.SilkS")
 			(uuid "925a8211-939a-4c5a-ba4e-ad7c946f0b0a")
@@ -4628,7 +4628,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/2de65bb4-19e4-4beb-a5dd-dded4fefb509")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4843,7 +4843,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D7-A)")
+			(net "Net-(D10-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "903822b2-bc87-4390-bdb1-359b596a9eaf")
@@ -4914,7 +4914,7 @@
 		)
 		(path "/1ff845d7-1d0d-4baf-b985-e2fba968e80d")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5209,7 +5209,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/ee2d1593-465b-420e-93a8-567a9c9567aa")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5445,10 +5445,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2adf0a35-128d-47c5-938b-6f95c8d823ab")
-		(at 78.703558 67.645364 -8)
+		(at 79.63649 48.638261 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 0 -2 172)
 			(layer "F.SilkS")
 			(uuid "dc2d5172-433e-4c1e-881c-a49ca58eec0f")
@@ -5525,7 +5525,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/e8384e5f-5fd7-4a1b-abab-7f9d8b611d7d")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5740,7 +5740,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D8-A)")
+			(net "Net-(D7-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "70d5f74c-2bc0-492f-b7d7-3c97c420b0fe")
@@ -5811,7 +5811,7 @@
 		)
 		(path "/9f12c41c-178e-4915-978f-22415a911614")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6076,7 +6076,7 @@
 		)
 		(path "/8b94d8c0-36b0-48e3-888f-fa34166e334d")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6371,7 +6371,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/3f1038ab-28a7-4cff-83c5-970acf4984f5")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6657,7 +6657,7 @@
 		)
 		(path "/630dcf8c-a213-48ec-9362-345b683d182c")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6872,13 +6872,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "32da1284-38e5-49b9-a064-e7cc37296413")
-		(at 129.953558 113.395364 -8)
+		(at 135.839637 56.605395 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D18"
 			(at 0 -2 172)
 			(layer "F.SilkS")
-			(uuid "747414c4-b1cd-4f5e-bd61-9aadba5978f5")
+			(uuid "d431a98e-bde8-4177-b4b3-316f7b6d43f6")
 			(effects
 				(font
 					(size 1 1)
@@ -6889,7 +6889,7 @@
 		(property "Value" "1N4148W"
 			(at 0 2.1 172)
 			(layer "F.Fab")
-			(uuid "064c9969-5289-4eb0-a3df-4f2a3fa52d0f")
+			(uuid "e3f0a6dd-dbe5-4cc5-9498-53b54916689f")
 			(effects
 				(font
 					(size 1 1)
@@ -6902,7 +6902,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afd8af51-912d-4511-b701-01259e3d507a")
+			(uuid "c0ee3611-4b64-44d0-a6c7-5c331af08721")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6915,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3660975-b5d9-402d-a556-c3e71d005c8d")
+			(uuid "5318103f-a53a-4ec3-96eb-0b474329f970")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +6952,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/85b0917f-4169-4829-b689-a99e2c69c517")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7268,7 +7268,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/4e4cc229-0e53-404e-9911-0188cf6b8e54")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7584,7 +7584,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/b80d7947-fc5c-41b0-8c8c-1a89a4f4db4e")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7820,7 +7820,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "3e336dfe-bc99-48c2-bd98-a728052d3605")
-		(at 129.360927 83.125 -8)
+		(at 131.548427 102.75 -8)
 		(property "Reference" "SW20"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
@@ -7870,7 +7870,7 @@
 		)
 		(path "/5b5b747a-70b2-44e0-9320-4316b7321503")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8135,7 +8135,7 @@
 		)
 		(path "/33d461a6-2cdb-48ab-9514-c67eddc0e859")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8350,8 +8350,8 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "409e5932-ec59-4324-8344-45defc3a6457")
-		(at 72.915647 75.192134 -8)
-		(property "Reference" "SW8"
+		(at 73.848579 56.185031 -8)
+		(property "Reference" "SW7"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
 			(uuid "fe4c8c01-bd9d-4a90-9016-571fd9fba0e8")
@@ -8400,7 +8400,7 @@
 		)
 		(path "/95a69ec2-0d1a-4cf0-a65b-7af6fdd7352b")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8594,7 +8594,7 @@
 			(at -5.842 -5.08 172)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D8-A)")
+			(net "Net-(D7-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "288c2b0c-00a5-4cb7-87e8-7cafb08e44e4")
@@ -8665,7 +8665,7 @@
 		)
 		(path "/0d35207d-fe88-44cf-9276-59cdb6c7da2e")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8880,11 +8880,11 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "4430d2fa-fe6e-44c5-938b-e9db9d9b8f9c")
-		(at 232.5875 104.625 8)
+		(at 253.875 49.025)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D36"
-			(at 0 -2 8)
+		(property "Reference" "D37"
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "8d961eb1-5427-46f9-9b37-7d1d0663c331")
 			(effects
@@ -8895,7 +8895,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 2.1 8)
+			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "8599b68c-0568-4971-baf3-938561d10666")
 			(effects
@@ -8906,7 +8906,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 0 0 8)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8919,7 +8919,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 0 0 8)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8932,7 +8932,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 8)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8945,7 +8945,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 8)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8960,7 +8960,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/e980d596-49f9-4943-9cdc-e9ad78e75224")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8969,6 +8969,16 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.360002 1)
+			(end 1.65 0.999999)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7e46b0f-add9-4100-a23d-7f72f7b6304f")
+		)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.360002 1)
@@ -8988,16 +8998,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e0afb4da-192a-4108-bc24-a91059e48302")
-		)
-		(fp_line
-			(start -2.360002 1)
-			(end 1.65 0.999999)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c7e46b0f-add9-4100-a23d-7f72f7b6304f")
 		)
 		(fp_line
 			(start -2.35 -1.15)
@@ -9040,16 +9040,6 @@
 			(uuid "df04d0e1-fb9f-42b7-91a8-9c1510e595b2")
 		)
 		(fp_line
-			(start -1.4 -0.9)
-			(end 1.400001 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "23b6a6a5-db95-4373-a762-a87916d39a36")
-		)
-		(fp_line
 			(start -1.400001 0.9)
 			(end -1.4 -0.9)
 			(stroke
@@ -9058,6 +9048,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "f354e4c2-e3aa-4d8b-805d-bc8bde646d32")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end 1.400001 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "23b6a6a5-db95-4373-a762-a87916d39a36")
 		)
 		(fp_line
 			(start -0.75 0)
@@ -9130,16 +9130,6 @@
 			(uuid "a15764f0-050f-4f4b-9a49-60534fd697bc")
 		)
 		(fp_line
-			(start 1.400001 -0.9)
-			(end 1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6399c67d-0c66-4454-8b3f-6766591a15e1")
-		)
-		(fp_line
 			(start 1.4 0.9)
 			(end -1.400001 0.9)
 			(stroke
@@ -9149,8 +9139,18 @@
 			(layer "F.Fab")
 			(uuid "74690649-2f60-42eb-b10c-35e356d795b4")
 		)
+		(fp_line
+			(start 1.400001 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6399c67d-0c66-4454-8b3f-6766591a15e1")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 8)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "3ae77d77-20cb-447e-9766-56984d9fdfc5")
 			(effects
@@ -9161,7 +9161,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0 8)
+			(at -1.65 0)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9171,11 +9171,11 @@
 			(uuid "5e02f268-7641-4be6-803e-02deb26558c7")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0 8)
+			(at 1.65 0)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D36-A)")
+			(net "Net-(D37-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "116478d0-3546-4e76-bf94-715442b3717a")
@@ -9246,7 +9246,7 @@
 		)
 		(path "/a9dadd57-1e57-4991-b0fe-384373039b80")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9511,7 +9511,7 @@
 		)
 		(path "/1c1d095c-a203-4228-9710-af292867772b")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9806,7 +9806,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/186864d4-5305-43e8-8ff5-565d1c4e7667")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10042,8 +10042,8 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "53c56189-99d1-4d6b-988d-987b08540786")
-		(at 248.2525 56.915)
-		(property "Reference" "SW37"
+		(at 248.065 76.14)
+		(property "Reference" "SW38"
 			(at 0 -7.5 0)
 			(layer "F.SilkS")
 			(uuid "a100e60e-e4b4-498e-abf4-f87da0569bbe")
@@ -10092,7 +10092,7 @@
 		)
 		(path "/04460f4f-a19c-4ae5-bafe-118cb44f94da")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10286,7 +10286,7 @@
 			(at -5.842 -5.08 180)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D37-A)")
+			(net "Net-(D38-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "d35b3f61-7c7c-4034-a6a4-dbad10953d5d")
@@ -10387,7 +10387,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/eb647a68-99a4-44d3-8f6d-7182de6b4bb9")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10673,7 +10673,7 @@
 		)
 		(path "/1d954889-8f47-4b18-829c-1dc46d67532d")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10968,7 +10968,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/cb5c106b-9206-4f9a-b992-74b748c31f91")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11254,7 +11254,7 @@
 		)
 		(path "/0305ebe8-b9b9-4112-879e-7d05e34ccc47")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11469,10 +11469,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "67dfc218-a0c1-47c4-b1b8-a07beb92affe")
-		(at 254.1875 48.625)
+		(at 254 67.85)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D37"
+		(property "Reference" "D38"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "411a4143-2ab5-46b5-a248-0887b27eba60")
@@ -11549,7 +11549,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/500b14f1-7385-4c00-af77-82feb5df6c4c")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11764,7 +11764,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D37-A)")
+			(net "Net-(D38-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "39ac395e-5253-4c11-86b7-00d9e9d93cf6")
@@ -11835,7 +11835,7 @@
 		)
 		(path "/817d1587-65ed-436e-8bea-48284e6ad3bf")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12130,7 +12130,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/a88d9863-1d88-46b7-a9b9-47c9fd715d95")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12416,7 +12416,7 @@
 		)
 		(path "/a7070ef2-e16a-4dc9-8e77-b1189dc11b04")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12681,7 +12681,7 @@
 		)
 		(path "/64da7f97-cbef-4761-9f5f-aa2be51d8e84")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12896,7 +12896,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "707478b7-850a-4ef3-9060-cb4629c0434c")
-		(at 231.3375 47.125 8)
+		(at 229.78 47.46 8)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D33"
@@ -12976,7 +12976,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/f70b6c66-9ec7-466c-866a-dffb06b41ec4")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13292,7 +13292,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/8cb02f32-ea8a-4862-a807-5f79d6d6386c")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13608,7 +13608,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/a462fd59-7ea5-4e77-9a42-ce567a8aabd8")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13924,7 +13924,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/06bfdb88-74dd-4571-817f-1aad5ec8bff9")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14160,10 +14160,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7aeae370-6c5e-4131-aa90-462a26e0cb0a")
-		(at 80.953558 87.395364 -8)
+		(at 78.76885 67.85789 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 0 -2 172)
 			(layer "F.SilkS")
 			(uuid "37a118de-a4a9-40a8-9271-d00546166575")
@@ -14240,7 +14240,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/f57ffd14-3a13-4096-abaf-4e9575ef0d0e")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14455,7 +14455,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D9-A)")
+			(net "Net-(D8-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "744b7027-15ae-41ae-87b2-a0409df8f02c")
@@ -14476,11 +14476,11 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "7e3b1762-c40e-473e-b731-31f37ddeb1cd")
-		(at 131.702107 102.776247 -8)
+		(at 124.3375 120.875 -8)
 		(property "Reference" "SW21"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
-			(uuid "3c25f40e-4d17-4e9a-9f1b-db2bf6cbc68f")
+			(uuid "1be4a197-c5db-4218-b662-f5ed75ee7823")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14493,7 +14493,7 @@
 			(at 0 -7.8 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d6a2991-4cfd-467f-9c25-0ab7239f3e2a")
+			(uuid "0335ef25-0fc7-4fa4-a839-1ce965586bb6")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -14506,7 +14506,7 @@
 			(at 0 0 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fde6265-03a5-4219-8a4d-a3a5d70c2f6b")
+			(uuid "00f3ba87-a5f8-4121-9594-165dedd35254")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14517,7 +14517,7 @@
 			(at 0 0 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8baea6af-3a9c-4515-a4c8-49a3a5c70849")
+			(uuid "8d6c96ed-26d1-478f-a7c1-3d78b500247e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14526,7 +14526,7 @@
 		)
 		(path "/c4f22e60-558c-4c80-838f-374273377f43")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14791,7 +14791,7 @@
 		)
 		(path "/ab0a2112-2ca7-4113-a7b6-18790ba9d8ed")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15086,7 +15086,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/b1052220-d666-46a8-bae2-e4c50bdff5bc")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15322,13 +15322,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "87f3d20a-f0bd-43b2-9c8f-5bddee428f54")
-		(at 78.203558 106.145364 -8)
+		(at 80.843717 87.361294 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 0 -2 172)
 			(layer "F.SilkS")
-			(uuid "e326dd0e-5236-4641-b5bc-05673ddc80b4")
+			(uuid "1cd12211-d86e-46e1-85a5-4690871763f2")
 			(effects
 				(font
 					(size 1 1)
@@ -15339,7 +15339,7 @@
 		(property "Value" "1N4148W"
 			(at 0 2.1 172)
 			(layer "F.Fab")
-			(uuid "c39b8c2c-f4b4-4612-8ebe-47ee6cedb236")
+			(uuid "b2aa0936-cbcb-4e41-b027-cb50b5319e20")
 			(effects
 				(font
 					(size 1 1)
@@ -15352,7 +15352,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43eb883d-d5eb-4d7b-9657-c67eea536076")
+			(uuid "8768c80f-d60b-4ae2-8a47-fd355a00ba73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15365,7 +15365,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f769d1a5-5b9d-47db-8603-a09d6cb09fe2")
+			(uuid "b71e0f9f-0422-46a1-8c01-991fbf00b652")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15402,7 +15402,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/20097e06-3503-42f7-842b-28ac8478a052")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15617,7 +15617,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D10-A)")
+			(net "Net-(D9-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "96496c02-9117-4c5d-8d41-e8deee8f1a1a")
@@ -15718,7 +15718,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/7513f6f2-42e2-433c-9094-4cf716ad8328")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16034,7 +16034,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/bb741ced-ce6c-451d-95e2-612aed699a94")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16270,11 +16270,11 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "92e678f6-6be9-416b-a46b-6b1a3720fa44")
-		(at 72.459832 113.58407 -8)
-		(property "Reference" "SW10"
+		(at 75.099991 94.8 -8)
+		(property "Reference" "SW9"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
-			(uuid "35ab8e45-566f-4c28-bd05-899a7f0151ea")
+			(uuid "25fd3b70-d059-4f6f-a6b5-e2798cf8b0c3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16287,7 +16287,7 @@
 			(at 0 -7.8 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ac23d04-8470-42ea-8282-2732fb09810e")
+			(uuid "a32ebcbf-6a75-4768-b873-a378105f58cf")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -16300,7 +16300,7 @@
 			(at 0 0 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fdf7edbf-2520-42f6-be94-a14e4736fc36")
+			(uuid "734c480b-4de6-481c-8df0-99c626db372a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16311,7 +16311,7 @@
 			(at 0 0 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98076ab9-7818-49a9-9520-5a383c559618")
+			(uuid "13ce550b-f4b9-4dc1-ac1e-9507d4b97073")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16320,7 +16320,7 @@
 		)
 		(path "/2a605ad6-9e3b-483f-8c33-e741eef03466")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16514,7 +16514,7 @@
 			(at -5.842 -5.08 172)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D10-A)")
+			(net "Net-(D9-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "85ee0619-ec6a-41c3-ae0b-490f51c84d40")
@@ -16585,7 +16585,7 @@
 		)
 		(path "/ddae3a6d-5842-4ebd-bba0-5e8c6dffb5a2")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16850,7 +16850,7 @@
 		)
 		(path "/4c8f93a2-e806-404a-a6f5-fd4a5bdcb510")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17145,7 +17145,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/d51ad362-32a8-4d93-9e16-b59c502abfd8")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17381,11 +17381,11 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "9ec8d110-25c7-4ffa-9308-d119fb02a7d3")
-		(at 124.3375 120.875 -8)
+		(at 130.223579 64.085031 -8)
 		(property "Reference" "SW18"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
-			(uuid "e0ce19bd-cd50-42f2-b50a-660529ce32bf")
+			(uuid "56d80a48-7f46-4634-aabe-e9d80e1050e9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17398,7 +17398,7 @@
 			(at 0 -7.8 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed822419-6db7-4d22-a9cf-c38a39d04e7b")
+			(uuid "04fee6f5-5191-496f-bdc6-fe5170a87d90")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -17411,7 +17411,7 @@
 			(at 0 0 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9871ddd-b48a-47b0-a5c8-400cb93aa294")
+			(uuid "8c4359e1-3d36-4b66-af6c-6d588227220a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17422,7 +17422,7 @@
 			(at 0 0 172)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0987f734-7ef5-4fc4-b4f6-fb51b63b812a")
+			(uuid "ce446a4e-b422-4162-ad8b-ef0de3b38ba9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17431,7 +17431,7 @@
 		)
 		(path "/dc5a8595-8598-45b9-8459-de5e0708998f")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17646,7 +17646,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a5409cbd-418b-421a-8b99-af2c85a67566")
-		(at 135.0875 75.625 -8)
+		(at 137.275 95.25 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D20"
@@ -17726,7 +17726,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/1a00726c-ee93-47e5-b21f-47bdb4784f2a")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17962,13 +17962,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a59e7e2c-016a-4fef-8621-1ad5f73b43df")
-		(at 137.453558 95.145364 -8)
+		(at 130.595889 113.237118 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D21"
 			(at 0 -2 172)
 			(layer "F.SilkS")
-			(uuid "42cd4376-0c2a-423f-b9de-1fe1acc1fbb4")
+			(uuid "c290fa6d-066f-4f4b-9065-fc0c3704e113")
 			(effects
 				(font
 					(size 1 1)
@@ -17979,7 +17979,7 @@
 		(property "Value" "1N4148W"
 			(at 0 2.1 172)
 			(layer "F.Fab")
-			(uuid "ce23e9dd-54de-48e5-88e8-9e2ba210a87e")
+			(uuid "6e126602-4bd6-4be0-af19-69bef2c3a082")
 			(effects
 				(font
 					(size 1 1)
@@ -17992,7 +17992,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89fecf4b-6ad9-4dd6-80dc-782c617a2014")
+			(uuid "9499bbc6-c92a-4f16-b8e8-658628c2e2cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18005,7 +18005,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79f4a7b1-1fa8-426b-bf3b-85cbe074a93c")
+			(uuid "7802668b-4c14-439d-9263-9338b7287009")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18042,7 +18042,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/6603565e-0625-425a-9ae6-ba1b9c35442f")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18358,7 +18358,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/d1d0adbf-372d-43fb-b078-f5fa88619607")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18594,13 +18594,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a9d325c0-cb4f-49fa-933a-6e8755e2a461")
-		(at 251.6875 86.875)
+		(at 232.203362 104.709272 8)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D39"
-			(at 0 -2 0)
+		(property "Reference" "D36"
+			(at 0 -2 8)
 			(layer "F.SilkS")
-			(uuid "7f9156df-7f03-418e-8a4a-962db0776ec8")
+			(uuid "8c3811d9-7c35-43bd-894f-49a7038bb050")
 			(effects
 				(font
 					(size 1 1)
@@ -18609,9 +18609,9 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 0 2.1 0)
+			(at 0 2.1 8)
 			(layer "F.Fab")
-			(uuid "2bff0bc0-28b6-4b10-b511-836d5ac63efb")
+			(uuid "e878c1a3-8791-43ad-9de6-eb0a0ec2020d")
 			(effects
 				(font
 					(size 1 1)
@@ -18620,11 +18620,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 0 0 0)
+			(at 0 0 8)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aabe286c-5190-4fa6-b995-402fb87960f3")
+			(uuid "ea3877ce-d81e-40ba-b32d-b757e166ed17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18633,11 +18633,11 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 0 0 0)
+			(at 0 0 8)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22973afa-8ce2-499d-a197-38c6d990f735")
+			(uuid "3db99e31-1b06-4129-83f3-d97c33a71475")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18646,7 +18646,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 8)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18659,7 +18659,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 8)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18674,7 +18674,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/24153a7e-bb52-423e-8041-5fc0fe8d6756")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18684,18 +18684,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.360001 1)
-			(end 1.65 0.999999)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c57e48d0-15c5-4997-9299-32ced6373a6f")
-		)
-		(fp_line
 			(start -2.36 -1)
-			(end -2.360001 1)
+			(end -2.360002 1)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18712,6 +18702,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "bc8c008e-b86f-45c2-95e6-60ad85e28ee7")
+		)
+		(fp_line
+			(start -2.360002 1)
+			(end 1.65 0.999999)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c57e48d0-15c5-4997-9299-32ced6373a6f")
 		)
 		(fp_line
 			(start -2.35 -1.15)
@@ -18754,16 +18754,6 @@
 			(uuid "365b9c4d-0479-416d-be83-825797135bb4")
 		)
 		(fp_line
-			(start -1.400001 0.9)
-			(end -1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4566bec8-77f4-40bb-9fe8-ee4aa1765898")
-		)
-		(fp_line
 			(start -1.4 -0.9)
 			(end 1.400001 -0.9)
 			(stroke
@@ -18772,6 +18762,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "aa678d7a-8817-4d6f-bf82-9f85250c4ba4")
+		)
+		(fp_line
+			(start -1.400001 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4566bec8-77f4-40bb-9fe8-ee4aa1765898")
 		)
 		(fp_line
 			(start -0.75 0)
@@ -18844,16 +18844,6 @@
 			(uuid "a0205d59-6434-4750-a61d-982551ead053")
 		)
 		(fp_line
-			(start 1.4 0.9)
-			(end -1.400001 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6d4f4379-fac6-42bf-a542-37db2453c441")
-		)
-		(fp_line
 			(start 1.400001 -0.9)
 			(end 1.4 0.9)
 			(stroke
@@ -18863,8 +18853,18 @@
 			(layer "F.Fab")
 			(uuid "a4a0a1bb-c357-428d-9082-75780c042cbd")
 		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.400001 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d4f4379-fac6-42bf-a542-37db2453c441")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -2 8)
 			(layer "F.Fab")
 			(uuid "0102b3c8-c710-4e3a-9ff8-d8357bd9cd36")
 			(effects
@@ -18875,7 +18875,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0)
+			(at -1.65 0 8)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18885,11 +18885,11 @@
 			(uuid "e9c42a28-b1dd-477a-8319-ed7c4182620d")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0)
+			(at 1.65 0 8)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D39-A)")
+			(net "Net-(D36-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "bcd2933d-8395-4c00-aa38-5d71cb8f2c3f")
@@ -18990,7 +18990,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/2f8e8a51-47b7-436c-aa59-78a187bd469e")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19226,7 +19226,7 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "b029441f-af6a-419b-bb52-ab16a8a3547b")
-		(at 130.360927 64.057866 -8)
+		(at 129.557369 83.237502 -8)
 		(property "Reference" "SW19"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
@@ -19276,7 +19276,7 @@
 		)
 		(path "/5e5da074-810b-4e7a-9137-66587ed44c65")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19541,7 +19541,7 @@
 		)
 		(path "/e428bc2a-d7ec-4dc3-a5ef-47f8e5ee8989")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19806,7 +19806,7 @@
 		)
 		(path "/5d4fca70-9a7e-4d9d-9531-1eee4914072a")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20071,7 +20071,7 @@
 		)
 		(path "/dc71ecbd-d87c-4482-8160-4a018762cf69")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20286,8 +20286,8 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "bdc986a7-0bec-4dec-8797-aba4f1e60c39")
-		(at 73.915647 56.125 -8)
-		(property "Reference" "SW7"
+		(at 72.487089 113.579636 -8)
+		(property "Reference" "SW10"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
 			(uuid "c9ce05e3-bdb5-46bf-8e1c-62bdf2987aba")
@@ -20336,7 +20336,7 @@
 		)
 		(path "/d4b67520-16ac-4b90-b0e7-599f1295fdef")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20521,7 +20521,7 @@
 			(at 7.085 -2.54 172)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "col1")
+			(net "col2")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "9d638493-ebb6-4a88-b9da-57a886c8a1df")
@@ -20530,7 +20530,7 @@
 			(at -5.842 -5.08 172)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D7-A)")
+			(net "Net-(D10-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "43f3ca30-af60-4bde-9f39-2c2fb70c7bd4")
@@ -20631,7 +20631,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/a48a0ac5-aa70-4b36-9115-92b80240c512")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20947,7 +20947,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/fee335aa-8fb3-4d13-b930-b0629206ef74")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21263,7 +21263,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/eb562852-25ab-4573-908c-4325d72895e8")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21499,8 +21499,8 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "c13e9b8a-f726-4ec3-ab06-08bf7ee6e159")
-		(at 75.108287 94.822505 -8)
-		(property "Reference" "SW9"
+		(at 72.923579 75.285031 -8)
+		(property "Reference" "SW8"
 			(at 0 -7.5 172)
 			(layer "F.SilkS")
 			(uuid "d7bf9046-2fbc-4fe0-bd94-e9f824c6785d")
@@ -21549,7 +21549,7 @@
 		)
 		(path "/fd638a9f-7be6-4c04-8aa2-4c5ec63b5b0f")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21743,7 +21743,7 @@
 			(at -5.842 -5.08 172)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D9-A)")
+			(net "Net-(D8-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "5751eb16-5649-4a84-83ad-802023b768bd")
@@ -21814,7 +21814,7 @@
 		)
 		(path "/9162ff40-34aa-4798-a822-a06008e264a0")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22109,7 +22109,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/b8e99b1a-6ae0-463f-907d-bc3a1434b453")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22425,7 +22425,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/148a43c7-6785-4fc7-bd4c-581f1f31303e")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22711,7 +22711,7 @@
 		)
 		(path "/32783b36-1a75-4df4-9f00-43c7d8b87990")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23006,7 +23006,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/1789d997-be28-4a66-a640-94e74c1b619d")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23322,7 +23322,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/c8619d90-49bb-4b59-89fd-41b1f4335b90")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23638,7 +23638,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/1fa7b1ee-509d-4a31-87ff-41c94d492ef2")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23874,9 +23874,9 @@
 	(footprint "kbd:keyswitch_cherrymx_hotswap_1u"
 		(layer "F.Cu")
 		(uuid "efa77993-f028-4e6e-be9f-4cb1f3a92106")
-		(at 228.010081 113.528599 8)
-		(property "Reference" "SW36"
-			(at 0 -7.5 8)
+		(at 248.102986 57.204897)
+		(property "Reference" "SW37"
+			(at 0 -7.5 0)
 			(layer "F.SilkS")
 			(uuid "c49817f1-324e-4b2c-8d30-31f3cc75a382")
 			(effects
@@ -23888,7 +23888,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 -7.8 8)
+			(at 0 -7.8 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7da2c10-6634-4248-bee1-18be6fb70998")
@@ -23901,7 +23901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 8)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b4bf27b1-2af5-491a-8985-510f7ee3555c")
@@ -23912,7 +23912,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 8)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84a48251-9a69-482d-82d7-b0a62b4243e5")
@@ -23924,7 +23924,7 @@
 		)
 		(path "/b105da7e-1152-4a2a-9d43-97456a23b01b")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24071,42 +24071,42 @@
 			(uuid "3c5d1e97-51e2-4bc9-8ce5-0d7d677b4391")
 		)
 		(pad "" np_thru_hole circle
-			(at -5.08 0 8)
+			(at -5.08 0)
 			(size 1.9 1.9)
 			(drill 1.9)
 			(layers "*.Cu" "*.Mask")
 			(uuid "483416b2-8b9d-4d0a-a763-fc2d1809f913")
 		)
 		(pad "" np_thru_hole circle
-			(at -2.54 -5.08 8)
+			(at -2.54 -5.08)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(uuid "adfa5a63-ba64-4216-9d73-ce656dfcaec2")
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0 278)
+			(at 0 0 270)
 			(size 4.1 4.1)
 			(drill 4.1)
 			(layers "*.Cu" "*.Mask")
 			(uuid "70bcee65-14da-499b-957a-92c0250e1a6c")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.54 8)
+			(at 3.81 -2.54)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(uuid "d84b7137-f87a-4d00-85e2-0727875028f8")
 		)
 		(pad "" np_thru_hole circle
-			(at 5.08 0 8)
+			(at 5.08 0)
 			(size 1.9 1.9)
 			(drill 1.9)
 			(layers "*.Cu" "*.Mask")
 			(uuid "e2e57283-a4b9-409a-ba32-82d4197c76b1")
 		)
 		(pad "1" smd rect
-			(at 7.085 -2.54 188)
+			(at 7.085 -2.54 180)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "col1")
@@ -24115,10 +24115,10 @@
 			(uuid "ca831f7b-2f26-4957-bffe-f225e72e95af")
 		)
 		(pad "2" smd rect
-			(at -5.842 -5.08 188)
+			(at -5.842 -5.08 180)
 			(size 2.55 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D36-A)")
+			(net "Net-(D37-A)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "28abec3c-afbb-4828-8af1-eca45c78b2ca")
@@ -24189,7 +24189,7 @@
 		)
 		(path "/890a59e7-c011-47a3-9f67-fe432555c817")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24454,7 +24454,7 @@
 		)
 		(path "/d2cff37d-c394-4099-bc92-d4a22a736869")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24749,7 +24749,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/2033cff8-388f-4316-8058-6cffc7b80076")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24985,10 +24985,10 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ff0cf297-5df0-47cc-8112-645afba430a0")
-		(at 253.9375 67.875)
+		(at 252.125 86.85)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D38"
+		(property "Reference" "D39"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "bef59c3c-1e83-40d8-ae6f-085bcb46896f")
@@ -25065,7 +25065,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/71241be6-86c5-4eaf-a813-9e35ba9717c2")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25280,7 +25280,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D38-A)")
+			(net "Net-(D39-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "ba165841-a2b3-4ec4-92d7-76e424063836")
@@ -25301,7 +25301,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ff25e2a1-e1ce-4f22-9b63-e83043ddf101")
-		(at 136.203558 56.645364 -8)
+		(at 135.4 75.825 -8)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D19"
@@ -25381,7 +25381,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/194d2310-e2f4-4dff-903e-a9eccfc21a7f")
 		(sheetname "/")
-		(sheetfile "cad.kicad_sch")
+		(sheetfile "mami.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25613,6 +25613,28 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_curve
+		(pts
+			(xy 177 47) (xy 177 47) (xy 177 47) (xy 177 47)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "89587c82-78f1-4419-9eb6-7c822bfd9be6")
+	)
+	(gr_curve
+		(pts
+			(xy 183 47) (xy 183 47) (xy 183 47) (xy 183 47)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "c80350c0-8d1a-419d-84b3-1d5891281168")
 	)
 	(gr_line
 		(start 14.3375 66.625)
@@ -27336,6 +27358,38 @@
 		(layer "Edge.Cuts")
 		(uuid "b0d55316-96e7-44d4-b407-507b50e922a5")
 	)
+	(gr_curve
+		(pts
+			(xy 58.97 45.04) (xy 58.97 45.04) (xy 58.97 45.04) (xy 58.97 45.04)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "086dac9a-f10b-4041-bbf2-6538cc94dcac")
+	)
+	(gr_line
+		(start 58.99 45)
+		(end 22 45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "80423d42-b7d2-474d-9670-ab05a34774d2")
+	)
+	(gr_curve
+		(pts
+			(xy 58.99 45) (xy 59.84 45.02) (xy 59.98 45.97) (xy 59.98 45.97)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1be65cf4-1e4f-4055-9508-3f4dbe67cca6")
+	)
 	(gr_arc
 		(start 60.692893 104.74)
 		(mid 61.4 105.032893)
@@ -27368,8 +27422,41 @@
 		(layer "Edge.Cuts")
 		(uuid "f872fe8e-fbb3-4380-9a5e-5ae5c9fc81bc")
 	)
+	(gr_arc
+		(start 66.69 45.98)
+		(mid 63.333828 48.504833)
+		(end 59.98662 45.968128)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd4155ab-a9e1-432a-95cb-1297d98a8743")
+	)
+	(gr_curve
+		(pts
+			(xy 67.08 45.08) (xy 67.08 45.08) (xy 67.08 45.08) (xy 67.08 45.08)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "08f2eb5c-70ff-4413-a44a-23ed7b6ef47f")
+	)
+	(gr_curve
+		(pts
+			(xy 67.64 45.06) (xy 66.85 45.06) (xy 66.69 45.98) (xy 66.69 45.98)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9c51c09d-919f-4488-a03c-6ac0cff59d2f")
+	)
 	(gr_line
-		(start 132.3 131.625)
+		(start 77.275 123.825)
 		(end 62.451894 121.793941)
 		(stroke
 			(width 0.05)
@@ -27377,6 +27464,70 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "bae3f009-03c3-48ac-bd26-c59d0135cb2d")
+	)
+	(gr_arc
+		(start 78.37286 123.159149)
+		(mid 77.941397 123.685755)
+		(end 77.275 123.825)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92c7c3e8-68ca-4352-a861-21642c2a2d06")
+	)
+	(gr_arc
+		(start 78.376291 123.16039)
+		(mid 82.134563 121.008595)
+		(end 85.192666 124.075)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5ef0b4a9-4f98-40c8-bfcf-ea77dd86bbfc")
+	)
+	(gr_arc
+		(start 86.100308 125.071864)
+		(mid 85.454767 124.747993)
+		(end 85.192666 124.075)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "68d38a62-79b7-4e47-8746-8227a956a098")
+	)
+	(gr_line
+		(start 116.524274 45.060082)
+		(end 67.64 45.06)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1828ed06-0652-4abc-9607-3e87fee0d786")
+	)
+	(gr_arc
+		(start 123.491848 45.045596)
+		(mid 120.015273 48.521839)
+		(end 116.524274 45.060082)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "56d43faf-0eb5-4049-b990-f45b1b17b042")
+	)
+	(gr_line
+		(start 132.3 131.625)
+		(end 86.100308 125.071864)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ef72b7b4-28aa-49db-9405-f6ccae68b0d0")
 	)
 	(gr_arc
 		(start 132.549911 131.647331)
@@ -27391,7 +27542,7 @@
 	)
 	(gr_line
 		(start 132.55 131.65)
-		(end 167.875 131.65)
+		(end 145.850916 131.569996)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -27400,18 +27551,136 @@
 		(uuid "7feb3476-cc3e-434d-8b73-beac85b550c4")
 	)
 	(gr_arc
-		(start 168.115691 131.629255)
-		(mid 167.99142 131.64808)
-		(end 167.86578 131.651586)
+		(start 146.817476 130.809402)
+		(mid 150.200102 128.106916)
+		(end 153.582569 130.809602)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "73af2887-4c63-488c-90d7-a40251eeea19")
+		(uuid "a63377ff-c212-4dae-bafd-9c1754b629ca")
+	)
+	(gr_arc
+		(start 146.818347 130.809598)
+		(mid 146.466166 131.357144)
+		(end 145.850916 131.569996)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "79fb0b49-a0ed-4451-81fe-19985977b7eb")
+	)
+	(gr_arc
+		(start 154.55 131.57)
+		(mid 153.93475 131.357148)
+		(end 153.582569 130.809602)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ca18ab48-cbd6-4a82-ba23-005456b8c84d")
+	)
+	(gr_line
+		(start 154.55 131.57)
+		(end 168.115691 131.629255)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e7f7b2fa-8b6e-421d-9795-f8985de4e798")
 	)
 	(gr_line
 		(start 168.115691 131.629255)
+		(end 214.63458 125.070052)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc67ff82-bd54-4419-a0a8-1addfdfe0f1e")
+	)
+	(gr_line
+		(start 175.65 45.05)
+		(end 123.491848 45.045596)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "69c38ba7-96c5-419b-b771-c4bac275b571")
+	)
+	(gr_arc
+		(start 175.65 45.05)
+		(mid 176.231512 45.236462)
+		(end 176.596164 45.726312)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b4e0893-79c8-44d7-a6ff-c27bfdc7bfb5")
+	)
+	(gr_arc
+		(start 183.503836 45.701312)
+		(mid 180.063829 48.634946)
+		(end 176.604389 45.724253)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "59e12750-8911-4696-8fec-a63790a2e216")
+	)
+	(gr_arc
+		(start 183.503836 45.701312)
+		(mid 183.868488 45.211462)
+		(end 184.45 45.025)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7fa9f093-18c6-4df7-b5be-c19b9929d8bd")
+	)
+	(gr_arc
+		(start 215.374998 124.2)
+		(mid 215.141726 124.751988)
+		(end 214.635116 125.07207)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "210c3876-6014-4628-9f7d-5ecd3bbf49a5")
+	)
+	(gr_arc
+		(start 215.374998 124.2)
+		(mid 218.44267 121.069731)
+		(end 222.178173 123.362156)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4af04bda-3420-493e-b8a2-9f59d64341c1")
+	)
+	(gr_arc
+		(start 223.075 123.925)
+		(mid 222.54191 123.777364)
+		(end 222.175196 123.363236)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f9464d96-fb21-4da2-b194-d38cb27bf706")
+	)
+	(gr_line
+		(start 223.075 123.925)
 		(end 238 121.818899)
 		(stroke
 			(width 0.05)
@@ -27419,6 +27688,27 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "321f15b6-56c1-482f-836d-1378c76b2dfe")
+	)
+	(gr_line
+		(start 233.014999 45.006878)
+		(end 184.45 45.025)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c9f3684-91b3-47b9-8533-7ccc15ed6789")
+	)
+	(gr_arc
+		(start 233.014999 45.006878)
+		(mid 233.580445 45.194022)
+		(end 233.937162 45.670996)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31f58e29-3ca0-4779-a316-ad4d3eb69791")
 	)
 	(gr_arc
 		(start 238.72 105.73)
@@ -27462,15 +27752,37 @@
 		(layer "Edge.Cuts")
 		(uuid "bc2564f8-cc77-4e49-a8c9-fde8cde8cabc")
 	)
-	(gr_line
-		(start 278.3 45)
-		(end 22 45)
+	(gr_arc
+		(start 240.732001 45.969765)
+		(mid 241.04126 45.291866)
+		(end 241.735 45.019999)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1828ed06-0652-4abc-9607-3e87fee0d786")
+		(uuid "9b25889f-9f8f-470e-9531-0f8ff114d318")
+	)
+	(gr_arc
+		(start 240.732536 45.967962)
+		(mid 237.217248 48.532236)
+		(end 233.94 45.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7966b64e-e553-4f06-95e2-fe23dd6c26aa")
+	)
+	(gr_line
+		(start 278.3 45)
+		(end 241.74 45.02)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "32cf0660-18f4-4290-a2da-0c3e53eed1b9")
 	)
 	(gr_arc
 		(start 278.3 45)
@@ -27516,84 +27828,36 @@
 		(uuid "5b43577c-cbdd-4a65-9212-23a8bd28ed6f")
 	)
 	(segment
-		(start 140.8375 94.375)
-		(end 140.8375 99.481164)
+		(start 157.8075 56.955)
+		(end 158.258104 56.955)
 		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "06742166-9900-4871-b83d-89d9a647d514")
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "12d7dada-a968-43b3-bf18-2d17b03a2743")
 	)
 	(segment
-		(start 136.730476 90.267976)
-		(end 140.8375 94.375)
+		(start 157.8075 56.955)
+		(end 158.105 56.955)
 		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "0765863a-9258-49c0-aa5a-ebdb75a4cce1")
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "4cbeb79e-b20c-4d98-95ad-4f58fe4d3a66")
 	)
 	(segment
-		(start 138.5875 79.738737)
-		(end 136.730476 81.595761)
+		(start 158.175 57.025)
+		(end 158.105 56.955)
 		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "0bf99a36-082b-4521-9002-ea6e9b2738ca")
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "db50311d-a9e6-44a0-9178-d639ce19e9f2")
 	)
 	(segment
-		(start 137.730476 62.528627)
-		(end 137.730476 74.267976)
+		(start 158.2025 59.1)
+		(end 157.8075 59.495)
 		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "0c3d88ff-46ca-468f-bdf9-e7b92b0991f5")
-	)
-	(segment
-		(start 140.0875 67.155)
-		(end 140.0875 62.875)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "19070e54-8834-493e-8472-b8a644b13cb3")
-	)
-	(segment
-		(start 137.730476 74.267976)
-		(end 138.5875 75.125)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "286e44a9-05b2-4246-a27c-8bafdcfb8029")
-	)
-	(segment
-		(start 140.8375 99.481164)
-		(end 139.071656 101.247008)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "2d256636-44ea-440f-8153-12153dedc381")
-	)
-	(segment
-		(start 140.0875 62.875)
-		(end 138.076849 62.875)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "390ad8c1-875a-49ad-b43d-fc06945fa019")
-	)
-	(segment
-		(start 139.071656 101.247008)
-		(end 139.071656 111.981154)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "50895eb5-ad31-4883-a554-f9426ddb8489")
-	)
-	(segment
-		(start 139.071656 111.981154)
-		(end 131.707049 119.345761)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "7de40c23-2b81-4195-8340-839aa81988ed")
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "dca32ac8-481c-4a97-b210-b1b3fa17cb3b")
 	)
 	(segment
 		(start 138.076849 62.875)
@@ -27602,30 +27866,6 @@
 		(layer "F.Cu")
 		(net "col5")
 		(uuid "a68760e2-9fa5-42fe-b69c-7e1084651e7f")
-	)
-	(segment
-		(start 142.5875 69.655)
-		(end 140.0875 67.155)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "e3213194-3ef2-4cf2-8cef-2697978aebb8")
-	)
-	(segment
-		(start 138.5875 75.125)
-		(end 138.5875 79.738737)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "f9f12323-1b75-4279-900d-c74ed9cbf272")
-	)
-	(segment
-		(start 136.730476 81.595761)
-		(end 136.730476 90.267976)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "col5")
-		(uuid "fbc6ac59-15f6-4be2-aba1-751b40eee1f8")
 	)
 	(via
 		(at 137.730476 62.528627)
@@ -27650,6 +27890,310 @@
 		(layers "F.Cu" "B.Cu")
 		(net "col5")
 		(uuid "c4a90f2c-582d-4719-931f-086222a2bd9d")
+	)
+	(segment
+		(start 137.730476 80.519524)
+		(end 137.7 80.55)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "055a2ad0-1311-42b5-b85a-890d1a7db8da")
+	)
+	(segment
+		(start 140.025 111.1)
+		(end 131.7 119.425)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "149a9ae4-c590-405e-b252-2cb43f0bcf95")
+	)
+	(segment
+		(start 140.025 93.575)
+		(end 140.925 94.475)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "19532666-59a5-4d7d-afec-f95f20c82f89")
+	)
+	(segment
+		(start 140.025 101.9)
+		(end 140.025 111.1)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "2aee7f5a-3508-43ae-8317-77d5164ad4f6")
+	)
+	(segment
+		(start 140.025 84.7)
+		(end 140.025 93.575)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "4ac195f6-75c9-4b94-8796-2d0993b0b1ca")
+	)
+	(segment
+		(start 140.35 68.975)
+		(end 140.35 64.475)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "5eb79c15-34f3-4ea1-a02c-8413fe5dbf28")
+	)
+	(segment
+		(start 138.403627 62.528627)
+		(end 137.730476 62.528627)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "6f40b00a-fd30-40f8-8d1f-162e17895c07")
+	)
+	(segment
+		(start 142.5875 69.655)
+		(end 141.03 69.655)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "8082920c-138c-4e54-aee5-f143e2c1b96c")
+	)
+	(segment
+		(start 137.7 82.375)
+		(end 140.025 84.7)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "8719a792-e0fa-4435-81c4-33ddb693bd66")
+	)
+	(segment
+		(start 140.925 101)
+		(end 140.025 101.9)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "944727ec-51c0-4b57-a9b7-6a173ff8c7ba")
+	)
+	(segment
+		(start 141.03 69.655)
+		(end 140.35 68.975)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "9c412ae6-9b6f-4280-a0c5-4c90e0727fa6")
+	)
+	(segment
+		(start 137.730476 62.528627)
+		(end 137.730476 80.519524)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "c6e7a34b-32ca-442d-be40-8aed8b565d79")
+	)
+	(segment
+		(start 140.925 94.475)
+		(end 140.925 101)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "f06b4538-87b6-4a67-84a1-84d60ff2edda")
+	)
+	(segment
+		(start 140.35 64.475)
+		(end 138.403627 62.528627)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "f92b290e-e2ac-46d8-a84e-9576fa9cdf83")
+	)
+	(segment
+		(start 137.7 80.55)
+		(end 137.7 82.375)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "col5")
+		(uuid "f957b9b2-ce5e-493f-8da2-d705728add51")
+	)
+	(segment
+		(start 157.8075 69.655)
+		(end 157.8075 69.4325)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "col1")
+		(uuid "3b2db4d0-941c-4502-bdac-f03fb93edfbf")
+	)
+	(segment
+		(start 157.8075 69.4325)
+		(end 157.75 69.375)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "col1")
+		(uuid "f54a56f4-2520-461b-bd3f-b208d17400fc")
+	)
+	(segment
+		(start 115.8375 52.5125)
+		(end 115.8375 53.625)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "02e50078-3d4f-4a40-abd0-774d01b6b313")
+	)
+	(segment
+		(start 140 56.975)
+		(end 137.675 54.65)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "3bb6d6c1-58c4-4199-a1d4-97b8e2165903")
+	)
+	(segment
+		(start 137.675 54.65)
+		(end 134.225 54.65)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "65742d78-1604-41fd-a867-5ac3bac54ac2")
+	)
+	(segment
+		(start 132.55 52.625)
+		(end 115.95 52.625)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "8ecc0c04-38e5-4253-a898-18e8227eb951")
+	)
+	(segment
+		(start 134.225 54.65)
+		(end 134.225 54.825)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "9a462e6a-b19a-42f8-8832-2f8dd4615923")
+	)
+	(segment
+		(start 142.5875 72.3125)
+		(end 140 69.725)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "a7f09133-6b4b-45fd-82f0-32a90b63ecb8")
+	)
+	(segment
+		(start 134.205695 54.844305)
+		(end 134.205695 56.375759)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "ab9b5ead-bddb-4269-a8e6-db99fd9ea251")
+	)
+	(segment
+		(start 134.225 54.825)
+		(end 134.205695 54.844305)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "d0fc4a46-e44a-4f07-93b5-2e22a8e02b7b")
+	)
+	(segment
+		(start 142.5875 72.195)
+		(end 142.5875 72.3125)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "d3b67970-8915-4a79-9fee-47238ba75386")
+	)
+	(segment
+		(start 134.205695 56.375759)
+		(end 132.55 54.720064)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "e34a6991-b022-4b43-9fcc-8a0525694a34")
+	)
+	(segment
+		(start 132.55 54.720064)
+		(end 132.55 52.625)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "e736474f-dbfb-48f2-a4cf-dc30c66b14b3")
+	)
+	(segment
+		(start 140 69.725)
+		(end 140 56.975)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "ef7df06c-9e26-4e6b-8eb4-0a33541f6e47")
+	)
+	(segment
+		(start 115.95 52.625)
+		(end 115.8375 52.5125)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "row0")
+		(uuid "f24e6928-9bde-4600-8379-d87a52b16211")
+	)
+	(segment
+		(start 142.5875 59.495)
+		(end 142.5875 60.024342)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "VCC")
+		(uuid "0144cef7-22c8-4194-b3d7-7675d3c2b671")
+	)
+	(segment
+		(start 142.5875 60.024342)
+		(end 142.229836 60.382006)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "VCC")
+		(uuid "32803e7b-4b1b-4341-a5e0-837a58152d50")
+	)
+	(via
+		(at 142.229836 60.382006)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "VCC")
+		(uuid "02f9dff4-93a4-453e-b0ce-2228fa916008")
+	)
+	(segment
+		(start 142.229836 60.382006)
+		(end 142.525 60.086842)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "VCC")
+		(uuid "0f149c88-34eb-400c-9687-6be4e301cfd3")
+	)
+	(segment
+		(start 142.525 60.086842)
+		(end 142.525 59.65)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "VCC")
+		(uuid "38704eda-81a7-4439-9b46-101166e310d8")
+	)
+	(segment
+		(start 142.6 59.4825)
+		(end 142.5875 59.495)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "VCC")
+		(uuid "b7acf135-85ef-4f19-92b3-79cf2b217aa9")
+	)
+	(segment
+		(start 142.55 59.425)
+		(end 142.6 59.475)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "VCC")
+		(uuid "bac76f81-7024-4fe7-8184-776306590f90")
+	)
+	(segment
+		(start 142.6 59.475)
+		(end 142.6 59.4825)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "VCC")
+		(uuid "f1f814a0-b26d-4887-9a45-e95294695370")
 	)
 	(group ""
 		(uuid "25d29d11-925d-4383-a496-fcd0f105d67a")
