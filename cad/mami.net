@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/mori/Documents/MyProject/mami-kbd/cad/mami.kicad_sch")
-		(date "2026-04-19T02:08:40")
+		(date "2026-04-30T00:49:26")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -2827,6 +2827,2244 @@
 			)
 		)
 		(comp
+			(ref "J2")
+			(value "Conn_01x02")
+			(footprint "kbd_Parts:Battery_BMP_2pin")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:Battery_BMP_2pin")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "074fdf33-8c18-4cf0-8363-a117041bfc0c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "207a0b5f-b231-4d51-99da-fae8c7bef7e6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L2")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e63222ab-5bf1-49d9-ba7a-bf7a3f663b82")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L3")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4882d6e2-68ed-420d-bcf5-7bbebd21ccaf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L4")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "04ac18ec-7fce-4918-9391-f31f0afd3b73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L5")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "58a642c1-a2dc-4a31-87d3-cd7248cd1f1a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L6")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "17b6d5b2-d255-4884-b50b-b5fd22ffc96e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L7")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "03aab7ef-f0ba-4547-b1bd-faf934af7e0f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L8")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3023212e-9839-402c-8117-fb7c00487c6b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L9")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f9985e6-fcf1-4e26-a59f-a07b13083608")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L10")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "236c7181-7f77-432c-9e5c-fd2fe37258c1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L11")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "265afd1a-8e0a-4622-b071-94923f85e47a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L12")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "46ccb87b-dfd6-4345-9c51-3eb14af78512")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L13")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e89c8997-0cd6-4877-9ca7-85e75d2f055a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L14")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bb2ea8b1-9b6f-45ed-839d-f71d68651f32")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L15")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b49bd30f-8348-48dc-8f2d-73efca44bd89")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L16")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7572f0b3-dbbf-4e86-9103-4d3f7d3e1574")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L17")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2fb46b63-e41a-4f7c-b6f9-9cab6dbcd8d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L18")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d6e68d9-103f-4eba-9b9f-a2bbd846a765")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L19")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "009a5ab8-425b-4f56-9870-690ac936636c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L20")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d9df5f4b-43d7-4d64-a902-3dc4385da0cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L21")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6cce07c6-85bc-423c-a09c-d093c86695d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L22")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8518eb31-52ed-4bec-9a39-9fca3e5f26f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L23")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "abcb4cc9-2db1-4209-812f-3cb05d1e425f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L24")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c2315f86-8a05-4331-9ce9-ab7f50d85743")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L25")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f1f81ea-860c-4818-8ee3-5c5a293b8715")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L26")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0bd48edb-7474-4706-8446-1d2891f31c70")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L27")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c8b29458-43cc-4809-adcf-de13a87bf7d4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L28")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "20c5afcc-7954-4c48-a8d4-bae577d13188")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L29")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "130b567b-a79f-4ffc-83d1-768a4d066e2f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L30")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dba3f715-bf3c-46e0-89e1-ef585db32304")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L31")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "713db432-75a6-4b31-a001-5fdb546659ce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L32")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c45461bd-bc0d-4005-a0a3-d7cb4b5aff64")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L33")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c96ee951-bc27-4dd2-8af5-3370aef76d1d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L34")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "833ca19d-fc0d-4e62-9ef7-8abb0548e011")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L35")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a86f6ccc-58db-432d-8d22-43ea6e6d3bc0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L36")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6bc6bc69-1ded-4edf-b560-612b657aa801")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L37")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aeef6f26-d7da-4ef2-89ec-b1f39823ee26")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L38")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6acfcd54-f6ff-4ce3-b26a-c1b77354e3f4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L39")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0118a310-9f11-4078-9557-67b6759c29c7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L40")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4861f4d5-83ae-4a51-8e77-ddc821f78cf7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L41")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "59b1c230-b199-4cee-89f4-3ba6601429c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L42")
+			(value "SK6812MINI")
+			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
+			(fields
+				(field
+					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Salicylic_kbd")
+				(part "LED_SK6812MINI-E")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12338fd9-ba01-4bed-9063-feb725416deb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "SW1")
 			(value "SW_Push")
 			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
@@ -4977,12 +7215,65 @@
 			)
 		)
 		(comp
-			(ref "U1")
-			(value "ProMicro")
-			(footprint "kbd:ProMicro")
+			(ref "SW45")
+			(value "SW_SPDT")
+			(description "Switch, single pole double throw")
 			(fields
 				(field
-					(name "Footprint") "kbd:ProMicro")
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b62ac75a-585a-4153-8802-ad5f5af0a608")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "nice_nano")
+			(fields
+				(field
+					(name "Footprint")
+				)
 				(field
 					(name "Datasheet")
 				)
@@ -4991,8 +7282,8 @@
 				)
 			)
 			(libsource
-				(lib "kbd")
-				(part "ProMicro")
+				(lib "mylib")
+				(part "nice_nano")
 				(description "")
 			)
 			(property
@@ -5007,11 +7298,14 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "eca17256-a81b-4220-8086-6c035673e324")
+			(tstamps "7237bc8d-d9b0-4c72-91c6-30942c3d24b2")
 			(units
 				(unit
 					(name "A")
 					(pins
+						(pin
+							(num "30")
+						)
 						(pin
 							(num "1")
 						)
@@ -5047,6 +7341,18 @@
 						)
 						(pin
 							(num "12")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
 						)
 						(pin
 							(num "24")
@@ -5093,6 +7399,40 @@
 	(variants)
 	(libparts
 		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x02")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "Diode")
 			(part "1N4148W")
 			(description "75V 0.15A Fast Switching Diode, SOD-123")
@@ -5130,6 +7470,47 @@
 			)
 		)
 		(libpart
+			(lib "Salicylic_kbd")
+			(part "LED_SK6812MINI-E")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "LED_SK6812MINI-E")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "DOUT")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "DIN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "VDD")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
 			(lib "Switch")
 			(part "SW_Push")
 			(description "Push button switch, generic, two pins")
@@ -5161,13 +7542,49 @@
 			)
 		)
 		(libpart
-			(lib "kbd")
-			(part "ProMicro")
+			(lib "Switch")
+			(part "SW_SPDT")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_SPDT")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "mylib")
+			(part "nice_nano")
 			(fields
 				(field
 					(name "Reference") "U")
 				(field
-					(name "Value") "ProMicro")
+					(name "Value") "nice_nano")
 				(field
 					(name "Footprint")
 				)
@@ -5181,108 +7598,108 @@
 			(pins
 				(pin
 					(num "1")
-					(name "TX0/D3")
-					(type "bidirectional")
+					(name "TX0/P0.06")
+					(type "input")
 				)
 				(pin
 					(num "2")
-					(name "RX1/D2")
-					(type "bidirectional")
+					(name "RX1/P0.08")
+					(type "input")
 				)
 				(pin
 					(num "3")
 					(name "GND")
-					(type "power_in")
+					(type "input")
 				)
 				(pin
 					(num "4")
 					(name "GND")
-					(type "power_in")
+					(type "input")
 				)
 				(pin
 					(num "5")
-					(name "2/D1/SDA")
-					(type "bidirectional")
+					(name "P0.17")
+					(type "input")
 				)
 				(pin
 					(num "6")
-					(name "3/D0/SCL")
-					(type "bidirectional")
+					(name "P0.20")
+					(type "input")
 				)
 				(pin
 					(num "7")
-					(name "4/D4")
-					(type "bidirectional")
+					(name "P0.22")
+					(type "input")
 				)
 				(pin
 					(num "8")
-					(name "5/C6")
-					(type "bidirectional")
+					(name "P0.24")
+					(type "input")
 				)
 				(pin
 					(num "9")
-					(name "6/D7")
-					(type "bidirectional")
+					(name "P1.00")
+					(type "input")
 				)
 				(pin
 					(num "10")
-					(name "7/E6")
-					(type "bidirectional")
+					(name "P0.11")
+					(type "input")
 				)
 				(pin
 					(num "11")
-					(name "8/B4")
-					(type "bidirectional")
+					(name "P1.04")
+					(type "input")
 				)
 				(pin
 					(num "12")
-					(name "9/B5")
-					(type "bidirectional")
+					(name "P1.06")
+					(type "input")
 				)
 				(pin
 					(num "13")
-					(name "B6/10")
-					(type "bidirectional")
+					(name "NFC1/P0.09")
+					(type "input")
 				)
 				(pin
 					(num "14")
-					(name "B2/16")
-					(type "bidirectional")
+					(name "NFC2/P0.10")
+					(type "input")
 				)
 				(pin
 					(num "15")
-					(name "B3/14")
-					(type "bidirectional")
+					(name "P1.11")
+					(type "input")
 				)
 				(pin
 					(num "16")
-					(name "B1/15")
-					(type "bidirectional")
+					(name "P1.13")
+					(type "input")
 				)
 				(pin
 					(num "17")
-					(name "F7/A0")
-					(type "bidirectional")
+					(name "P1.15")
+					(type "input")
 				)
 				(pin
 					(num "18")
-					(name "F6/A1")
-					(type "bidirectional")
+					(name "AIN0/P0.02")
+					(type "input")
 				)
 				(pin
 					(num "19")
-					(name "F5/A2")
-					(type "bidirectional")
+					(name "AIN5/P0.29")
+					(type "input")
 				)
 				(pin
 					(num "20")
-					(name "F4/A3")
-					(type "bidirectional")
+					(name "AIN7/P0.31")
+					(type "input")
 				)
 				(pin
 					(num "21")
 					(name "VCC")
-					(type "power_in")
+					(type "input")
 				)
 				(pin
 					(num "22")
@@ -5292,17 +7709,46 @@
 				(pin
 					(num "23")
 					(name "GND")
-					(type "power_in")
+					(type "input")
 				)
 				(pin
 					(num "24")
-					(name "RAW")
-					(type "power_out")
+					(name "BATIN/P0.04")
+					(type "input")
+				)
+				(pin
+					(num "30")
+					(name "GND")
+					(type "input")
+				)
+				(pin
+					(num "31")
+					(name "P1.01")
+					(type "input")
+				)
+				(pin
+					(num "32")
+					(name "P1.02")
+					(type "input")
+				)
+				(pin
+					(num "33")
+					(name "P1.07")
+					(type "input")
+				)
+				(pin
+					(num "34")
+					(name "BATIN/P0.04")
+					(type "input")
 				)
 			)
 		)
 	)
 	(libraries
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
 		(library
 			(logical "Diode")
 			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
@@ -5312,15 +7758,307 @@
 			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
 		)
 		(library
-			(logical "kbd")
-			(uri "/Users/mori/Downloads/kbd-main/kicad-symbols/kbd.kicad_sym")
+			(logical "mylib")
+			(uri "${KIPRJMOD}/symbols/nice-nano.lib")
 		)
 	)
 	(nets
 		(net
 			(code "1")
+			(name "B+")
+			(class "Default")
+			(node
+				(ref "SW45")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "BATIN/P0.04_34")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "2")
+			(name "BAT+")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW45")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
 			(name "GND")
 			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L10")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L11")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L12")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L13")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L14")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L15")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L16")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L17")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L18")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L19")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L2")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L20")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L21")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L22")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L23")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L24")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L25")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L26")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L27")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L28")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L29")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L3")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L30")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L31")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L32")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L33")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L34")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L35")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L36")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L37")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L38")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L39")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L4")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L40")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L41")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L42")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L5")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L6")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L7")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L8")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L9")
+				(pin "2")
+				(pinfunction "VSS_2")
+				(pintype "power_in")
+			)
 			(node
 				(ref "SW43")
 				(pin "1")
@@ -5331,23 +8069,46 @@
 				(ref "U1")
 				(pin "23")
 				(pinfunction "GND_23")
-				(pintype "power_in")
+				(pintype "input")
 			)
 			(node
 				(ref "U1")
 				(pin "3")
 				(pinfunction "GND_3")
-				(pintype "power_in")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "GND_30")
+				(pintype "input")
 			)
 			(node
 				(ref "U1")
 				(pin "4")
 				(pinfunction "GND_4")
-				(pintype "power_in")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "2")
+			(code "4")
+			(name "LED")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "TX0/P0.06_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
 			(name "Net-(D1-A)")
 			(class "Default")
 			(node
@@ -5364,7 +8125,7 @@
 			)
 		)
 		(net
-			(code "3")
+			(code "6")
 			(name "Net-(D2-A)")
 			(class "Default")
 			(node
@@ -5381,7 +8142,7 @@
 			)
 		)
 		(net
-			(code "4")
+			(code "7")
 			(name "Net-(D3-A)")
 			(class "Default")
 			(node
@@ -5398,7 +8159,7 @@
 			)
 		)
 		(net
-			(code "5")
+			(code "8")
 			(name "Net-(D4-A)")
 			(class "Default")
 			(node
@@ -5415,7 +8176,7 @@
 			)
 		)
 		(net
-			(code "6")
+			(code "9")
 			(name "Net-(D5-A)")
 			(class "Default")
 			(node
@@ -5432,7 +8193,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "10")
 			(name "Net-(D6-A)")
 			(class "Default")
 			(node
@@ -5449,7 +8210,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "11")
 			(name "Net-(D7-A)")
 			(class "Default")
 			(node
@@ -5466,7 +8227,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "12")
 			(name "Net-(D8-A)")
 			(class "Default")
 			(node
@@ -5483,7 +8244,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "13")
 			(name "Net-(D9-A)")
 			(class "Default")
 			(node
@@ -5500,7 +8261,7 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "14")
 			(name "Net-(D10-A)")
 			(class "Default")
 			(node
@@ -5517,7 +8278,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "15")
 			(name "Net-(D11-A)")
 			(class "Default")
 			(node
@@ -5534,7 +8295,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "16")
 			(name "Net-(D12-A)")
 			(class "Default")
 			(node
@@ -5551,7 +8312,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "17")
 			(name "Net-(D13-A)")
 			(class "Default")
 			(node
@@ -5568,7 +8329,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "18")
 			(name "Net-(D14-A)")
 			(class "Default")
 			(node
@@ -5585,7 +8346,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "19")
 			(name "Net-(D15-A)")
 			(class "Default")
 			(node
@@ -5602,7 +8363,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "20")
 			(name "Net-(D16-A)")
 			(class "Default")
 			(node
@@ -5619,7 +8380,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "21")
 			(name "Net-(D17-A)")
 			(class "Default")
 			(node
@@ -5636,7 +8397,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "22")
 			(name "Net-(D18-A)")
 			(class "Default")
 			(node
@@ -5653,7 +8414,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "23")
 			(name "Net-(D19-A)")
 			(class "Default")
 			(node
@@ -5670,7 +8431,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "24")
 			(name "Net-(D20-A)")
 			(class "Default")
 			(node
@@ -5687,7 +8448,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "25")
 			(name "Net-(D21-A)")
 			(class "Default")
 			(node
@@ -5704,7 +8465,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "26")
 			(name "Net-(D22-A)")
 			(class "Default")
 			(node
@@ -5721,7 +8482,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "27")
 			(name "Net-(D23-A)")
 			(class "Default")
 			(node
@@ -5738,7 +8499,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "28")
 			(name "Net-(D24-A)")
 			(class "Default")
 			(node
@@ -5755,7 +8516,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "29")
 			(name "Net-(D25-A)")
 			(class "Default")
 			(node
@@ -5772,7 +8533,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "30")
 			(name "Net-(D26-A)")
 			(class "Default")
 			(node
@@ -5789,7 +8550,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "31")
 			(name "Net-(D27-A)")
 			(class "Default")
 			(node
@@ -5806,7 +8567,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "32")
 			(name "Net-(D28-A)")
 			(class "Default")
 			(node
@@ -5823,7 +8584,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "33")
 			(name "Net-(D29-A)")
 			(class "Default")
 			(node
@@ -5840,7 +8601,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "34")
 			(name "Net-(D30-A)")
 			(class "Default")
 			(node
@@ -5857,7 +8618,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "35")
 			(name "Net-(D31-A)")
 			(class "Default")
 			(node
@@ -5874,7 +8635,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "36")
 			(name "Net-(D32-A)")
 			(class "Default")
 			(node
@@ -5891,7 +8652,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "37")
 			(name "Net-(D33-A)")
 			(class "Default")
 			(node
@@ -5908,7 +8669,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "38")
 			(name "Net-(D34-A)")
 			(class "Default")
 			(node
@@ -5925,7 +8686,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "39")
 			(name "Net-(D35-A)")
 			(class "Default")
 			(node
@@ -5942,7 +8703,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "40")
 			(name "Net-(D36-A)")
 			(class "Default")
 			(node
@@ -5959,7 +8720,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "41")
 			(name "Net-(D37-A)")
 			(class "Default")
 			(node
@@ -5976,7 +8737,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "42")
 			(name "Net-(D38-A)")
 			(class "Default")
 			(node
@@ -5993,7 +8754,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "43")
 			(name "Net-(D39-A)")
 			(class "Default")
 			(node
@@ -6010,7 +8771,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "44")
 			(name "Net-(D40-A)")
 			(class "Default")
 			(node
@@ -6027,7 +8788,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "45")
 			(name "Net-(D41-A)")
 			(class "Default")
 			(node
@@ -6044,7 +8805,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "46")
 			(name "Net-(D42-A)")
 			(class "Default")
 			(node
@@ -6061,18 +8822,967 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "47")
+			(name "Net-(L1-DOUT)")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L2")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "Net-(L2-DOUT)")
+			(class "Default")
+			(node
+				(ref "L2")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L3")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "49")
+			(name "Net-(L3-DOUT)")
+			(class "Default")
+			(node
+				(ref "L3")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L4")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "50")
+			(name "Net-(L4-DOUT)")
+			(class "Default")
+			(node
+				(ref "L4")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L5")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "51")
+			(name "Net-(L5-DOUT)")
+			(class "Default")
+			(node
+				(ref "L5")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L6")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "52")
+			(name "Net-(L6-DOUT)")
+			(class "Default")
+			(node
+				(ref "L6")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L7")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "53")
+			(name "Net-(L7-DOUT)")
+			(class "Default")
+			(node
+				(ref "L7")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L8")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "54")
+			(name "Net-(L8-DOUT)")
+			(class "Default")
+			(node
+				(ref "L8")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L9")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "55")
+			(name "Net-(L10-DIN)")
+			(class "Default")
+			(node
+				(ref "L10")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "L9")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "56")
+			(name "Net-(L10-DOUT)")
+			(class "Default")
+			(node
+				(ref "L10")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L11")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "57")
+			(name "Net-(L11-DOUT)")
+			(class "Default")
+			(node
+				(ref "L11")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L12")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "58")
+			(name "Net-(L12-DOUT)")
+			(class "Default")
+			(node
+				(ref "L12")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L13")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "59")
+			(name "Net-(L13-DOUT)")
+			(class "Default")
+			(node
+				(ref "L13")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L14")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "60")
+			(name "Net-(L14-DOUT)")
+			(class "Default")
+			(node
+				(ref "L14")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L15")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "61")
+			(name "Net-(L15-DOUT)")
+			(class "Default")
+			(node
+				(ref "L15")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L16")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "62")
+			(name "Net-(L16-DOUT)")
+			(class "Default")
+			(node
+				(ref "L16")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L17")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "63")
+			(name "Net-(L17-DOUT)")
+			(class "Default")
+			(node
+				(ref "L17")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L18")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "64")
+			(name "Net-(L18-DOUT)")
+			(class "Default")
+			(node
+				(ref "L18")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L19")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "65")
+			(name "Net-(L19-DOUT)")
+			(class "Default")
+			(node
+				(ref "L19")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L20")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "66")
+			(name "Net-(L20-DOUT)")
+			(class "Default")
+			(node
+				(ref "L20")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L21")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "67")
+			(name "Net-(L21-DOUT)")
+			(class "Default")
+			(node
+				(ref "L21")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L22")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "68")
+			(name "Net-(L22-DOUT)")
+			(class "Default")
+			(node
+				(ref "L22")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L23")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "69")
+			(name "Net-(L23-DOUT)")
+			(class "Default")
+			(node
+				(ref "L23")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L24")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "70")
+			(name "Net-(L24-DOUT)")
+			(class "Default")
+			(node
+				(ref "L24")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L25")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "71")
+			(name "Net-(L25-DOUT)")
+			(class "Default")
+			(node
+				(ref "L25")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L26")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "72")
+			(name "Net-(L26-DOUT)")
+			(class "Default")
+			(node
+				(ref "L26")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L27")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "73")
+			(name "Net-(L27-DOUT)")
+			(class "Default")
+			(node
+				(ref "L27")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L28")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "74")
+			(name "Net-(L28-DOUT)")
+			(class "Default")
+			(node
+				(ref "L28")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L29")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "75")
+			(name "Net-(L29-DOUT)")
+			(class "Default")
+			(node
+				(ref "L29")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L30")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "76")
+			(name "Net-(L30-DOUT)")
+			(class "Default")
+			(node
+				(ref "L30")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L31")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "77")
+			(name "Net-(L31-DOUT)")
+			(class "Default")
+			(node
+				(ref "L31")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L32")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "78")
+			(name "Net-(L32-DOUT)")
+			(class "Default")
+			(node
+				(ref "L32")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L33")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "79")
+			(name "Net-(L33-DOUT)")
+			(class "Default")
+			(node
+				(ref "L33")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L34")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "80")
+			(name "Net-(L34-DOUT)")
+			(class "Default")
+			(node
+				(ref "L34")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L35")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "81")
+			(name "Net-(L35-DOUT)")
+			(class "Default")
+			(node
+				(ref "L35")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L36")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "82")
+			(name "Net-(L36-DOUT)")
+			(class "Default")
+			(node
+				(ref "L36")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L37")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "83")
+			(name "Net-(L37-DOUT)")
+			(class "Default")
+			(node
+				(ref "L37")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L38")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "84")
+			(name "Net-(L38-DOUT)")
+			(class "Default")
+			(node
+				(ref "L38")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L39")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "85")
+			(name "Net-(L39-DOUT)")
+			(class "Default")
+			(node
+				(ref "L39")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L40")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "86")
+			(name "Net-(L40-DOUT)")
+			(class "Default")
+			(node
+				(ref "L40")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L41")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "87")
+			(name "Net-(L41-DOUT)")
+			(class "Default")
+			(node
+				(ref "L41")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "L42")
+				(pin "3")
+				(pinfunction "DIN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "88")
 			(name "VCC")
 			(class "Default")
+			(node
+				(ref "L1")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L10")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L11")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L12")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L13")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L14")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L15")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L16")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L17")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L18")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L19")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L2")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L20")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L21")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L22")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L23")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L24")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L25")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L26")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L27")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L28")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L29")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L3")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L30")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L31")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L32")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L33")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L34")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L35")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L36")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L37")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L38")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L39")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L4")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L40")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L41")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L42")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L5")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L6")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L7")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L8")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "L9")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "power_in")
+			)
 			(node
 				(ref "U1")
 				(pin "21")
 				(pinfunction "VCC_21")
-				(pintype "power_in")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "45")
+			(code "89")
 			(name "col0")
 			(class "Default")
 			(node
@@ -6113,13 +9823,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "7")
-				(pinfunction "4/D4_7")
-				(pintype "bidirectional")
+				(pin "20")
+				(pinfunction "AIN7/P0.31_20")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "46")
+			(code "90")
 			(name "col1")
 			(class "Default")
 			(node
@@ -6160,13 +9870,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "8")
-				(pinfunction "5/C6_8")
-				(pintype "bidirectional")
+				(pin "19")
+				(pinfunction "AIN5/P0.29_19")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "47")
+			(code "91")
 			(name "col2")
 			(class "Default")
 			(node
@@ -6219,13 +9929,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "20")
-				(pinfunction "F4/A3_20")
-				(pintype "bidirectional")
+				(pin "18")
+				(pinfunction "AIN0/P0.02_18")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "48")
+			(code "92")
 			(name "col3")
 			(class "Default")
 			(node
@@ -6278,13 +9988,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "19")
-				(pinfunction "F5/A2_19")
-				(pintype "bidirectional")
+				(pin "5")
+				(pinfunction "P0.17_5")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "49")
+			(code "93")
 			(name "col4")
 			(class "Default")
 			(node
@@ -6325,13 +10035,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "18")
-				(pinfunction "F6/A1_18")
-				(pintype "bidirectional")
+				(pin "6")
+				(pinfunction "P0.20_6")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "50")
+			(code "94")
 			(name "col5")
 			(class "Default")
 			(node
@@ -6384,13 +10094,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "17")
-				(pinfunction "F7/A0_17")
-				(pintype "bidirectional")
+				(pin "7")
+				(pinfunction "P0.22_7")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "51")
+			(code "95")
 			(name "reset")
 			(class "Default")
 			(node
@@ -6407,7 +10117,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "96")
 			(name "row0")
 			(class "Default")
 			(node
@@ -6449,12 +10159,12 @@
 			(node
 				(ref "U1")
 				(pin "16")
-				(pinfunction "B1/15_16")
-				(pintype "bidirectional")
+				(pinfunction "P1.13_16")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "53")
+			(code "97")
 			(name "row1")
 			(class "Default")
 			(node
@@ -6496,12 +10206,12 @@
 			(node
 				(ref "U1")
 				(pin "15")
-				(pinfunction "B3/14_15")
-				(pintype "bidirectional")
+				(pinfunction "P1.11_15")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "54")
+			(code "98")
 			(name "row2")
 			(class "Default")
 			(node
@@ -6543,12 +10253,12 @@
 			(node
 				(ref "U1")
 				(pin "14")
-				(pinfunction "B2/16_14")
-				(pintype "bidirectional")
+				(pinfunction "NFC2/P0.10_14")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "55")
+			(code "99")
 			(name "row3")
 			(class "Default")
 			(node
@@ -6572,12 +10282,12 @@
 			(node
 				(ref "U1")
 				(pin "13")
-				(pinfunction "B6/10_13")
-				(pintype "bidirectional")
+				(pinfunction "NFC1/P0.09_13")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "56")
+			(code "100")
 			(name "row4")
 			(class "Default")
 			(node
@@ -6619,12 +10329,12 @@
 			(node
 				(ref "U1")
 				(pin "9")
-				(pinfunction "6/D7_9")
-				(pintype "bidirectional")
+				(pinfunction "P1.00_9")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "57")
+			(code "101")
 			(name "row5")
 			(class "Default")
 			(node
@@ -6666,12 +10376,12 @@
 			(node
 				(ref "U1")
 				(pin "10")
-				(pinfunction "7/E6_10")
-				(pintype "bidirectional")
+				(pinfunction "P0.11_10")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "58")
+			(code "102")
 			(name "row6")
 			(class "Default")
 			(node
@@ -6713,12 +10423,12 @@
 			(node
 				(ref "U1")
 				(pin "11")
-				(pinfunction "8/B4_11")
-				(pintype "bidirectional")
+				(pinfunction "P1.04_11")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "59")
+			(code "103")
 			(name "row7")
 			(class "Default")
 			(node
@@ -6742,63 +10452,107 @@
 			(node
 				(ref "U1")
 				(pin "12")
-				(pinfunction "9/B5_12")
-				(pintype "bidirectional")
+				(pinfunction "P1.06_12")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "60")
-			(name "unconnected-(U1-2{slash}D1{slash}SDA-Pad5)")
+			(code "104")
+			(name "unconnected-(L42-DOUT-Pad1)")
 			(class "Default")
 			(node
-				(ref "U1")
-				(pin "5")
-				(pinfunction "2/D1/SDA_5")
-				(pintype "bidirectional+no_connect")
+				(ref "L42")
+				(pin "1")
+				(pinfunction "DOUT_1")
+				(pintype "output+no_connect")
 			)
 		)
 		(net
-			(code "61")
-			(name "unconnected-(U1-3{slash}D0{slash}SCL-Pad6)")
+			(code "105")
+			(name "unconnected-(SW45-C-Pad3)")
 			(class "Default")
 			(node
-				(ref "U1")
-				(pin "6")
-				(pinfunction "3/D0/SCL_6")
-				(pintype "bidirectional+no_connect")
+				(ref "SW45")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
-			(code "62")
-			(name "unconnected-(U1-RAW-Pad24)")
+			(code "106")
+			(name "unconnected-(U1-BATIN{slash}P0.04-Pad24)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "24")
-				(pinfunction "RAW_24")
-				(pintype "power_out+no_connect")
+				(pinfunction "BATIN/P0.04_24")
+				(pintype "input+no_connect")
 			)
 		)
 		(net
-			(code "63")
-			(name "unconnected-(U1-RX1{slash}D2-Pad2)")
+			(code "107")
+			(name "unconnected-(U1-P0.24-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "P0.24_8")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "108")
+			(name "unconnected-(U1-P1.01-Pad31)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "P1.01_31")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "109")
+			(name "unconnected-(U1-P1.02-Pad32)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "P1.02_32")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "110")
+			(name "unconnected-(U1-P1.07-Pad33)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "P1.07_33")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "111")
+			(name "unconnected-(U1-P1.15-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "P1.15_17")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "112")
+			(name "unconnected-(U1-RX1{slash}P0.08-Pad2)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "2")
-				(pinfunction "RX1/D2_2")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "64")
-			(name "unconnected-(U1-TX0{slash}D3-Pad1)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "1")
-				(pinfunction "TX0/D3_1")
-				(pintype "bidirectional+no_connect")
+				(pinfunction "RX1/P0.08_2")
+				(pintype "input+no_connect")
 			)
 		)
 	)
