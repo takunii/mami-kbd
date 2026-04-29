@@ -4,4 +4,5 @@
 	(lib (name "kbd2") (type "KiCad") (uri "/Users/mori/Downloads/kbd-main/kicad-footprints/kbd.pretty") (options "") (descr "") (disabled))
 	(lib (name "Keebio-Parts") (type "KiCad") (uri "/Users/mori/Downloads/Keebio-Parts.pretty-master") (options "") (descr ""))
 	(lib (name "keebio") (type "KiCad") (uri "/Users/mori/Downloads/Keebio-Parts.pretty-master") (options "") (descr "") (disabled))
+	(lib (name "salicylic-3") (type "KiCad") (uri "/Users/mori/Documents/MyProject/KiCAD_FootPrint") (options "") (descr ""))
 )
