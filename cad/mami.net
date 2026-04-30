@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/mori/Documents/MyProject/mami-kbd/cad/mami.kicad_sch")
-		(date "2026-04-30T00:49:26")
+		(date "2026-04-30T01:49:49")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -2827,23 +2827,2543 @@
 			)
 		)
 		(comp
-			(ref "J2")
-			(value "Conn_01x02")
-			(footprint "kbd_Parts:Battery_BMP_2pin")
+			(ref "D43")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "kbd_Parts:Battery_BMP_2pin")
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0410b8ab-fc57-43e3-9a67-cf31c3c87d5e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D44")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "482e5cfe-a587-40bd-96e8-c9597a3977fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D45")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e77964c7-a124-4fcf-a8e7-6461fd337adf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D46")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "721fc095-4c92-4a47-b0b7-9cf719ab4b76")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D47")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd8eb4ca-2560-4e9b-81c9-2435710b3d1a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D48")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2bcaccc5-875b-4561-97fa-3a733f745181")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D49")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b08d03dc-2508-4d9c-a487-f4240490cde7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D50")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "45401fd1-75d8-47c8-8022-c948cb5b1b2c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D51")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "40e3c542-99d8-4165-a1e4-1cea98ed8338")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D52")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bbf0916a-ae77-4762-99f2-70ee4bad0612")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D53")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d5bae4f-0e70-4077-b567-ec33e15770e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D54")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2c6c7ff5-125c-4fae-9aa2-66feb726b254")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D55")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "33cd2b19-5d4e-4d9d-93b8-daba646b533f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D56")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f8612b43-cfd9-45d0-b72a-9f93bdb22a93")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D57")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bf8a605c-ea19-4578-ad21-41e42ac5f4ba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D58")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ec020618-b8e3-4eb3-9a30-63af1bf82930")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D59")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2de8b0b7-7bda-44be-b211-72754c74b933")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D60")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8891ed49-7d98-431f-ab4a-660bc08c55b8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D61")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0dc53bca-965b-4e46-8711-212182658038")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D62")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c209097b-e6b8-4f20-b463-255b5cfc7c51")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D63")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f8c6516c-a472-4a9e-8d11-bc50e53f350b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D64")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3568fa84-ee93-4376-af93-23ae0b722e29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D65")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0e34b5c3-3166-4364-8bf2-87c1b3aea855")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D66")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e56c1392-c303-4d8e-8403-52f483073373")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D67")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d3887aa8-d149-4140-8980-1705dcfc35f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D68")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "48181762-efb6-486a-bbc0-78496b84e4a6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D69")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "62bbe5d6-b26d-4e1e-980a-5b3bdc70e3d7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D70")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c52ae123-6caa-47af-8346-a71f4cb6ecc9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D71")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7ba5d79e-6ad3-43c0-9a14-35ad5cad6706")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D72")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "42d905cc-c848-4245-987e-a1728b69b0f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D73")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd5a682b-cb10-4b1d-980e-c9997ca5c6d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D74")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "23742525-3f7e-4376-b358-330766c001ea")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D75")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "165064b1-0e7e-4c01-a0e2-7725d89d278d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D76")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "739bd42a-882b-4fa0-a175-190e59f0e863")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D77")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e29e08c0-2d19-4599-98ec-33912ff8ee2f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D78")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "68b0f7dd-265d-4e35-81ff-7944501c2b33")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D79")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "74121a61-f95d-4277-8405-a3e42e17166d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D80")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b4dadbf6-5a87-428b-8a28-cab9cc1bc9e6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D81")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7c6fd1f7-5512-4bf5-acf9-d91dfee60a24")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D82")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3903f056-221a-4036-a7a3-329e00a95fd3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D83")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ccab702c-9204-41de-afef-7b46a5aefe91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D84")
+			(value "SK6812MINI-E")
+			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(description "RGB LED with integrated controller")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
+				(field
+					(name "Description") "RGB LED with integrated controller")
+			)
+			(libsource
+				(lib "LED")
+				(part "SK6812MINI-E")
+				(description "RGB LED with integrated controller")
+			)
+			(property
+				(name "Sheetname")
+				(value "ルート")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mami.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RGB LED NeoPixel addressable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5b037590-9a79-494a-b568-c12edbd9ba6c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Conn_01x02_Pin")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint")
+				)
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description")
-				)
+					(name "Description") "Generic connector, single row, 01x02, script generated")
 			)
 			(libsource
-				(lib "Connector_Generic")
-				(part "Conn_01x02")
-				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+				(lib "Connector")
+				(part "Conn_01x02_Pin")
+				(description "Generic connector, single row, 01x02, script generated")
 			)
 			(property
 				(name "Sheetname")
@@ -2865,7 +5385,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "074fdf33-8c18-4cf0-8363-a117041bfc0c")
+			(tstamps "b86965ff-ea16-46c9-8976-0bad1c52d642")
 			(units
 				(unit
 					(name "A")
@@ -2875,2190 +5395,6 @@
 						)
 						(pin
 							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L1")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "207a0b5f-b231-4d51-99da-fae8c7bef7e6")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L2")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "e63222ab-5bf1-49d9-ba7a-bf7a3f663b82")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L3")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "4882d6e2-68ed-420d-bcf5-7bbebd21ccaf")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L4")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "04ac18ec-7fce-4918-9391-f31f0afd3b73")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L5")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "58a642c1-a2dc-4a31-87d3-cd7248cd1f1a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L6")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "17b6d5b2-d255-4884-b50b-b5fd22ffc96e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L7")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "03aab7ef-f0ba-4547-b1bd-faf934af7e0f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L8")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "3023212e-9839-402c-8117-fb7c00487c6b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L9")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "9f9985e6-fcf1-4e26-a59f-a07b13083608")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L10")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "236c7181-7f77-432c-9e5c-fd2fe37258c1")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L11")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "265afd1a-8e0a-4622-b071-94923f85e47a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L12")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "46ccb87b-dfd6-4345-9c51-3eb14af78512")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L13")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "e89c8997-0cd6-4877-9ca7-85e75d2f055a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L14")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "bb2ea8b1-9b6f-45ed-839d-f71d68651f32")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L15")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "b49bd30f-8348-48dc-8f2d-73efca44bd89")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L16")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "7572f0b3-dbbf-4e86-9103-4d3f7d3e1574")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L17")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "2fb46b63-e41a-4f7c-b6f9-9cab6dbcd8d1")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L18")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0d6e68d9-103f-4eba-9b9f-a2bbd846a765")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L19")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "009a5ab8-425b-4f56-9870-690ac936636c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L20")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "d9df5f4b-43d7-4d64-a902-3dc4385da0cc")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L21")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "6cce07c6-85bc-423c-a09c-d093c86695d8")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L22")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "8518eb31-52ed-4bec-9a39-9fca3e5f26f1")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L23")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "abcb4cc9-2db1-4209-812f-3cb05d1e425f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L24")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c2315f86-8a05-4331-9ce9-ab7f50d85743")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L25")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "3f1f81ea-860c-4818-8ee3-5c5a293b8715")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L26")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0bd48edb-7474-4706-8446-1d2891f31c70")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L27")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c8b29458-43cc-4809-adcf-de13a87bf7d4")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L28")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "20c5afcc-7954-4c48-a8d4-bae577d13188")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L29")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "130b567b-a79f-4ffc-83d1-768a4d066e2f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L30")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "dba3f715-bf3c-46e0-89e1-ef585db32304")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L31")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "713db432-75a6-4b31-a001-5fdb546659ce")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L32")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c45461bd-bc0d-4005-a0a3-d7cb4b5aff64")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L33")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c96ee951-bc27-4dd2-8af5-3370aef76d1d")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L34")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "833ca19d-fc0d-4e62-9ef7-8abb0548e011")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L35")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "a86f6ccc-58db-432d-8d22-43ea6e6d3bc0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L36")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "6bc6bc69-1ded-4edf-b560-612b657aa801")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L37")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "aeef6f26-d7da-4ef2-89ec-b1f39823ee26")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L38")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "6acfcd54-f6ff-4ce3-b26a-c1b77354e3f4")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L39")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0118a310-9f11-4078-9557-67b6759c29c7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L40")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "4861f4d5-83ae-4a51-8e77-ddc821f78cf7")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L41")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "59b1c230-b199-4cee-89f4-3ba6601429c2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "L42")
-			(value "SK6812MINI")
-			(footprint "kbd_Parts:LED_SK6812MINI-E_BL")
-			(fields
-				(field
-					(name "Footprint") "kbd_Parts:LED_SK6812MINI-E_BL")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Salicylic_kbd")
-				(part "LED_SK6812MINI-E")
-				(description "")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "12338fd9-ba01-4bed-9063-feb725416deb")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
 						)
 					)
 				)
@@ -7399,9 +7735,9 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "Connector_Generic")
-			(part "Conn_01x02")
-			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(lib "Connector")
+			(part "Conn_01x02_Pin")
+			(description "Generic connector, single row, 01x02, script generated")
 			(footprints
 				(fp "Connector*:*_1x??_*")
 			)
@@ -7409,7 +7745,7 @@
 				(field
 					(name "Reference") "J")
 				(field
-					(name "Value") "Conn_01x02")
+					(name "Value") "Conn_01x02_Pin")
 				(field
 					(name "Footprint")
 				)
@@ -7417,7 +7753,7 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+					(name "Description") "Generic connector, single row, 01x02, script generated")
 			)
 			(pins
 				(pin
@@ -7470,43 +7806,45 @@
 			)
 		)
 		(libpart
-			(lib "Salicylic_kbd")
-			(part "LED_SK6812MINI-E")
+			(lib "LED")
+			(part "SK6812MINI-E")
+			(description "RGB LED with integrated controller")
+			(docs "https://www.lcsc.com/datasheet/C5149201.pdf")
+			(footprints
+				(fp "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
+			)
 			(fields
 				(field
-					(name "Reference") "LED")
+					(name "Reference") "D")
 				(field
-					(name "Value") "LED_SK6812MINI-E")
+					(name "Value") "SK6812MINI-E")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
-					(name "Description")
-				)
+					(name "Description") "RGB LED with integrated controller")
 			)
 			(pins
 				(pin
 					(num "1")
-					(name "DOUT")
-					(type "output")
-				)
-				(pin
-					(num "2")
 					(name "VSS")
 					(type "power_in")
 				)
 				(pin
-					(num "3")
+					(num "2")
 					(name "DIN")
 					(type "input")
 				)
 				(pin
-					(num "4")
+					(num "3")
 					(name "VDD")
 					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "DOUT")
+					(type "output")
 				)
 			)
 		)
@@ -7746,12 +8084,16 @@
 	)
 	(libraries
 		(library
-			(logical "Connector_Generic")
-			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
 		)
 		(library
 			(logical "Diode")
 			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
+		)
+		(library
+			(logical "LED")
+			(uri "${KICAD10_SYMBOL_DIR}/LED.kicad_sym")
 		)
 		(library
 			(logical "Switch")
@@ -7785,9 +8127,9 @@
 			(name "BAT+")
 			(class "Default")
 			(node
-				(ref "J2")
-				(pin "1")
-				(pinfunction "Pin_1_1")
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 			(node
@@ -7802,262 +8144,262 @@
 			(name "GND")
 			(class "Default")
 			(node
-				(ref "J2")
-				(pin "2")
-				(pinfunction "Pin_2_2")
+				(ref "D43")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D44")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D45")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D46")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D47")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D48")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D49")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D50")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D51")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D52")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D53")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D54")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D55")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D56")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D57")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D58")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D59")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D60")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D61")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D62")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D63")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D64")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D65")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D66")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D67")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D68")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D69")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D70")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D71")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D72")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D73")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D74")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D75")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D76")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D77")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D78")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D79")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D80")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D81")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D82")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D83")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "D84")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
-			)
-			(node
-				(ref "L1")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L10")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L11")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L12")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L13")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L14")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L15")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L16")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L17")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L18")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L19")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L2")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L20")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L21")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L22")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L23")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L24")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L25")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L26")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L27")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L28")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L29")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L3")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L30")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L31")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L32")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L33")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L34")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L35")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L36")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L37")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L38")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L39")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L4")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L40")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L41")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L42")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L5")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L6")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L7")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L8")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "L9")
-				(pin "2")
-				(pinfunction "VSS_2")
-				(pintype "power_in")
 			)
 			(node
 				(ref "SW43")
@@ -8095,9 +8437,9 @@
 			(name "LED")
 			(class "Default")
 			(node
-				(ref "L1")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D43")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 			(node
@@ -8823,698 +9165,698 @@
 		)
 		(net
 			(code "47")
-			(name "Net-(L1-DOUT)")
+			(name "Net-(D43-DOUT)")
 			(class "Default")
 			(node
-				(ref "L1")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D43")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L2")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D44")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "48")
-			(name "Net-(L2-DOUT)")
+			(name "Net-(D44-DOUT)")
 			(class "Default")
 			(node
-				(ref "L2")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D44")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L3")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D45")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "49")
-			(name "Net-(L3-DOUT)")
+			(name "Net-(D45-DOUT)")
 			(class "Default")
 			(node
-				(ref "L3")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D45")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L4")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D46")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "50")
-			(name "Net-(L4-DOUT)")
+			(name "Net-(D46-DOUT)")
 			(class "Default")
 			(node
-				(ref "L4")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D46")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L5")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D47")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "51")
-			(name "Net-(L5-DOUT)")
+			(name "Net-(D47-DOUT)")
 			(class "Default")
 			(node
-				(ref "L5")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D47")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L6")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D48")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "52")
-			(name "Net-(L6-DOUT)")
+			(name "Net-(D48-DOUT)")
 			(class "Default")
 			(node
-				(ref "L6")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D48")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L7")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D49")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "53")
-			(name "Net-(L7-DOUT)")
+			(name "Net-(D49-DOUT)")
 			(class "Default")
 			(node
-				(ref "L7")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D49")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L8")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D50")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "54")
-			(name "Net-(L8-DOUT)")
+			(name "Net-(D50-DOUT)")
 			(class "Default")
 			(node
-				(ref "L8")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D50")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L9")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D51")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "55")
-			(name "Net-(L10-DIN)")
+			(name "Net-(D51-DOUT)")
 			(class "Default")
 			(node
-				(ref "L10")
-				(pin "3")
-				(pinfunction "DIN_3")
-				(pintype "input")
+				(ref "D51")
+				(pin "4")
+				(pinfunction "DOUT_4")
+				(pintype "output")
 			)
 			(node
-				(ref "L9")
-				(pin "1")
-				(pinfunction "DOUT_1")
-				(pintype "output")
+				(ref "D52")
+				(pin "2")
+				(pinfunction "DIN_2")
+				(pintype "input")
 			)
 		)
 		(net
 			(code "56")
-			(name "Net-(L10-DOUT)")
+			(name "Net-(D52-DOUT)")
 			(class "Default")
 			(node
-				(ref "L10")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D52")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L11")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D53")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "57")
-			(name "Net-(L11-DOUT)")
+			(name "Net-(D53-DOUT)")
 			(class "Default")
 			(node
-				(ref "L11")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D53")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L12")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D54")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "58")
-			(name "Net-(L12-DOUT)")
+			(name "Net-(D54-DOUT)")
 			(class "Default")
 			(node
-				(ref "L12")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D54")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L13")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D55")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "59")
-			(name "Net-(L13-DOUT)")
+			(name "Net-(D55-DOUT)")
 			(class "Default")
 			(node
-				(ref "L13")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D55")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L14")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D56")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "60")
-			(name "Net-(L14-DOUT)")
+			(name "Net-(D56-DOUT)")
 			(class "Default")
 			(node
-				(ref "L14")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D56")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L15")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D57")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "61")
-			(name "Net-(L15-DOUT)")
+			(name "Net-(D57-DOUT)")
 			(class "Default")
 			(node
-				(ref "L15")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D57")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L16")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D58")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "62")
-			(name "Net-(L16-DOUT)")
+			(name "Net-(D58-DOUT)")
 			(class "Default")
 			(node
-				(ref "L16")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D58")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L17")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D59")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "63")
-			(name "Net-(L17-DOUT)")
+			(name "Net-(D59-DOUT)")
 			(class "Default")
 			(node
-				(ref "L17")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D59")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L18")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D60")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "64")
-			(name "Net-(L18-DOUT)")
+			(name "Net-(D60-DOUT)")
 			(class "Default")
 			(node
-				(ref "L18")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D60")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L19")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D61")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "65")
-			(name "Net-(L19-DOUT)")
+			(name "Net-(D61-DOUT)")
 			(class "Default")
 			(node
-				(ref "L19")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D61")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L20")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D62")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "66")
-			(name "Net-(L20-DOUT)")
+			(name "Net-(D62-DOUT)")
 			(class "Default")
 			(node
-				(ref "L20")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D62")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L21")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D63")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "67")
-			(name "Net-(L21-DOUT)")
+			(name "Net-(D63-DOUT)")
 			(class "Default")
 			(node
-				(ref "L21")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D63")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L22")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D64")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "68")
-			(name "Net-(L22-DOUT)")
+			(name "Net-(D64-DOUT)")
 			(class "Default")
 			(node
-				(ref "L22")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D64")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L23")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D65")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "69")
-			(name "Net-(L23-DOUT)")
+			(name "Net-(D65-DOUT)")
 			(class "Default")
 			(node
-				(ref "L23")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D65")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L24")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D66")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "70")
-			(name "Net-(L24-DOUT)")
+			(name "Net-(D66-DOUT)")
 			(class "Default")
 			(node
-				(ref "L24")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D66")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L25")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D67")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "71")
-			(name "Net-(L25-DOUT)")
+			(name "Net-(D67-DOUT)")
 			(class "Default")
 			(node
-				(ref "L25")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D67")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L26")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D68")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "72")
-			(name "Net-(L26-DOUT)")
+			(name "Net-(D68-DOUT)")
 			(class "Default")
 			(node
-				(ref "L26")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D68")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L27")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D69")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "73")
-			(name "Net-(L27-DOUT)")
+			(name "Net-(D69-DOUT)")
 			(class "Default")
 			(node
-				(ref "L27")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D69")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L28")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D70")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "74")
-			(name "Net-(L28-DOUT)")
+			(name "Net-(D70-DOUT)")
 			(class "Default")
 			(node
-				(ref "L28")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D70")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L29")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D71")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "75")
-			(name "Net-(L29-DOUT)")
+			(name "Net-(D71-DOUT)")
 			(class "Default")
 			(node
-				(ref "L29")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D71")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L30")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D72")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "76")
-			(name "Net-(L30-DOUT)")
+			(name "Net-(D72-DOUT)")
 			(class "Default")
 			(node
-				(ref "L30")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D72")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L31")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D73")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "77")
-			(name "Net-(L31-DOUT)")
+			(name "Net-(D73-DOUT)")
 			(class "Default")
 			(node
-				(ref "L31")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D73")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L32")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D74")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "78")
-			(name "Net-(L32-DOUT)")
+			(name "Net-(D74-DOUT)")
 			(class "Default")
 			(node
-				(ref "L32")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D74")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L33")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D75")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "79")
-			(name "Net-(L33-DOUT)")
+			(name "Net-(D75-DOUT)")
 			(class "Default")
 			(node
-				(ref "L33")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D75")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L34")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D76")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "80")
-			(name "Net-(L34-DOUT)")
+			(name "Net-(D76-DOUT)")
 			(class "Default")
 			(node
-				(ref "L34")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D76")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L35")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D77")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "81")
-			(name "Net-(L35-DOUT)")
+			(name "Net-(D77-DOUT)")
 			(class "Default")
 			(node
-				(ref "L35")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D77")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L36")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D78")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "82")
-			(name "Net-(L36-DOUT)")
+			(name "Net-(D78-DOUT)")
 			(class "Default")
 			(node
-				(ref "L36")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D78")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L37")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D79")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "83")
-			(name "Net-(L37-DOUT)")
+			(name "Net-(D79-DOUT)")
 			(class "Default")
 			(node
-				(ref "L37")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D79")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L38")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D80")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "84")
-			(name "Net-(L38-DOUT)")
+			(name "Net-(D80-DOUT)")
 			(class "Default")
 			(node
-				(ref "L38")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D80")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L39")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D81")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "85")
-			(name "Net-(L39-DOUT)")
+			(name "Net-(D81-DOUT)")
 			(class "Default")
 			(node
-				(ref "L39")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D81")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L40")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D82")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "86")
-			(name "Net-(L40-DOUT)")
+			(name "Net-(D82-DOUT)")
 			(class "Default")
 			(node
-				(ref "L40")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D82")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L41")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D83")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
 		(net
 			(code "87")
-			(name "Net-(L41-DOUT)")
+			(name "Net-(D83-DOUT)")
 			(class "Default")
 			(node
-				(ref "L41")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D83")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output")
 			)
 			(node
-				(ref "L42")
-				(pin "3")
-				(pinfunction "DIN_3")
+				(ref "D84")
+				(pin "2")
+				(pinfunction "DIN_2")
 				(pintype "input")
 			)
 		)
@@ -9523,255 +9865,255 @@
 			(name "VCC")
 			(class "Default")
 			(node
-				(ref "L1")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D43")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L10")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D44")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L11")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D45")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L12")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D46")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L13")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D47")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L14")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D48")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L15")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D49")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L16")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D50")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L17")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D51")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L18")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D52")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L19")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D53")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L2")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D54")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L20")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D55")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L21")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D56")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L22")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D57")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L23")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D58")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L24")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D59")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L25")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D60")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L26")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D61")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L27")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D62")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L28")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D63")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L29")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D64")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L3")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D65")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L30")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D66")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L31")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D67")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L32")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D68")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L33")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D69")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L34")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D70")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L35")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D71")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L36")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D72")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L37")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D73")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L38")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D74")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L39")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D75")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L4")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D76")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L40")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D77")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L41")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D78")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L42")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D79")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L5")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D80")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L6")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D81")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L7")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D82")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L8")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D83")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
-				(ref "L9")
-				(pin "4")
-				(pinfunction "VDD_4")
+				(ref "D84")
+				(pin "3")
+				(pinfunction "VDD_3")
 				(pintype "power_in")
 			)
 			(node
@@ -10458,12 +10800,12 @@
 		)
 		(net
 			(code "104")
-			(name "unconnected-(L42-DOUT-Pad1)")
+			(name "unconnected-(D84-DOUT-Pad4)")
 			(class "Default")
 			(node
-				(ref "L42")
-				(pin "1")
-				(pinfunction "DOUT_1")
+				(ref "D84")
+				(pin "4")
+				(pinfunction "DOUT_4")
 				(pintype "output+no_connect")
 			)
 		)
