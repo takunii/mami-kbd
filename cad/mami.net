@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/mori/Documents/MyProject/mami-kbd/cad/mami.kicad_sch")
-		(date "2026-04-30T01:49:49")
+		(date "2026-05-01T14:32:01")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -2829,12 +2829,12 @@
 		(comp
 			(ref "D43")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -2889,12 +2889,12 @@
 		(comp
 			(ref "D44")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -2949,12 +2949,12 @@
 		(comp
 			(ref "D45")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3009,12 +3009,12 @@
 		(comp
 			(ref "D46")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3069,12 +3069,12 @@
 		(comp
 			(ref "D47")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3129,12 +3129,12 @@
 		(comp
 			(ref "D48")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3189,12 +3189,12 @@
 		(comp
 			(ref "D49")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3249,12 +3249,12 @@
 		(comp
 			(ref "D50")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3309,12 +3309,12 @@
 		(comp
 			(ref "D51")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3369,12 +3369,12 @@
 		(comp
 			(ref "D52")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3429,12 +3429,12 @@
 		(comp
 			(ref "D53")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3489,12 +3489,12 @@
 		(comp
 			(ref "D54")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3549,12 +3549,12 @@
 		(comp
 			(ref "D55")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3609,12 +3609,12 @@
 		(comp
 			(ref "D56")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3669,12 +3669,12 @@
 		(comp
 			(ref "D57")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3729,12 +3729,12 @@
 		(comp
 			(ref "D58")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3789,12 +3789,12 @@
 		(comp
 			(ref "D59")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3849,12 +3849,12 @@
 		(comp
 			(ref "D60")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3909,12 +3909,12 @@
 		(comp
 			(ref "D61")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3969,12 +3969,12 @@
 		(comp
 			(ref "D62")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4029,12 +4029,12 @@
 		(comp
 			(ref "D63")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4089,12 +4089,12 @@
 		(comp
 			(ref "D64")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4149,12 +4149,12 @@
 		(comp
 			(ref "D65")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4209,12 +4209,12 @@
 		(comp
 			(ref "D66")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4269,12 +4269,12 @@
 		(comp
 			(ref "D67")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4329,12 +4329,12 @@
 		(comp
 			(ref "D68")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4389,12 +4389,12 @@
 		(comp
 			(ref "D69")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4449,12 +4449,12 @@
 		(comp
 			(ref "D70")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4509,12 +4509,12 @@
 		(comp
 			(ref "D71")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4569,12 +4569,12 @@
 		(comp
 			(ref "D72")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4629,12 +4629,12 @@
 		(comp
 			(ref "D73")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4689,12 +4689,12 @@
 		(comp
 			(ref "D74")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4749,12 +4749,12 @@
 		(comp
 			(ref "D75")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4809,12 +4809,12 @@
 		(comp
 			(ref "D76")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4869,12 +4869,12 @@
 		(comp
 			(ref "D77")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4929,12 +4929,12 @@
 		(comp
 			(ref "D78")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4989,12 +4989,12 @@
 		(comp
 			(ref "D79")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5049,12 +5049,12 @@
 		(comp
 			(ref "D80")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5109,12 +5109,12 @@
 		(comp
 			(ref "D81")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5169,12 +5169,12 @@
 		(comp
 			(ref "D82")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5229,12 +5229,12 @@
 		(comp
 			(ref "D83")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5289,12 +5289,12 @@
 		(comp
 			(ref "D84")
 			(value "SK6812MINI-E")
-			(footprint "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+			(footprint "salicylic-3:LED_SK6812MINI-E_E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount")
+					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5349,11 +5349,11 @@
 		(comp
 			(ref "J1")
 			(value "Conn_01x02_Pin")
+			(footprint "salicylic-3:Battery_BMP_2pin")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "salicylic-3:Battery_BMP_2pin")
 				(field
 					(name "Datasheet")
 				)
@@ -7551,61 +7551,8 @@
 			)
 		)
 		(comp
-			(ref "SW45")
-			(value "SW_SPDT")
-			(description "Switch, single pole double throw")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Switch, single pole double throw")
-			)
-			(libsource
-				(lib "Switch")
-				(part "SW_SPDT")
-				(description "Switch, single pole double throw")
-			)
-			(property
-				(name "Sheetname")
-				(value "ルート")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mami.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "switch single-pole double-throw spdt ON-ON")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "b62ac75a-585a-4153-8802-ad5f5af0a608")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "3")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "U1")
-			(value "nice_nano")
+			(value "Micon_BLEMicroPro")
 			(fields
 				(field
 					(name "Footprint")
@@ -7618,8 +7565,8 @@
 				)
 			)
 			(libsource
-				(lib "mylib")
-				(part "nice_nano")
+				(lib "salicylic")
+				(part "Micon_BLEMicroPro")
 				(description "")
 			)
 			(property
@@ -7634,13 +7581,13 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "7237bc8d-d9b0-4c72-91c6-30942c3d24b2")
+			(tstamps "57ec946c-f9ca-4ecc-961c-a66a1d021877")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "30")
+							(num "26")
 						)
 						(pin
 							(num "1")
@@ -7679,16 +7626,7 @@
 							(num "12")
 						)
 						(pin
-							(num "31")
-						)
-						(pin
-							(num "32")
-						)
-						(pin
-							(num "33")
-						)
-						(pin
-							(num "34")
+							(num "25")
 						)
 						(pin
 							(num "24")
@@ -7880,49 +7818,13 @@
 			)
 		)
 		(libpart
-			(lib "Switch")
-			(part "SW_SPDT")
-			(description "Switch, single pole double throw")
-			(fields
-				(field
-					(name "Reference") "SW")
-				(field
-					(name "Value") "SW_SPDT")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Switch, single pole double throw")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "A")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "B")
-					(type "passive")
-				)
-				(pin
-					(num "3")
-					(name "C")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "mylib")
-			(part "nice_nano")
+			(lib "salicylic")
+			(part "Micon_BLEMicroPro")
 			(fields
 				(field
 					(name "Reference") "U")
 				(field
-					(name "Value") "nice_nano")
+					(name "Value") "Micon_BLEMicroPro")
 				(field
 					(name "Footprint")
 				)
@@ -7936,108 +7838,108 @@
 			(pins
 				(pin
 					(num "1")
-					(name "TX0/P0.06")
-					(type "input")
+					(name "D3/PIN1")
+					(type "bidirectional")
 				)
 				(pin
 					(num "2")
-					(name "RX1/P0.08")
-					(type "input")
+					(name "D2/PIN2")
+					(type "bidirectional")
 				)
 				(pin
 					(num "3")
 					(name "GND")
-					(type "input")
+					(type "power_in")
 				)
 				(pin
 					(num "4")
 					(name "GND")
-					(type "input")
+					(type "power_in")
 				)
 				(pin
 					(num "5")
-					(name "P0.17")
-					(type "input")
+					(name "D1/PIN5/SDA")
+					(type "bidirectional")
 				)
 				(pin
 					(num "6")
-					(name "P0.20")
-					(type "input")
+					(name "D0/PIN6/SCL")
+					(type "bidirectional")
 				)
 				(pin
 					(num "7")
-					(name "P0.22")
-					(type "input")
+					(name "D4/PIN7")
+					(type "bidirectional")
 				)
 				(pin
 					(num "8")
-					(name "P0.24")
-					(type "input")
+					(name "C6/PIN8")
+					(type "bidirectional")
 				)
 				(pin
 					(num "9")
-					(name "P1.00")
-					(type "input")
+					(name "D7/PIN9")
+					(type "bidirectional")
 				)
 				(pin
 					(num "10")
-					(name "P0.11")
-					(type "input")
+					(name "E6/PIN10")
+					(type "bidirectional")
 				)
 				(pin
 					(num "11")
-					(name "P1.04")
-					(type "input")
+					(name "B4/PIN11")
+					(type "bidirectional")
 				)
 				(pin
 					(num "12")
-					(name "P1.06")
-					(type "input")
+					(name "B5/PIN12")
+					(type "bidirectional")
 				)
 				(pin
 					(num "13")
-					(name "NFC1/P0.09")
-					(type "input")
+					(name "B6/PIN13")
+					(type "bidirectional")
 				)
 				(pin
 					(num "14")
-					(name "NFC2/P0.10")
-					(type "input")
+					(name "B2/PIN14")
+					(type "bidirectional")
 				)
 				(pin
 					(num "15")
-					(name "P1.11")
-					(type "input")
+					(name "B3/PIN15")
+					(type "bidirectional")
 				)
 				(pin
 					(num "16")
-					(name "P1.13")
-					(type "input")
+					(name "B1/PIN16")
+					(type "bidirectional")
 				)
 				(pin
 					(num "17")
-					(name "P1.15")
-					(type "input")
+					(name "F7/PIN17")
+					(type "bidirectional")
 				)
 				(pin
 					(num "18")
-					(name "AIN0/P0.02")
-					(type "input")
+					(name "F6/PIN18")
+					(type "bidirectional")
 				)
 				(pin
 					(num "19")
-					(name "AIN5/P0.29")
-					(type "input")
+					(name "F5/PIN19")
+					(type "bidirectional")
 				)
 				(pin
 					(num "20")
-					(name "AIN7/P0.31")
-					(type "input")
+					(name "F4/PIN20")
+					(type "bidirectional")
 				)
 				(pin
 					(num "21")
 					(name "VCC")
-					(type "input")
+					(type "power_in")
 				)
 				(pin
 					(num "22")
@@ -8047,36 +7949,21 @@
 				(pin
 					(num "23")
 					(name "GND")
-					(type "input")
+					(type "power_in")
 				)
 				(pin
 					(num "24")
-					(name "BATIN/P0.04")
+					(name "RAW")
+					(type "power_out")
+				)
+				(pin
+					(num "25")
+					(name "BAT+")
 					(type "input")
 				)
 				(pin
-					(num "30")
-					(name "GND")
-					(type "input")
-				)
-				(pin
-					(num "31")
-					(name "P1.01")
-					(type "input")
-				)
-				(pin
-					(num "32")
-					(name "P1.02")
-					(type "input")
-				)
-				(pin
-					(num "33")
-					(name "P1.07")
-					(type "input")
-				)
-				(pin
-					(num "34")
-					(name "BATIN/P0.04")
+					(num "26")
+					(name "BAT-")
 					(type "input")
 				)
 			)
@@ -8100,30 +7987,13 @@
 			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
 		)
 		(library
-			(logical "mylib")
-			(uri "${KIPRJMOD}/symbols/nice-nano.lib")
+			(logical "salicylic")
+			(uri "/Users/mori/Documents/MyProject/KiCAD_FootPrint/Salicylic_kbd_Library/Salicylic_kbd.lib")
 		)
 	)
 	(nets
 		(net
 			(code "1")
-			(name "B+")
-			(class "Default")
-			(node
-				(ref "SW45")
-				(pin "1")
-				(pinfunction "A_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "34")
-				(pinfunction "BATIN/P0.04_34")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "2")
 			(name "BAT+")
 			(class "Default")
 			(node
@@ -8133,14 +8003,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "SW45")
-				(pin "2")
-				(pinfunction "B_2")
-				(pintype "passive")
+				(ref "U1")
+				(pin "25")
+				(pinfunction "BAT+_25")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "3")
+			(code "2")
 			(name "GND")
 			(class "Default")
 			(node
@@ -8411,29 +8281,29 @@
 				(ref "U1")
 				(pin "23")
 				(pinfunction "GND_23")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "BAT-_26")
 				(pintype "input")
 			)
 			(node
 				(ref "U1")
 				(pin "3")
 				(pinfunction "GND_3")
-				(pintype "input")
-			)
-			(node
-				(ref "U1")
-				(pin "30")
-				(pinfunction "GND_30")
-				(pintype "input")
+				(pintype "power_in")
 			)
 			(node
 				(ref "U1")
 				(pin "4")
 				(pinfunction "GND_4")
-				(pintype "input")
+				(pintype "power_in")
 			)
 		)
 		(net
-			(code "4")
+			(code "3")
 			(name "LED")
 			(class "Default")
 			(node
@@ -8445,12 +8315,12 @@
 			(node
 				(ref "U1")
 				(pin "1")
-				(pinfunction "TX0/P0.06_1")
-				(pintype "input")
+				(pinfunction "D3/PIN1_1")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "5")
+			(code "4")
 			(name "Net-(D1-A)")
 			(class "Default")
 			(node
@@ -8467,7 +8337,7 @@
 			)
 		)
 		(net
-			(code "6")
+			(code "5")
 			(name "Net-(D2-A)")
 			(class "Default")
 			(node
@@ -8484,7 +8354,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "6")
 			(name "Net-(D3-A)")
 			(class "Default")
 			(node
@@ -8501,7 +8371,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "7")
 			(name "Net-(D4-A)")
 			(class "Default")
 			(node
@@ -8518,7 +8388,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "8")
 			(name "Net-(D5-A)")
 			(class "Default")
 			(node
@@ -8535,7 +8405,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "9")
 			(name "Net-(D6-A)")
 			(class "Default")
 			(node
@@ -8552,7 +8422,7 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "10")
 			(name "Net-(D7-A)")
 			(class "Default")
 			(node
@@ -8569,7 +8439,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "11")
 			(name "Net-(D8-A)")
 			(class "Default")
 			(node
@@ -8586,7 +8456,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "12")
 			(name "Net-(D9-A)")
 			(class "Default")
 			(node
@@ -8603,7 +8473,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "13")
 			(name "Net-(D10-A)")
 			(class "Default")
 			(node
@@ -8620,7 +8490,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "14")
 			(name "Net-(D11-A)")
 			(class "Default")
 			(node
@@ -8637,7 +8507,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "15")
 			(name "Net-(D12-A)")
 			(class "Default")
 			(node
@@ -8654,7 +8524,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "16")
 			(name "Net-(D13-A)")
 			(class "Default")
 			(node
@@ -8671,7 +8541,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "17")
 			(name "Net-(D14-A)")
 			(class "Default")
 			(node
@@ -8688,7 +8558,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "18")
 			(name "Net-(D15-A)")
 			(class "Default")
 			(node
@@ -8705,7 +8575,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "19")
 			(name "Net-(D16-A)")
 			(class "Default")
 			(node
@@ -8722,7 +8592,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "20")
 			(name "Net-(D17-A)")
 			(class "Default")
 			(node
@@ -8739,7 +8609,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "21")
 			(name "Net-(D18-A)")
 			(class "Default")
 			(node
@@ -8756,7 +8626,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "22")
 			(name "Net-(D19-A)")
 			(class "Default")
 			(node
@@ -8773,7 +8643,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "23")
 			(name "Net-(D20-A)")
 			(class "Default")
 			(node
@@ -8790,7 +8660,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "24")
 			(name "Net-(D21-A)")
 			(class "Default")
 			(node
@@ -8807,7 +8677,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "25")
 			(name "Net-(D22-A)")
 			(class "Default")
 			(node
@@ -8824,7 +8694,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "26")
 			(name "Net-(D23-A)")
 			(class "Default")
 			(node
@@ -8841,7 +8711,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "27")
 			(name "Net-(D24-A)")
 			(class "Default")
 			(node
@@ -8858,7 +8728,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "28")
 			(name "Net-(D25-A)")
 			(class "Default")
 			(node
@@ -8875,7 +8745,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "29")
 			(name "Net-(D26-A)")
 			(class "Default")
 			(node
@@ -8892,7 +8762,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "30")
 			(name "Net-(D27-A)")
 			(class "Default")
 			(node
@@ -8909,7 +8779,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "31")
 			(name "Net-(D28-A)")
 			(class "Default")
 			(node
@@ -8926,7 +8796,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "32")
 			(name "Net-(D29-A)")
 			(class "Default")
 			(node
@@ -8943,7 +8813,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "33")
 			(name "Net-(D30-A)")
 			(class "Default")
 			(node
@@ -8960,7 +8830,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "34")
 			(name "Net-(D31-A)")
 			(class "Default")
 			(node
@@ -8977,7 +8847,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "35")
 			(name "Net-(D32-A)")
 			(class "Default")
 			(node
@@ -8994,7 +8864,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "36")
 			(name "Net-(D33-A)")
 			(class "Default")
 			(node
@@ -9011,7 +8881,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "37")
 			(name "Net-(D34-A)")
 			(class "Default")
 			(node
@@ -9028,7 +8898,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "38")
 			(name "Net-(D35-A)")
 			(class "Default")
 			(node
@@ -9045,7 +8915,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "39")
 			(name "Net-(D36-A)")
 			(class "Default")
 			(node
@@ -9062,7 +8932,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "40")
 			(name "Net-(D37-A)")
 			(class "Default")
 			(node
@@ -9079,7 +8949,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "41")
 			(name "Net-(D38-A)")
 			(class "Default")
 			(node
@@ -9096,7 +8966,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "42")
 			(name "Net-(D39-A)")
 			(class "Default")
 			(node
@@ -9113,7 +8983,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "43")
 			(name "Net-(D40-A)")
 			(class "Default")
 			(node
@@ -9130,7 +9000,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "44")
 			(name "Net-(D41-A)")
 			(class "Default")
 			(node
@@ -9147,7 +9017,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "45")
 			(name "Net-(D42-A)")
 			(class "Default")
 			(node
@@ -9164,7 +9034,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "46")
 			(name "Net-(D43-DOUT)")
 			(class "Default")
 			(node
@@ -9181,7 +9051,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "47")
 			(name "Net-(D44-DOUT)")
 			(class "Default")
 			(node
@@ -9198,7 +9068,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "48")
 			(name "Net-(D45-DOUT)")
 			(class "Default")
 			(node
@@ -9215,7 +9085,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "49")
 			(name "Net-(D46-DOUT)")
 			(class "Default")
 			(node
@@ -9232,7 +9102,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "50")
 			(name "Net-(D47-DOUT)")
 			(class "Default")
 			(node
@@ -9249,7 +9119,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "51")
 			(name "Net-(D48-DOUT)")
 			(class "Default")
 			(node
@@ -9266,7 +9136,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "52")
 			(name "Net-(D49-DOUT)")
 			(class "Default")
 			(node
@@ -9283,7 +9153,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "53")
 			(name "Net-(D50-DOUT)")
 			(class "Default")
 			(node
@@ -9300,7 +9170,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "54")
 			(name "Net-(D51-DOUT)")
 			(class "Default")
 			(node
@@ -9317,7 +9187,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "55")
 			(name "Net-(D52-DOUT)")
 			(class "Default")
 			(node
@@ -9334,7 +9204,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "56")
 			(name "Net-(D53-DOUT)")
 			(class "Default")
 			(node
@@ -9351,7 +9221,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "57")
 			(name "Net-(D54-DOUT)")
 			(class "Default")
 			(node
@@ -9368,7 +9238,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "58")
 			(name "Net-(D55-DOUT)")
 			(class "Default")
 			(node
@@ -9385,7 +9255,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "59")
 			(name "Net-(D56-DOUT)")
 			(class "Default")
 			(node
@@ -9402,7 +9272,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "60")
 			(name "Net-(D57-DOUT)")
 			(class "Default")
 			(node
@@ -9419,7 +9289,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "61")
 			(name "Net-(D58-DOUT)")
 			(class "Default")
 			(node
@@ -9436,7 +9306,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "62")
 			(name "Net-(D59-DOUT)")
 			(class "Default")
 			(node
@@ -9453,7 +9323,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "63")
 			(name "Net-(D60-DOUT)")
 			(class "Default")
 			(node
@@ -9470,7 +9340,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "64")
 			(name "Net-(D61-DOUT)")
 			(class "Default")
 			(node
@@ -9487,7 +9357,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "65")
 			(name "Net-(D62-DOUT)")
 			(class "Default")
 			(node
@@ -9504,7 +9374,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "66")
 			(name "Net-(D63-DOUT)")
 			(class "Default")
 			(node
@@ -9521,7 +9391,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "67")
 			(name "Net-(D64-DOUT)")
 			(class "Default")
 			(node
@@ -9538,7 +9408,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "68")
 			(name "Net-(D65-DOUT)")
 			(class "Default")
 			(node
@@ -9555,7 +9425,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "69")
 			(name "Net-(D66-DOUT)")
 			(class "Default")
 			(node
@@ -9572,7 +9442,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "70")
 			(name "Net-(D67-DOUT)")
 			(class "Default")
 			(node
@@ -9589,7 +9459,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "71")
 			(name "Net-(D68-DOUT)")
 			(class "Default")
 			(node
@@ -9606,7 +9476,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "72")
 			(name "Net-(D69-DOUT)")
 			(class "Default")
 			(node
@@ -9623,7 +9493,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "73")
 			(name "Net-(D70-DOUT)")
 			(class "Default")
 			(node
@@ -9640,7 +9510,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "74")
 			(name "Net-(D71-DOUT)")
 			(class "Default")
 			(node
@@ -9657,7 +9527,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "75")
 			(name "Net-(D72-DOUT)")
 			(class "Default")
 			(node
@@ -9674,7 +9544,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "76")
 			(name "Net-(D73-DOUT)")
 			(class "Default")
 			(node
@@ -9691,7 +9561,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "77")
 			(name "Net-(D74-DOUT)")
 			(class "Default")
 			(node
@@ -9708,7 +9578,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "78")
 			(name "Net-(D75-DOUT)")
 			(class "Default")
 			(node
@@ -9725,7 +9595,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "79")
 			(name "Net-(D76-DOUT)")
 			(class "Default")
 			(node
@@ -9742,7 +9612,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "80")
 			(name "Net-(D77-DOUT)")
 			(class "Default")
 			(node
@@ -9759,7 +9629,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "81")
 			(name "Net-(D78-DOUT)")
 			(class "Default")
 			(node
@@ -9776,7 +9646,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "82")
 			(name "Net-(D79-DOUT)")
 			(class "Default")
 			(node
@@ -9793,7 +9663,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "83")
 			(name "Net-(D80-DOUT)")
 			(class "Default")
 			(node
@@ -9810,7 +9680,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "84")
 			(name "Net-(D81-DOUT)")
 			(class "Default")
 			(node
@@ -9827,7 +9697,7 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "85")
 			(name "Net-(D82-DOUT)")
 			(class "Default")
 			(node
@@ -9844,7 +9714,7 @@
 			)
 		)
 		(net
-			(code "87")
+			(code "86")
 			(name "Net-(D83-DOUT)")
 			(class "Default")
 			(node
@@ -9861,7 +9731,7 @@
 			)
 		)
 		(net
-			(code "88")
+			(code "87")
 			(name "VCC")
 			(class "Default")
 			(node
@@ -10120,11 +9990,11 @@
 				(ref "U1")
 				(pin "21")
 				(pinfunction "VCC_21")
-				(pintype "input")
+				(pintype "power_in")
 			)
 		)
 		(net
-			(code "89")
+			(code "88")
 			(name "col0")
 			(class "Default")
 			(node
@@ -10166,12 +10036,12 @@
 			(node
 				(ref "U1")
 				(pin "20")
-				(pinfunction "AIN7/P0.31_20")
-				(pintype "input")
+				(pinfunction "F4/PIN20_20")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "90")
+			(code "89")
 			(name "col1")
 			(class "Default")
 			(node
@@ -10213,12 +10083,12 @@
 			(node
 				(ref "U1")
 				(pin "19")
-				(pinfunction "AIN5/P0.29_19")
-				(pintype "input")
+				(pinfunction "F5/PIN19_19")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "91")
+			(code "90")
 			(name "col2")
 			(class "Default")
 			(node
@@ -10272,12 +10142,12 @@
 			(node
 				(ref "U1")
 				(pin "18")
-				(pinfunction "AIN0/P0.02_18")
-				(pintype "input")
+				(pinfunction "F6/PIN18_18")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "92")
+			(code "91")
 			(name "col3")
 			(class "Default")
 			(node
@@ -10331,12 +10201,12 @@
 			(node
 				(ref "U1")
 				(pin "5")
-				(pinfunction "P0.17_5")
-				(pintype "input")
+				(pinfunction "D1/PIN5/SDA_5")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "93")
+			(code "92")
 			(name "col4")
 			(class "Default")
 			(node
@@ -10378,12 +10248,12 @@
 			(node
 				(ref "U1")
 				(pin "6")
-				(pinfunction "P0.20_6")
-				(pintype "input")
+				(pinfunction "D0/PIN6/SCL_6")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "94")
+			(code "93")
 			(name "col5")
 			(class "Default")
 			(node
@@ -10437,12 +10307,12 @@
 			(node
 				(ref "U1")
 				(pin "7")
-				(pinfunction "P0.22_7")
-				(pintype "input")
+				(pinfunction "D4/PIN7_7")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "95")
+			(code "94")
 			(name "reset")
 			(class "Default")
 			(node
@@ -10459,7 +10329,7 @@
 			)
 		)
 		(net
-			(code "96")
+			(code "95")
 			(name "row0")
 			(class "Default")
 			(node
@@ -10501,12 +10371,12 @@
 			(node
 				(ref "U1")
 				(pin "16")
-				(pinfunction "P1.13_16")
-				(pintype "input")
+				(pinfunction "B1/PIN16_16")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "97")
+			(code "96")
 			(name "row1")
 			(class "Default")
 			(node
@@ -10548,12 +10418,12 @@
 			(node
 				(ref "U1")
 				(pin "15")
-				(pinfunction "P1.11_15")
-				(pintype "input")
+				(pinfunction "B3/PIN15_15")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "98")
+			(code "97")
 			(name "row2")
 			(class "Default")
 			(node
@@ -10595,12 +10465,12 @@
 			(node
 				(ref "U1")
 				(pin "14")
-				(pinfunction "NFC2/P0.10_14")
-				(pintype "input")
+				(pinfunction "B2/PIN14_14")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "99")
+			(code "98")
 			(name "row3")
 			(class "Default")
 			(node
@@ -10624,12 +10494,12 @@
 			(node
 				(ref "U1")
 				(pin "13")
-				(pinfunction "NFC1/P0.09_13")
-				(pintype "input")
+				(pinfunction "B6/PIN13_13")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "100")
+			(code "99")
 			(name "row4")
 			(class "Default")
 			(node
@@ -10671,12 +10541,12 @@
 			(node
 				(ref "U1")
 				(pin "9")
-				(pinfunction "P1.00_9")
-				(pintype "input")
+				(pinfunction "D7/PIN9_9")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "101")
+			(code "100")
 			(name "row5")
 			(class "Default")
 			(node
@@ -10718,12 +10588,12 @@
 			(node
 				(ref "U1")
 				(pin "10")
-				(pinfunction "P0.11_10")
-				(pintype "input")
+				(pinfunction "E6/PIN10_10")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "102")
+			(code "101")
 			(name "row6")
 			(class "Default")
 			(node
@@ -10765,12 +10635,12 @@
 			(node
 				(ref "U1")
 				(pin "11")
-				(pinfunction "P1.04_11")
-				(pintype "input")
+				(pinfunction "B4/PIN11_11")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "103")
+			(code "102")
 			(name "row7")
 			(class "Default")
 			(node
@@ -10794,12 +10664,12 @@
 			(node
 				(ref "U1")
 				(pin "12")
-				(pinfunction "P1.06_12")
-				(pintype "input")
+				(pinfunction "B5/PIN12_12")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "104")
+			(code "103")
 			(name "unconnected-(D84-DOUT-Pad4)")
 			(class "Default")
 			(node
@@ -10810,91 +10680,47 @@
 			)
 		)
 		(net
-			(code "105")
-			(name "unconnected-(SW45-C-Pad3)")
-			(class "Default")
-			(node
-				(ref "SW45")
-				(pin "3")
-				(pinfunction "C_3")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "106")
-			(name "unconnected-(U1-BATIN{slash}P0.04-Pad24)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "24")
-				(pinfunction "BATIN/P0.04_24")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "107")
-			(name "unconnected-(U1-P0.24-Pad8)")
+			(code "104")
+			(name "unconnected-(U1-C6{slash}PIN8-Pad8)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "8")
-				(pinfunction "P0.24_8")
-				(pintype "input+no_connect")
+				(pinfunction "C6/PIN8_8")
+				(pintype "bidirectional+no_connect")
 			)
 		)
 		(net
-			(code "108")
-			(name "unconnected-(U1-P1.01-Pad31)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "31")
-				(pinfunction "P1.01_31")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "109")
-			(name "unconnected-(U1-P1.02-Pad32)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "32")
-				(pinfunction "P1.02_32")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "110")
-			(name "unconnected-(U1-P1.07-Pad33)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "33")
-				(pinfunction "P1.07_33")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "111")
-			(name "unconnected-(U1-P1.15-Pad17)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "17")
-				(pinfunction "P1.15_17")
-				(pintype "input+no_connect")
-			)
-		)
-		(net
-			(code "112")
-			(name "unconnected-(U1-RX1{slash}P0.08-Pad2)")
+			(code "105")
+			(name "unconnected-(U1-D2{slash}PIN2-Pad2)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "2")
-				(pinfunction "RX1/P0.08_2")
-				(pintype "input+no_connect")
+				(pinfunction "D2/PIN2_2")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "106")
+			(name "unconnected-(U1-F7{slash}PIN17-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "F7/PIN17_17")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "107")
+			(name "unconnected-(U1-RAW-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "RAW_24")
+				(pintype "power_out+no_connect")
 			)
 		)
 	)
