@@ -1,0 +1,101 @@
+
+(rules PCB mami.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute off)
+    (vias on)
+    (via_costs 5)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 5.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    row5 "Net-(D30-A)" col4 "Net-(D15-A)" reset col5 "Net-(D25-A)" col0
+    "Net-(D41-A)" row7 "Net-(D32-A)" col1 "Net-(D39-A)" "Net-(D48-DOUT)" "Net-(D49-DOUT)" "Net-(D55-DOUT)"
+    "Net-(D56-DOUT)" "Net-(D22-A)" col2 "Net-(D36-A)" "Net-(D64-DOUT)" "Net-(D65-DOUT)" "Net-(D81-DOUT)" "Net-(D82-DOUT)"
+    row0 "Net-(D11-A)" col3 "Net-(D12-A)" "Net-(D47-DOUT)" "Net-(D33-A)" "Net-(D29-A)" row3
+    "Net-(D10-A)" "Net-(D17-A)" row2 "Net-(D6-A)" "Net-(D50-DOUT)" "Net-(D7-A)" "Net-(D62-DOUT)" "Net-(D63-DOUT)"
+    "Net-(D13-A)" "Net-(D70-DOUT)" "Net-(D71-DOUT)" "Net-(D23-A)" "Net-(D61-DOUT)" "Net-(D1-A)" "Net-(D18-A)" "Net-(D52-DOUT)"
+    "Net-(D53-DOUT)" "Net-(D27-A)" "Net-(D79-DOUT)" "Net-(D80-DOUT)" "Net-(D20-A)" "Net-(D44-DOUT)" "Net-(D45-DOUT)" "Net-(D54-DOUT)"
+    "Net-(D24-A)" row4 "Net-(D37-A)" "Net-(D40-A)" "Net-(D69-DOUT)" "Net-(D4-A)" "Net-(D46-DOUT)" "Net-(D51-DOUT)"
+    "Net-(D57-DOUT)" "Net-(D38-A)" row6 "Net-(D28-A)" "Net-(D34-A)" "Net-(D74-DOUT)" "Net-(D75-DOUT)" LED
+    "Net-(D43-DOUT)" row1 "Net-(D16-A)" "Net-(D66-DOUT)" "Net-(D67-DOUT)" "Net-(D68-DOUT)" "Net-(D5-A)" "Net-(D60-DOUT)"
+    "Net-(D3-A)" "Net-(D2-A)" "Net-(D8-A)" "Net-(D21-A)" "Net-(D31-A)" "Net-(D72-DOUT)" "Net-(D9-A)" "Net-(D26-A)"
+    "Net-(D83-DOUT)" "unconnected-(D84-DOUT-Pad4)" "Net-(D14-A)" BAT+ "Net-(D77-DOUT)" "Net-(D78-DOUT)" "Net-(D59-DOUT)" "Net-(D19-A)"
+    "Net-(D76-DOUT)" "Net-(D73-DOUT)" "Net-(D58-DOUT)" "Net-(D35-A)" "Net-(D42-A)" "unconnected-(U1-D2{slash}PIN2-Pad2)" "unconnected-(U1-C6{slash}PIN8-Pad8)" "unconnected-(U1-F7{slash}PIN17-Pad17)"
+    "unconnected-(U1-RAW-Pad24)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class class1
+    GND VCC
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
