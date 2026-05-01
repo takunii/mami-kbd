@@ -26,7 +26,7 @@
     )
   )
   (rule
-    (width 200.0)
+    (width 250.0)
     (clearance 200.0)
     (clearance 100.0 (type smd_to_turn_gap))
     (clearance 50.0 (type smd))
@@ -57,7 +57,7 @@
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 200.0)
+      (width 250.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
@@ -81,13 +81,13 @@
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
-      (width 200.0)
+      (width 250.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
     )
   )
-  (class class1
+  (class "クラス1"
     GND VCC
     (clearance_class default)
     (via_rule default)
