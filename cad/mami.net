@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/mori/Documents/MyProject/mami-kbd/cad/mami.kicad_sch")
-		(date "2026-05-01T14:32:01")
+		(date "2026-05-01T16:17:45")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -2829,12 +2829,12 @@
 		(comp
 			(ref "D43")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -2889,12 +2889,12 @@
 		(comp
 			(ref "D44")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -2949,12 +2949,12 @@
 		(comp
 			(ref "D45")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3009,12 +3009,12 @@
 		(comp
 			(ref "D46")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3069,12 +3069,12 @@
 		(comp
 			(ref "D47")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3129,12 +3129,12 @@
 		(comp
 			(ref "D48")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3189,12 +3189,12 @@
 		(comp
 			(ref "D49")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3249,12 +3249,12 @@
 		(comp
 			(ref "D50")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3309,12 +3309,12 @@
 		(comp
 			(ref "D51")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3369,12 +3369,12 @@
 		(comp
 			(ref "D52")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3429,12 +3429,12 @@
 		(comp
 			(ref "D53")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3489,12 +3489,12 @@
 		(comp
 			(ref "D54")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3549,12 +3549,12 @@
 		(comp
 			(ref "D55")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3609,12 +3609,12 @@
 		(comp
 			(ref "D56")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3669,12 +3669,12 @@
 		(comp
 			(ref "D57")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3729,12 +3729,12 @@
 		(comp
 			(ref "D58")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3789,12 +3789,12 @@
 		(comp
 			(ref "D59")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3849,12 +3849,12 @@
 		(comp
 			(ref "D60")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3909,12 +3909,12 @@
 		(comp
 			(ref "D61")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -3969,12 +3969,12 @@
 		(comp
 			(ref "D62")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4029,12 +4029,12 @@
 		(comp
 			(ref "D63")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4089,12 +4089,12 @@
 		(comp
 			(ref "D64")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4149,12 +4149,12 @@
 		(comp
 			(ref "D65")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4209,12 +4209,12 @@
 		(comp
 			(ref "D66")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4269,12 +4269,12 @@
 		(comp
 			(ref "D67")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4329,12 +4329,12 @@
 		(comp
 			(ref "D68")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4389,12 +4389,12 @@
 		(comp
 			(ref "D69")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4449,12 +4449,12 @@
 		(comp
 			(ref "D70")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4509,12 +4509,12 @@
 		(comp
 			(ref "D71")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4569,12 +4569,12 @@
 		(comp
 			(ref "D72")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4629,12 +4629,12 @@
 		(comp
 			(ref "D73")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4689,12 +4689,12 @@
 		(comp
 			(ref "D74")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4749,12 +4749,12 @@
 		(comp
 			(ref "D75")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4809,12 +4809,12 @@
 		(comp
 			(ref "D76")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4869,12 +4869,12 @@
 		(comp
 			(ref "D77")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4929,12 +4929,12 @@
 		(comp
 			(ref "D78")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -4989,12 +4989,12 @@
 		(comp
 			(ref "D79")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5049,12 +5049,12 @@
 		(comp
 			(ref "D80")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5109,12 +5109,12 @@
 		(comp
 			(ref "D81")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5169,12 +5169,12 @@
 		(comp
 			(ref "D82")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5229,12 +5229,12 @@
 		(comp
 			(ref "D83")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5289,12 +5289,12 @@
 		(comp
 			(ref "D84")
 			(value "SK6812MINI-E")
-			(footprint "salicylic-3:LED_SK6812MINI-E_E")
+			(footprint "Keebio-Parts:SK6812-MINI-E")
 			(datasheet "https://www.lcsc.com/datasheet/C5149201.pdf")
 			(description "RGB LED with integrated controller")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:LED_SK6812MINI-E_E")
+					(name "Footprint") "Keebio-Parts:SK6812-MINI-E")
 				(field
 					(name "Datasheet") "https://www.lcsc.com/datasheet/C5149201.pdf")
 				(field
@@ -5349,11 +5349,11 @@
 		(comp
 			(ref "J1")
 			(value "Conn_01x02_Pin")
-			(footprint "salicylic-3:Battery_BMP_2pin")
+			(footprint "kbd-parts:Battery_BMP_2pin")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint") "salicylic-3:Battery_BMP_2pin")
+					(name "Footprint") "kbd-parts:Battery_BMP_2pin")
 				(field
 					(name "Datasheet")
 				)
@@ -5403,11 +5403,11 @@
 		(comp
 			(ref "SW1")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5453,11 +5453,11 @@
 		(comp
 			(ref "SW2")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5503,11 +5503,11 @@
 		(comp
 			(ref "SW3")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5553,11 +5553,11 @@
 		(comp
 			(ref "SW4")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5603,11 +5603,11 @@
 		(comp
 			(ref "SW5")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5653,11 +5653,11 @@
 		(comp
 			(ref "SW6")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5703,11 +5703,11 @@
 		(comp
 			(ref "SW7")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5753,11 +5753,11 @@
 		(comp
 			(ref "SW8")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5803,11 +5803,11 @@
 		(comp
 			(ref "SW9")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5853,11 +5853,11 @@
 		(comp
 			(ref "SW10")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5903,11 +5903,11 @@
 		(comp
 			(ref "SW11")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -5953,11 +5953,11 @@
 		(comp
 			(ref "SW12")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6003,11 +6003,11 @@
 		(comp
 			(ref "SW13")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6053,11 +6053,11 @@
 		(comp
 			(ref "SW14")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1.25u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1.25u")
 				(field
 					(name "Datasheet")
 				)
@@ -6103,11 +6103,11 @@
 		(comp
 			(ref "SW15")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6153,11 +6153,11 @@
 		(comp
 			(ref "SW16")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6203,11 +6203,11 @@
 		(comp
 			(ref "SW17")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6253,11 +6253,11 @@
 		(comp
 			(ref "SW18")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6303,11 +6303,11 @@
 		(comp
 			(ref "SW19")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6353,11 +6353,11 @@
 		(comp
 			(ref "SW20")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6403,11 +6403,11 @@
 		(comp
 			(ref "SW21")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_2u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_2u")
 				(field
 					(name "Datasheet")
 				)
@@ -6453,11 +6453,11 @@
 		(comp
 			(ref "SW22")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6503,11 +6503,11 @@
 		(comp
 			(ref "SW23")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6553,11 +6553,11 @@
 		(comp
 			(ref "SW24")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6603,11 +6603,11 @@
 		(comp
 			(ref "SW25")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_2u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_2u")
 				(field
 					(name "Datasheet")
 				)
@@ -6653,11 +6653,11 @@
 		(comp
 			(ref "SW26")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6703,11 +6703,11 @@
 		(comp
 			(ref "SW27")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6753,11 +6753,11 @@
 		(comp
 			(ref "SW28")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6803,11 +6803,11 @@
 		(comp
 			(ref "SW29")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6853,11 +6853,11 @@
 		(comp
 			(ref "SW30")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6903,11 +6903,11 @@
 		(comp
 			(ref "SW31")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -6953,11 +6953,11 @@
 		(comp
 			(ref "SW32")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1.25u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1.25u")
 				(field
 					(name "Datasheet")
 				)
@@ -7003,11 +7003,11 @@
 		(comp
 			(ref "SW33")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7053,11 +7053,11 @@
 		(comp
 			(ref "SW34")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7103,11 +7103,11 @@
 		(comp
 			(ref "SW35")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7153,11 +7153,11 @@
 		(comp
 			(ref "SW36")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7203,11 +7203,11 @@
 		(comp
 			(ref "SW37")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7253,11 +7253,11 @@
 		(comp
 			(ref "SW38")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7303,11 +7303,11 @@
 		(comp
 			(ref "SW39")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7353,11 +7353,11 @@
 		(comp
 			(ref "SW40")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7403,11 +7403,11 @@
 		(comp
 			(ref "SW41")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7453,11 +7453,11 @@
 		(comp
 			(ref "SW42")
 			(value "SW_Push")
-			(footprint "kbd:keyswitch_cherrymx_hotswap_1u")
+			(footprint "kbd-sw:CherryMX_Hotswap_1u")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint") "kbd:keyswitch_cherrymx_hotswap_1u")
+					(name "Footprint") "kbd-sw:CherryMX_Hotswap_1u")
 				(field
 					(name "Datasheet")
 				)
@@ -7553,10 +7553,10 @@
 		(comp
 			(ref "U1")
 			(value "Micon_BLEMicroPro")
+			(footprint "kbd-parts:Micon_BMP_7sKB")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "kbd-parts:Micon_BMP_7sKB")
 				(field
 					(name "Datasheet")
 				)

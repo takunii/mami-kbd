@@ -5703,7 +5703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 102.87 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5783,7 +5783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5871,7 +5871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 229.87 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6055,7 +6055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 173.99 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6135,7 +6135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 161.29 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6223,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 161.29 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 173.99 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6468,7 +6468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_2u"
 			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6652,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 204.47 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -6922,7 +6922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 102.87 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7391,7 +7391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7471,7 +7471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 105.41 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -7559,7 +7559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 217.17 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7821,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 115.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8186,7 +8186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 204.47 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8457,7 +8457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8537,7 +8537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 72.39 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -8625,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 105.41 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -8817,7 +8817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 135.89 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -9009,7 +9009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 189.23 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9089,7 +9089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 135.89 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9177,7 +9177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1.25u"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9257,7 +9257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 161.29 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -9345,7 +9345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 217.17 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9606,7 +9606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 226.06 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -9798,7 +9798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 105.41 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -9886,7 +9886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 184.15 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -9974,7 +9974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 105.41 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10062,7 +10062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 184.15 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10150,7 +10150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 72.39 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10315,7 +10315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 115.57 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10944,7 +10944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kbd-parts:Micon_BMP_7sKB"
 			(at 363.22 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11095,7 +11095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 229.87 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11175,7 +11175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 226.06 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -11263,7 +11263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 128.27 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11343,7 +11343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 203.2 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11423,7 +11423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 128.27 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11503,7 +11503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 184.15 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11591,7 +11591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 74.93 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11671,7 +11671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 59.69 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11855,7 +11855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 204.47 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -11943,7 +11943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 242.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12205,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 72.39 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -12293,7 +12293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 204.47 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -12381,7 +12381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12728,7 +12728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 184.15 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -12816,7 +12816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 226.06 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12904,7 +12904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12984,7 +12984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 74.93 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13246,7 +13246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 135.89 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -13334,7 +13334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1.25u"
 			(at 102.87 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13414,7 +13414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 173.99 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13598,7 +13598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 203.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13678,7 +13678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 217.17 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13758,7 +13758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 88.9 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13838,7 +13838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 115.57 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13918,7 +13918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14284,7 +14284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14468,7 +14468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 242.57 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14548,7 +14548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14628,7 +14628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 105.41 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14820,7 +14820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 229.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15004,7 +15004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 226.06 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15196,7 +15196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:Battery_BMP_2pin"
+		(property "Footprint" "kbd-parts:Battery_BMP_2pin"
 			(at 270.51 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15561,7 +15561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 105.41 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15649,7 +15649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 135.89 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -15737,7 +15737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 161.29 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15825,7 +15825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_2u"
 			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15905,7 +15905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 184.15 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16279,7 +16279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 226.06 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -16471,7 +16471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 242.57 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16551,7 +16551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 184.15 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -16639,7 +16639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 88.9 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16900,7 +16900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 128.27 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16980,7 +16980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 189.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17060,7 +17060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 204.47 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17225,7 +17225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 72.39 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -17313,7 +17313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 189.23 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17471,7 +17471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 204.47 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -17559,7 +17559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17639,7 +17639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 161.29 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -17727,7 +17727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 72.39 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18231,7 +18231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 135.89 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -18709,7 +18709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 135.89 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18797,7 +18797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salicylic-3:LED_SK6812MINI-E_E"
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
 			(at 161.29 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18963,7 +18963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "kbd-sw:CherryMX_Hotswap_1u"
 			(at 88.9 63.5 0)
 			(hide yes)
 			(show_name no)
