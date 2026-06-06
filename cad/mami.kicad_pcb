@@ -90,7 +90,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_5557ffff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -108,20 +108,20 @@
 			(pdf_metadata yes)
 			(pdf_single_document no)
 			(dxfpolygonmode yes)
-			(dxfimperialunits yes)
+			(dxfimperialunits no)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
-			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(hidednponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -1785,7 +1785,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0bbdc19a-1b53-4036-972b-361dcc516179")
-		(at 215.0804 121.3461 98)
+		(at 200.0904 121.3461 98)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D32"
@@ -7557,7 +7557,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "25954f6a-db43-48ee-af58-b84957dacb67")
-		(at 78.82 120.39 82)
+		(at 82.670364 115.823942 82)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D10"
@@ -8368,7 +8368,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "26f885c7-a59d-4286-900b-c98693608cdc")
-		(at 61.84 101.02 90)
+		(at 64.55 87.3475 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
@@ -17205,7 +17205,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "4430d2fa-fe6e-44c5-938b-e9db9d9b8f9c")
-		(at 255.64 63.0475 90)
+		(at 240.825 61.875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D37"
@@ -24853,7 +24853,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "67dfc218-a0c1-47c4-b1b8-a07beb92affe")
-		(at 255.47 81.8575 90)
+		(at 241.3587 80.8013 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D38"
@@ -31332,7 +31332,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8d847794-885a-4642-8e10-dfbccbd99ecb")
-		(at 274.3863 82.1312 90)
+		(at 260.275 81.075 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D41"
@@ -31648,7 +31648,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8e0d39eb-f815-4275-a67c-2ef9af2fb970")
-		(at 274.5175 63.2825 90)
+		(at 259.7025 62.11 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D40"
@@ -33884,13 +33884,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "9af4ab34-9912-4522-879c-b4683ec83d07")
-		(at 101.9 123.86 82)
+		(at 101.6454 122.3539 82)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D14"
 			(at 0 -2 82)
 			(layer "F.SilkS")
-			(uuid "349bf7ef-3456-461b-9f3d-542dfa832051")
+			(uuid "571ef755-1e79-4b36-88a6-fc9bdc097531")
 			(effects
 				(font
 					(size 1 1)
@@ -33901,7 +33901,7 @@
 		(property "Value" "1N4148W"
 			(at 0 2.1 82)
 			(layer "F.Fab")
-			(uuid "c0ddb7f2-7443-4331-b232-f4eb95ed079b")
+			(uuid "3d7d1bd6-1ba9-4716-a22a-57dbc26f72a2")
 			(effects
 				(font
 					(size 1 1)
@@ -33914,7 +33914,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d2e51e6-ca30-40f7-b9b2-3868f23fad9f")
+			(uuid "fe824a2f-542d-4b99-9359-30a542628dcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33927,7 +33927,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84b9f652-91c9-461e-a60e-d560e7722047")
+			(uuid "0941ec61-c842-4d32-beb5-2df2a107907b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35530,13 +35530,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a59e7e2c-016a-4fef-8621-1ad5f73b43df")
-		(at 131.1296 127.7061 82)
+		(at 130.875 126.2 82)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D21"
 			(at 0 -2 82)
 			(layer "F.SilkS")
-			(uuid "6061b2f2-9a48-457c-a4b2-298ca3ccf0b8")
+			(uuid "c92a0edf-fb05-464f-a72e-6cc0688390d0")
 			(effects
 				(font
 					(size 1 1)
@@ -35547,7 +35547,7 @@
 		(property "Value" "1N4148W"
 			(at 0 2.1 82)
 			(layer "F.Fab")
-			(uuid "bc3174a0-f5bb-4772-b131-a47ee79b45df")
+			(uuid "85aeb42d-c40e-461d-9c12-cb6d2cc73d28")
 			(effects
 				(font
 					(size 1 1)
@@ -35560,7 +35560,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c202849a-fe8c-48f7-835e-378ff838d34e")
+			(uuid "e9262be4-1919-4e36-af4c-36980eae0214")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35573,7 +35573,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71dc53f4-f024-4352-bc8e-86c0c697ad7a")
+			(uuid "2afbb6a7-fb99-4a48-84e2-2f0bd8fca699")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36597,7 +36597,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a9d325c0-cb4f-49fa-933a-6e8755e2a461")
-		(at 235.9204 118.3061 98)
+		(at 217.53 115.89 98)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D36"
@@ -48040,7 +48040,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e24291a1-4e9c-4a01-810f-b50079270600")
-		(at 42.24 101.0475 90)
+		(at 44.95 87.375 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
@@ -49167,7 +49167,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e8d5b2ed-0a12-45c1-ab44-bc2e1fbd15e1")
-		(at 272.47 101.21 90)
+		(at 257.75 87.55 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D42"
@@ -51284,7 +51284,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "f58dd560-16f3-4f95-8991-2ad6337d0619")
-		(at 183.99 125.93 98)
+		(at 169 125.93 98)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D25"
@@ -51600,7 +51600,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ff0cf297-5df0-47cc-8112-645afba430a0")
-		(at 253.36 101.3 90)
+		(at 238.64 87.64 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D39"
@@ -55148,6 +55148,16 @@
 		(layer "Edge.Cuts")
 		(uuid "f872fe8e-fbb3-4380-9a5e-5ae5c9fc81bc")
 	)
+	(gr_line
+		(start 62.451894 121.793941)
+		(end 79.162898 124.086285)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b1283e40-895f-47a7-b076-6eed8c0aa830")
+	)
 	(gr_arc
 		(start 65.433067 45.731396)
 		(mid 65.778835 45.579118)
@@ -55180,8 +55190,19 @@
 		(layer "Edge.Cuts")
 		(uuid "08f2eb5c-70ff-4413-a44a-23ed7b6ef47f")
 	)
+	(gr_arc
+		(start 79.162898 124.086285)
+		(mid 83.126562 121.099445)
+		(end 86.113402 125.063109)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "10fd6c93-91d4-4e0b-8593-678659de4358")
+	)
 	(gr_line
-		(start 141.01 55.96)
+		(start 81.902698 47.791242)
 		(end 66.156442 45.566612)
 		(stroke
 			(width 0.05)
@@ -55190,9 +55211,30 @@
 		(layer "Edge.Cuts")
 		(uuid "4143f0da-01e7-43bc-b583-bc2e949b521d")
 	)
+	(gr_arc
+		(start 88.562604 47.838612)
+		(mid 84.5 50.9)
+		(end 81.438606 46.837396)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1a4d3407-31d4-42b8-a5af-311e407baf07")
+	)
+	(gr_line
+		(start 141.01 55.96)
+		(end 89.026696 48.792458)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "30f3ae84-1875-498b-bacd-629e5a3141c6")
+	)
 	(gr_line
 		(start 141.7 132.89)
-		(end 62.451894 121.793941)
+		(end 86.113402 125.063109)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -55202,7 +55244,7 @@
 	)
 	(gr_line
 		(start 141.7 132.89)
-		(end 158.7 132.89)
+		(end 146.49003 132.89)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -55210,15 +55252,26 @@
 		(layer "Edge.Cuts")
 		(uuid "7feb3476-cc3e-434d-8b73-beac85b550c4")
 	)
+	(gr_arc
+		(start 146.49003 132.89)
+		(mid 150.000044 129.379986)
+		(end 153.510058 132.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "99c8350e-0e8b-4224-8c8e-3732f71bf2f3")
+	)
 	(gr_line
 		(start 158.7 132.89)
-		(end 238 121.818899)
+		(end 153.510058 132.89)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fc67ff82-bd54-4419-a0a8-1addfdfe0f1e")
+		(uuid "f99ae1d6-3027-4bb8-a60a-d003ef29d348")
 	)
 	(gr_line
 		(start 159.3 55.95)
@@ -55231,7 +55284,7 @@
 		(uuid "9b48255e-5dff-4211-b7c0-11c8942fb695")
 	)
 	(gr_line
-		(start 234.376625 45.485216)
+		(start 213.761242 48.358754)
 		(end 159.3 55.95)
 		(stroke
 			(width 0.05)
@@ -55239,6 +55292,58 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "80423d42-b7d2-474d-9670-ab05a34774d2")
+	)
+	(gr_line
+		(start 214.058494 125.184162)
+		(end 158.7 132.89)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ad37216e-a870-4bff-ae5a-224f68c2c914")
+	)
+	(gr_arc
+		(start 214.058494 125.184162)
+		(mid 217.037166 121.231328)
+		(end 220.99 124.21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "af18473c-4fc0-401e-98fd-d8565d81668c")
+	)
+	(gr_arc
+		(start 220.883998 46.698784)
+		(mid 217.822607 50.761391)
+		(end 213.76 47.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "40b290b9-577b-47c1-ba25-9b3a7f05d5cd")
+	)
+	(gr_line
+		(start 220.99 124.21)
+		(end 238 121.818899)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc67ff82-bd54-4419-a0a8-1addfdfe0f1e")
+	)
+	(gr_line
+		(start 234.376625 45.485216)
+		(end 220.883998 47.348784)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6dee635e-5db2-4f27-81aa-340d2b23e4a4")
 	)
 	(gr_arc
 		(start 234.376625 45.485216)
@@ -55367,8 +55472,18 @@
 		(layer "User.2")
 		(uuid "5b43577c-cbdd-4a65-9212-23a8bd28ed6f")
 	)
+	(gr_line
+		(start 149.98 49.92)
+		(end 150.000044 142.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "4b1ba155-d664-483d-b3f2-04058aec47b4")
+	)
 	(gr_text "Mami42 v1.0"
-		(at 155 128 0)
+		(at 155 122 0)
 		(layer "B.SilkS")
 		(uuid "2c5d4769-f07e-4a2b-b053-4d905242aedd")
 		(effects
@@ -55380,7 +55495,7 @@
 		)
 	)
 	(gr_text "Authored by t.mori"
-		(at 157 130.5 0)
+		(at 157 124 0)
 		(layer "B.SilkS")
 		(uuid "00609694-82d5-4e9e-a03d-167ef95f364a")
 		(effects
@@ -71888,6 +72003,46 @@
 		(uuid "cb607b86-36e7-4c65-9632-bcbe1ac277e7")
 	)
 	(segment
+		(start 143.7647 58.5147)
+		(end 159.97 58.5147)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "001beb8d-3644-4765-ac45-c1cb5d179a5d")
+	)
+	(segment
+		(start 142.52 57.27)
+		(end 143.7647 58.5147)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "d4f809bf-aad5-4e29-b796-9e88ffb59fae")
+	)
+	(via
+		(at 159.97 58.5147)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "BAT+")
+		(uuid "d1eedadf-1b9f-4358-8d6a-eea026a7d5a5")
+	)
+	(segment
+		(start 159.97 67.595)
+		(end 161.575 69.2)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT+")
+		(uuid "1940fbcd-6a64-42e1-a526-411c6e397d35")
+	)
+	(segment
+		(start 159.97 58.5147)
+		(end 159.97 67.595)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "BAT+")
+		(uuid "88af5505-7b7f-4518-98f9-8f93df91626b")
+	)
+	(segment
 		(start 268.6373 100.7)
 		(end 269.7815 101.8442)
 		(width 0.25)
@@ -72638,46 +72793,6 @@
 		(layer "B.Cu")
 		(net "reset")
 		(uuid "a2dc6384-6471-4618-a948-7d0ae54f5ccd")
-	)
-	(segment
-		(start 143.7647 58.5147)
-		(end 159.97 58.5147)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "001beb8d-3644-4765-ac45-c1cb5d179a5d")
-	)
-	(segment
-		(start 142.52 57.27)
-		(end 143.7647 58.5147)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "d4f809bf-aad5-4e29-b796-9e88ffb59fae")
-	)
-	(via
-		(at 159.97 58.5147)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "BAT+")
-		(uuid "d1eedadf-1b9f-4358-8d6a-eea026a7d5a5")
-	)
-	(segment
-		(start 159.97 67.595)
-		(end 161.575 69.2)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "BAT+")
-		(uuid "1940fbcd-6a64-42e1-a526-411c6e397d35")
-	)
-	(segment
-		(start 159.97 58.5147)
-		(end 159.97 67.595)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "BAT+")
-		(uuid "88af5505-7b7f-4518-98f9-8f93df91626b")
 	)
 	(group ""
 		(uuid "25d29d11-925d-4383-a496-fcd0f105d67a")
