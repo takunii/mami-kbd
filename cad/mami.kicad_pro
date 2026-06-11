@@ -554,7 +554,7 @@
       "idf": "",
       "netlist": "mami.net",
       "plot": "",
-      "specctra_dsn": "../routing/mami.dsn",
+      "specctra_dsn": "../routing/routing_260611.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""

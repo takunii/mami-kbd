@@ -1,0 +1,1094 @@
+** Drc report for mami.kicad_pcb **
+** Created on 2026-06-11T06:12:53 **
+** Report includes: Errors **
+
+** Found 235 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(96.7119 mm, 108.9484 mm): Track [VCC] on B.Cu, length 5.6288 mm
+    @(97.3893 mm, 111.7398 mm): NPTH pad of C
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(94.6076 mm, 106.8441 mm): Track [VCC] on B.Cu, length 2.9759 mm
+    @(95.5904 mm, 106.3526 mm): NPTH pad of C
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(96.5432 mm, 128.1907 mm): Track [VCC] on B.Cu, length 3.1594 mm
+    @(96.4004 mm, 125.7286 mm): NPTH pad of CMD
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(94.6076 mm, 100.7304 mm): Track [VCC] on B.Cu, length 6.1137 mm
+    @(95.5904 mm, 106.3526 mm): NPTH pad of C
+[shorting_items]: Items shorting two nets (nets col2 and unconnected-(U1-C6{slash}PIN8-Pad8))
+    Local override; error
+    @(157.8280 mm, 91.6842 mm): Track [col2] on F.Cu, length 1.4149 mm
+    @(157.6200 mm, 91.4200 mm): PTH pad 8 [unconnected-(U1-C6/PIN8-Pad8)] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1957 mm)
+    Rule: board setup constraints hole; error
+    @(136.5300 mm, 75.5744 mm): Track [Net-(D18-A)] on B.Cu, length 6.0156 mm
+    @(135.2093 mm, 78.6658 mm): NPTH pad of T
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(86.6495 mm, 109.0749 mm): Track [col3] on B.Cu, length 14.4227 mm
+    @(87.3307 mm, 110.3082 mm): NPTH pad of C
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(75.7458 mm, 100.6665 mm): Track [VCC] on B.Cu, length 3.5710 mm
+    @(76.7304 mm, 103.6686 mm): NPTH pad of X
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(75.7458 mm, 104.2375 mm): Track [VCC] on B.Cu, length 2.8594 mm
+    @(76.7304 mm, 103.6686 mm): NPTH pad of X
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(77.7677 mm, 106.2594 mm): Track [VCC] on B.Cu, length 6.1492 mm
+    @(78.5293 mm, 109.0558 mm): NPTH pad of X
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(190.2070 mm, 90.2008 mm): Track [col2] on F.Cu, length 3.0321 mm
+    @(190.7190 mm, 89.0611 mm): NPTH pad of J
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(39.5813 mm, 67.8691 mm): Track [Net-(D1-A)] on B.Cu, length 5.1518 mm
+    @(38.8800 mm, 70.7000 mm): NPTH pad of ECS
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(75.5228 mm, 86.6390 mm): Track [VCC] on B.Cu, length 5.6653 mm
+    @(73.3600 mm, 89.0800 mm): NPTH pad of S
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(28.5417 mm, 72.7530 mm): Track [Net-(D1-A)] on F.Cu, length 27.3645 mm
+    @(33.8000 mm, 70.7000 mm): NPTH pad of ECS
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1555 mm)
+    Rule: board setup constraints hole; error
+    @(129.0540 mm, 109.9801 mm): Track [Net-(D56-DOUT)] on B.Cu, length 6.6649 mm
+    @(133.3104 mm, 111.7186 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1577 mm)
+    Rule: board setup constraints hole; error
+    @(171.4516 mm, 114.6999 mm): Track [Net-(D70-DOUT)] on B.Cu, length 6.1506 mm
+    @(169.9200 mm, 116.3925 mm): NPTH pad of N
+[shorting_items]: Items shorting two nets (nets GND and col5)
+    Local override; error
+    @(171.3743 mm, 139.5060 mm): Track [GND] on B.Cu, length 8.1239 mm
+    @(168.9961 mm, 133.2176 mm): Pad 1 [col5] of SPACE on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(171.4516 mm, 118.8112 mm): Track [Net-(D70-DOUT)] on B.Cu, length 4.1113 mm
+    @(169.9200 mm, 116.3925 mm): NPTH pad of N
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2361 mm)
+    Rule: board setup constraints hole; error
+    @(133.7668 mm, 114.6929 mm): Track [Net-(D56-DOUT)] on B.Cu, length 2.1886 mm
+    @(135.1093 mm, 117.1058 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0915 mm)
+    Rule: board setup constraints hole; error
+    @(165.0426 mm, 118.3153 mm): Track [col5] on F.Cu, length 1.4586 mm
+    @(164.8907 mm, 117.1083 mm): NPTH pad of N
+[shorting_items]: Items shorting two nets (nets row4 and unconnected-(U1-C6{slash}PIN8-Pad8))
+    Local override; error
+    @(158.4925 mm, 89.1868 mm): Track [row4] on B.Cu, length 2.8331 mm
+    @(157.6200 mm, 91.4200 mm): PTH pad 8 [unconnected-(U1-C6/PIN8-Pad8)] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(221.5491 mm, 110.9171 mm): Track [col2] on F.Cu, length 0.8744 mm
+    @(221.4707 mm, 109.0558 mm): NPTH pad of DOT
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1541 mm)
+    Local override; error
+    @(158.4925 mm, 92.0199 mm): Track [row4] on B.Cu, length 1.5777 mm
+    @(157.6200 mm, 91.4200 mm): PTH pad 8 [unconnected-(U1-C6/PIN8-Pad8)] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1370 mm)
+    Rule: board setup constraints hole; error
+    @(165.6298 mm, 133.7615 mm): Track [GND] on B.Cu, length 6.2645 mm
+    @(163.2428 mm, 128.2789 mm): NPTH pad of SPACE
+[shorting_items]: Items shorting two nets (nets Net-(D28-A) and GND)
+    Local override; error
+    @(193.7018 mm, 107.8363 mm): Pad 2 [Net-(D28-A)] of M on B.Cu
+    @(195.5351 mm, 116.1974 mm): Track [GND] on B.Cu, length 14.5501 mm
+[shorting_items]: Items shorting two nets (nets Net-(D5-A) and VCC)
+    Local override; error
+    @(58.5500 mm, 84.6300 mm): Pad 2 [Net-(D5-A)] of A on B.Cu
+    @(60.8467 mm, 83.2026 mm): Via [VCC] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VCC and row3)
+    Local override; error
+    @(82.1815 mm, 129.9322 mm): Via [VCC] on F.Cu - B.Cu
+    @(82.0776 mm, 130.4634 mm): Pad 1 [row3] of D10 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(221.5491 mm, 110.0427 mm): Via [col2] on F.Cu - B.Cu
+    @(221.4707 mm, 109.0558 mm): NPTH pad of DOT
+[shorting_items]: Items shorting two nets (nets Net-(D5-A) and VCC)
+    Local override; error
+    @(58.5500 mm, 84.6300 mm): Pad 2 [Net-(D5-A)] of A on B.Cu
+    @(60.8467 mm, 88.7609 mm): Track [VCC] on B.Cu, length 5.5583 mm
+[shorting_items]: Items shorting two nets (nets row3 and VCC)
+    Local override; error
+    @(82.0776 mm, 130.4634 mm): Pad 1 [row3] of D10 on F.Cu
+    @(75.2596 mm, 129.9322 mm): Track [VCC] on F.Cu, length 6.9219 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(221.5491 mm, 119.5363 mm): Track [col2] on B.Cu, length 9.4936 mm
+    @(221.4707 mm, 109.0558 mm): NPTH pad of DOT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2257 mm)
+    Rule: board setup constraints hole; error
+    @(230.4007 mm, 124.1065 mm): Track [col2] on B.Cu, length 5.3601 mm
+    @(228.0500 mm, 127.3800 mm): NPTH pad of OPT
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0379 mm)
+    Local override; error
+    @(157.6200 mm, 88.8800 mm): PTH pad 7 [col5] of U1
+    @(158.7309 mm, 88.9484 mm): Track [row4] on F.Cu, length 0.3371 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1130 mm)
+    Rule: board setup constraints hole; error
+    @(58.8323 mm, 90.7753 mm): Track [VCC] on B.Cu, length 2.8488 mm
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1445 mm)
+    Rule: board setup constraints hole; error
+    @(35.0695 mm, 91.6312 mm): Track [Net-(D48-DOUT)] on F.Cu, length 0.4675 mm
+    @(33.8000 mm, 89.7500 mm): NPTH pad of TAB
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0868 mm)
+    Rule: board setup constraints hole; error
+    @(34.7389 mm, 91.9618 mm): Track [Net-(D48-DOUT)] on F.Cu, length 3.5395 mm
+    @(33.8000 mm, 89.7500 mm): NPTH pad of TAB
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0658 mm)
+    Rule: board setup constraints hole; error
+    @(58.8323 mm, 90.7753 mm): Via [VCC] on F.Cu - B.Cu
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1195 mm)
+    Rule: board setup constraints hole; error
+    @(33.8000 mm, 89.7500 mm): NPTH pad of TAB
+    @(35.0695 mm, 91.6312 mm): Via [Net-(D48-DOUT)] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(35.4933 mm, 91.2074 mm): Track [Net-(D48-DOUT)] on B.Cu, length 3.1607 mm
+    @(33.8000 mm, 89.7500 mm): NPTH pad of TAB
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0819 mm)
+    Rule: board setup constraints hole; error
+    @(58.7801 mm, 90.7753 mm): Track [VCC] on F.Cu, length 3.3803 mm
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1029 mm)
+    Rule: board setup constraints hole; error
+    @(35.0695 mm, 91.6312 mm): Track [Net-(D48-DOUT)] on B.Cu, length 0.5993 mm
+    @(33.8000 mm, 89.7500 mm): NPTH pad of TAB
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0819 mm)
+    Rule: board setup constraints hole; error
+    @(58.8323 mm, 90.7753 mm): Track [VCC] on F.Cu, length 0.0522 mm
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1635 mm)
+    Local override; error
+    @(158.5858 mm, 76.8501 mm): Track [GND] on F.Cu, length 0.1957 mm
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(174.9845 mm, 113.3641 mm): Track [Net-(D24-A)] on B.Cu, length 4.5873 mm
+    @(174.9493 mm, 115.6767 mm): NPTH pad of N
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(173.1772 mm, 109.8195 mm): Track [Net-(D24-A)] on B.Cu, length 2.0414 mm
+    @(171.7189 mm, 111.0053 mm): NPTH pad of N
+[shorting_items]: Items shorting two nets (nets Net-(D35-A) and row5)
+    Local override; error
+    @(231.4217 mm, 102.4679 mm): Pad 2 [Net-(D35-A)] of DOT on B.Cu
+    @(233.4517 mm, 100.7262 mm): Via [row5] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets VCC and Net-(D2-A))
+    Local override; error
+    @(41.4450 mm, 91.9644 mm): Track [VCC] on B.Cu, length 12.0154 mm
+    @(39.5000 mm, 84.6300 mm): Pad 2 [Net-(D2-A)] of TAB on B.Cu
+[shorting_items]: Items shorting two nets (nets row5 and Net-(D35-A))
+    Local override; error
+    @(233.4517 mm, 100.7262 mm): Track [row5] on B.Cu, length 0.1382 mm
+    @(231.4217 mm, 102.4679 mm): Pad 2 [Net-(D35-A)] of DOT on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(D35-A) and row5)
+    Local override; error
+    @(231.4217 mm, 102.4679 mm): Pad 2 [Net-(D35-A)] of DOT on B.Cu
+    @(233.3540 mm, 100.6285 mm): Track [row5] on B.Cu, length 2.8229 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(98.0965 mm, 86.0597 mm): Track [VCC] on F.Cu, length 4.3093 mm
+    @(95.4504 mm, 87.0927 mm): NPTH pad of D
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0449 mm)
+    Rule: board setup constraints hole; error
+    @(177.7335 mm, 97.6741 mm): Track [VCC] on F.Cu, length 2.3345 mm
+    @(175.0893 mm, 96.4167 mm): NPTH pad of H
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(187.3793 mm, 77.0616 mm): Track [Net-(D82-DOUT)] on F.Cu, length 8.1406 mm
+    @(188.6801 mm, 75.2683 mm): NPTH pad of U
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0904 mm)
+    Rule: board setup constraints hole; error
+    @(187.0817 mm, 77.3592 mm): Track [Net-(D82-DOUT)] on F.Cu, length 0.4209 mm
+    @(188.6801 mm, 75.2683 mm): NPTH pad of U
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1544 mm)
+    Rule: board setup constraints hole; error
+    @(269.9914 mm, 110.2044 mm): Track [VCC] on F.Cu, length 2.6949 mm
+    @(271.2800 mm, 108.8000 mm): NPTH pad of SHIFT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0156 mm)
+    Rule: board setup constraints hole; error
+    @(164.0335 mm, 108.8703 mm): Track [row6] on B.Cu, length 10.4682 mm
+    @(165.0307 mm, 97.8483 mm): NPTH pad of H
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(176.8535 mm, 112.4086 mm): Track [row6] on F.Cu, length 9.2775 mm
+    @(171.7189 mm, 111.0053 mm): NPTH pad of N
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0156 mm)
+    Rule: board setup constraints hole; error
+    @(164.0335 mm, 98.4021 mm): Track [row6] on F.Cu, length 6.4700 mm
+    @(165.0307 mm, 97.8483 mm): NPTH pad of H
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1669 mm)
+    Rule: board setup constraints hole; error
+    @(57.5583 mm, 93.0601 mm): Track [Net-(D5-A)] on B.Cu, length 2.0728 mm
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(58.5577 mm, 89.9879 mm): Track [Net-(D5-A)] on B.Cu, length 3.1424 mm
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(57.5583 mm, 90.9873 mm): Track [Net-(D5-A)] on B.Cu, length 1.4134 mm
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1981 mm)
+    Rule: board setup constraints hole; error
+    @(259.7969 mm, 86.6442 mm): Track [col0] on B.Cu, length 17.0058 mm
+    @(261.1200 mm, 89.7500 mm): NPTH pad of ENTER
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0449 mm)
+    Rule: board setup constraints hole; error
+    @(175.3990 mm, 97.6741 mm): Track [VCC] on F.Cu, length 0.4006 mm
+    @(175.0893 mm, 96.4167 mm): NPTH pad of H
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(183.5648 mm, 127.0116 mm): Track [VCC] on F.Cu, length 8.0692 mm
+    @(186.8054 mm, 124.9255 mm): NPTH pad of SPACE
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1381 mm)
+    Rule: board setup constraints hole; error
+    @(259.8569 mm, 67.5955 mm): Track [col0] on B.Cu, length 12.6865 mm
+    @(261.1200 mm, 70.7000 mm): NPTH pad of BSPC
+[shorting_items]: Items shorting two nets (nets Net-(D3-A) and GND)
+    Local override; error
+    @(44.5869 mm, 98.7305 mm): Pad 2 [Net-(D3-A)] of D3 on F.Cu
+    @(41.9959 mm, 98.5719 mm): Track [GND] on F.Cu, length 6.2386 mm
+[shorting_items]: Items shorting two nets (nets Net-(D8-A) and GND)
+    Local override; error
+    @(79.7245 mm, 84.8142 mm): Pad 2 [Net-(D8-A)] of S on B.Cu
+    @(81.6754 mm, 95.1523 mm): Track [GND] on B.Cu, length 17.7928 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0915 mm)
+    Rule: board setup constraints hole; error
+    @(165.0426 mm, 121.0648 mm): Track [col5] on B.Cu, length 2.7495 mm
+    @(164.8907 mm, 117.1083 mm): NPTH pad of N
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2362 mm)
+    Rule: board setup constraints hole; error
+    @(192.4632 mm, 92.5711 mm): Track [GND] on B.Cu, length 2.0869 mm
+    @(193.9494 mm, 93.7326 mm): NPTH pad of J
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0625 mm)
+    Local override; error
+    @(65.3834 mm, 123.8394 mm): Pad 1 [col2] of CTRL on B.Cu
+    @(62.9055 mm, 119.2570 mm): Track [Net-(D60-DOUT)] on B.Cu, length 10.0867 mm
+[shorting_items]: Items shorting two nets (nets col1 and GND)
+    Local override; error
+    @(45.8500 mm, 106.2200 mm): Pad 1 [col1] of Z on B.Cu
+    @(44.2723 mm, 100.8483 mm): Track [GND] on B.Cu, length 12.5334 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(172.7183 mm, 129.7457 mm): Track [row7] on F.Cu, length 8.6602 mm
+    @(163.2428 mm, 128.2789 mm): NPTH pad of SPACE
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0291 mm)
+    Local override; error
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+    @(157.3769 mm, 77.8955 mm): Track [GND] on B.Cu, length 1.7576 mm
+[shorting_items]: Items shorting two nets (nets Net-(D18-A) and GND)
+    Local override; error
+    @(136.5445 mm, 73.6842 mm): Pad 2 [Net-(D18-A)] of T on B.Cu
+    @(137.3717 mm, 87.1285 mm): Track [GND] on B.Cu, length 11.8823 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(181.5320 mm, 130.7325 mm): Track [row7] on F.Cu, length 7.8269 mm
+    @(177.9840 mm, 129.3728 mm): NPTH pad of SPACE
+[shorting_items]: Items shorting two nets (nets row7 and Net-(D32-A))
+    Local override; error
+    @(212.4062 mm, 132.0991 mm): Track [row7] on F.Cu, length 29.5076 mm
+    @(199.4977 mm, 132.7177 mm): Pad 2 [Net-(D32-A)] of D32 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(188.8137 mm, 88.9216 mm): Track [GND] on B.Cu, length 5.1612 mm
+    @(190.7190 mm, 89.0611 mm): NPTH pad of J
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(39.5935 mm, 92.2710 mm): Track [Net-(D2-A)] on B.Cu, length 5.4135 mm
+    @(38.8800 mm, 89.7500 mm): NPTH pad of TAB
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1137 mm)
+    Local override; error
+    @(101.0527 mm, 136.9933 mm): Pad 1 [row3] of D14 on F.Cu
+    @(96.1182 mm, 136.2546 mm): Track [Net-(D62-DOUT)] on F.Cu, length 23.4056 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(163.8716 mm, 129.9322 mm): Track [row7] on F.Cu, length 6.4947 mm
+    @(163.2428 mm, 128.2789 mm): NPTH pad of SPACE
+[shorting_items]: Items shorting two nets (nets LED and GND)
+    Local override; error
+    @(157.6200 mm, 73.6400 mm): PTH pad 1 [LED] of U1
+    @(158.6197 mm, 76.6527 mm): Track [GND] on B.Cu, length 5.1344 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(164.0581 mm, 129.7457 mm): Track [row7] on F.Cu, length 0.2638 mm
+    @(163.2428 mm, 128.2789 mm): NPTH pad of SPACE
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1015 mm)
+    Rule: board setup constraints hole; error
+    @(215.0025 mm, 83.3903 mm): Track [col0] on F.Cu, length 5.8411 mm
+    @(209.5789 mm, 86.3769 mm): NPTH pad of K
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(210.9064 mm, 104.5170 mm): Track [Net-(D31-A)] on B.Cu, length 2.0414 mm
+    @(209.4389 mm, 105.6370 mm): NPTH pad of ,
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(212.8513 mm, 114.2688 mm): Track [Net-(D31-A)] on B.Cu, length 6.0696 mm
+    @(212.6693 mm, 110.3084 mm): NPTH pad of ,
+[shorting_items]: Items shorting two nets (nets col0 and GND)
+    Local override; error
+    @(158.9742 mm, 81.8200 mm): Track [col0] on F.Cu, length 15.6618 mm
+    @(157.6200 mm, 81.2600 mm): PTH pad 4 [GND] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(72.3460 mm, 122.1933 mm): Track [GND] on B.Cu, length 3.5412 mm
+    @(75.1804 mm, 122.7086 mm): NPTH pad of CTRL
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2051 mm)
+    Rule: board setup constraints hole; error
+    @(240.7399 mm, 79.4513 mm): Track [col1] on B.Cu, length 9.9942 mm
+    @(242.0700 mm, 70.7000 mm): NPTH pad of P
+[shorting_items]: Items shorting two nets (nets reset and BAT+)
+    Local override; error
+    @(142.4000 mm, 78.7200 mm): PTH pad 22 [reset] of U1
+    @(137.4177 mm, 79.3089 mm): Track [BAT+] on F.Cu, length 5.8144 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1541 mm)
+    Local override; error
+    @(142.4000 mm, 81.2600 mm): PTH pad 21 [VCC] of U1
+    @(143.3124 mm, 81.8200 mm): Track [col0] on F.Cu, length 1.6341 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2431 mm)
+    Rule: board setup constraints hole; error
+    @(240.7019 mm, 103.6905 mm): Track [col1] on B.Cu, length 17.1250 mm
+    @(242.0700 mm, 89.7500 mm): NPTH pad of COLON
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(128.6999 mm, 79.7075 mm): Track [BAT+] on F.Cu, length 8.3192 mm
+    @(130.1800 mm, 77.9500 mm): NPTH pad of T
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1324 mm)
+    Local override; error
+    @(142.4000 mm, 78.7200 mm): PTH pad 22 [reset] of U1
+    @(143.2321 mm, 79.3089 mm): Track [BAT+] on F.Cu, length 1.3427 mm
+[shorting_items]: Items shorting two nets (nets BAT+ and LED)
+    Local override; error
+    @(157.3769 mm, 72.8155 mm): Track [BAT+] on F.Cu, length 9.9402 mm
+    @(157.6200 mm, 73.6400 mm): PTH pad 1 [LED] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1677 mm)
+    Rule: board setup constraints hole; error
+    @(128.6490 mm, 79.6566 mm): Track [BAT+] on F.Cu, length 0.0720 mm
+    @(130.1800 mm, 77.9500 mm): NPTH pad of T
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1677 mm)
+    Rule: board setup constraints hole; error
+    @(127.6298 mm, 79.6566 mm): Track [BAT+] on F.Cu, length 1.0192 mm
+    @(130.1800 mm, 77.9500 mm): NPTH pad of T
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(267.6972 mm, 107.4348 mm): Track [Net-(D77-DOUT)] on B.Cu, length 7.3136 mm
+    @(266.2000 mm, 108.8000 mm): NPTH pad of SHIFT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(267.6972 mm, 113.1285 mm): Track [Net-(D77-DOUT)] on B.Cu, length 5.6937 mm
+    @(266.2000 mm, 108.8000 mm): NPTH pad of SHIFT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(252.4922 mm, 105.8175 mm): Track [Net-(D39-A)] on B.Cu, length 4.6136 mm
+    @(252.2300 mm, 108.8000 mm): NPTH pad of BLSH
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2119 mm)
+    Rule: board setup constraints hole; error
+    @(251.5269 mm, 103.0255 mm): Track [Net-(D39-A)] on B.Cu, length 1.8267 mm
+    @(249.6900 mm, 103.7200 mm): NPTH pad of BLSH
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1035 mm)
+    Rule: board setup constraints hole; error
+    @(270.0515 mm, 87.8019 mm): Track [Net-(D78-DOUT)] on B.Cu, length 5.1214 mm
+    @(271.2800 mm, 89.7500 mm): NPTH pad of ENTER
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(262.5638 mm, 80.3142 mm): Track [Net-(D78-DOUT)] on B.Cu, length 10.5892 mm
+    @(268.7400 mm, 84.6700 mm): NPTH pad of ENTER
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0387 mm)
+    Rule: board setup constraints hole; error
+    @(213.9580 mm, 114.2252 mm): Track [VCC] on B.Cu, length 19.0649 mm
+    @(212.6693 mm, 110.3084 mm): NPTH pad of ,
+[shorting_items]: Items shorting two nets (nets VCC and Net-(D36-A))
+    Local override; error
+    @(235.3190 mm, 128.9817 mm): Track [VCC] on B.Cu, length 10.2627 mm
+    @(232.9717 mm, 121.5079 mm): Pad 2 [Net-(D36-A)] of OPT on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(209.1517 mm, 87.5206 mm): Track [col0] on F.Cu, length 3.6269 mm
+    @(209.5789 mm, 86.3769 mm): NPTH pad of K
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(210.8722 mm, 87.5206 mm): Track [col0] on F.Cu, length 1.7205 mm
+    @(209.5789 mm, 86.3769 mm): NPTH pad of K
+[shorting_items]: Items shorting two nets (nets col5 and VCC)
+    Local override; error
+    @(123.5134 mm, 112.8494 mm): Pad 1 [col5] of B on B.Cu
+    @(117.4760 mm, 118.2498 mm): Track [VCC] on B.Cu, length 6.0048 mm
+[shorting_items]: Items shorting two nets (nets GND and row5)
+    Local override; error
+    @(243.9438 mm, 95.6936 mm): Track [GND] on F.Cu, length 8.5701 mm
+    @(240.9956 mm, 95.4568 mm): Pad 1 [row5] of D38 on F.Cu
+[shorting_items]: Items shorting two nets (nets Net-(D25-A) and VCC)
+    Local override; error
+    @(181.0135 mm, 128.9416 mm): Pad 2 [Net-(D25-A)] of SPACE on B.Cu
+    @(183.5648 mm, 134.4608 mm): Track [VCC] on B.Cu, length 7.4492 mm
+[shorting_items]: Items shorting two nets (nets VCC and Net-(D39-A))
+    Local override; error
+    @(254.0820 mm, 109.9044 mm): Track [VCC] on B.Cu, length 9.5087 mm
+    @(252.8500 mm, 103.6800 mm): Pad 2 [Net-(D39-A)] of BLSH on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(57.3804 mm, 107.2449 mm): Track [Net-(D51-DOUT)] on B.Cu, length 5.6017 mm
+    @(57.9300 mm, 108.8000 mm): NPTH pad of Z
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(164.0335 mm, 98.4021 mm): Via [row6] on F.Cu - B.Cu
+    @(165.0307 mm, 97.8483 mm): NPTH pad of H
+[shorting_items]: Items shorting two nets (nets VCC and Net-(D32-A))
+    Local override; error
+    @(214.1849 mm, 132.7027 mm): Track [VCC] on B.Cu, length 10.2432 mm
+    @(211.7543 mm, 124.5276 mm): Pad 2 [Net-(D32-A)] of CMD on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(47.7926 mm, 97.6571 mm): Track [Net-(D51-DOUT)] on B.Cu, length 13.5592 mm
+    @(55.3900 mm, 103.7200 mm): NPTH pad of Z
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(113.2489 mm, 127.8325 mm): Track [GND] on B.Cu, length 4.9333 mm
+    @(113.1945 mm, 124.9255 mm): NPTH pad of SPACE
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1150 mm)
+    Local override; error
+    @(240.4619 mm, 76.5305 mm): Pad 1 [row4] of D37 on F.Cu
+    @(245.0419 mm, 75.7155 mm): Track [GND] on F.Cu, length 8.4427 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0665 mm)
+    Rule: board setup constraints hole; error
+    @(164.8907 mm, 117.1083 mm): NPTH pad of N
+    @(165.0426 mm, 118.3153 mm): Via [col5] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0832 mm)
+    Rule: board setup constraints hole; error
+    @(113.4131 mm, 92.0836 mm): Track [VCC] on B.Cu, length 4.7993 mm
+    @(111.0799 mm, 94.4484 mm): NPTH pad of F
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1320 mm)
+    Local override; error
+    @(173.5006 mm, 138.0586 mm): Track [Net-(D63-DOUT)] on F.Cu, length 44.0436 mm
+    @(168.4073 mm, 137.3016 mm): Pad 2 [Net-(D25-A)] of D25 on F.Cu
+[shorting_items]: Items shorting two nets (nets VCC and Net-(D21-A))
+    Local override; error
+    @(133.8509 mm, 136.9365 mm): Track [VCC] on F.Cu, length 6.4156 mm
+    @(130.7415 mm, 137.5716 mm): Pad 2 [Net-(D21-A)] of D21 on F.Cu
+[shorting_items]: Items shorting two nets (nets row4 and col5)
+    Local override; error
+    @(158.4925 mm, 89.1868 mm): Via [row4] on F.Cu - B.Cu
+    @(157.6200 mm, 88.8800 mm): PTH pad 7 [col5] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(177.4837 mm, 115.6126 mm): Track [row6] on F.Cu, length 13.5428 mm
+    @(188.7801 mm, 113.7083 mm): NPTH pad of M
+[shorting_items]: Items shorting two nets (nets VCC and col0)
+    Local override; error
+    @(257.1940 mm, 88.8095 mm): Track [VCC] on B.Cu, length 7.7349 mm
+    @(259.2000 mm, 87.1700 mm): Pad 1 [col0] of ENTER on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2453 mm)
+    Rule: board setup constraints hole; error
+    @(131.3486 mm, 111.3546 mm): Track [VCC] on B.Cu, length 5.0473 mm
+    @(133.3104 mm, 111.7186 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(137.0647 mm, 120.2091 mm): Track [VCC] on B.Cu, length 3.8394 mm
+    @(135.1093 mm, 117.1058 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(229.7710 mm, 101.8658 mm): Track [Net-(D35-A)] on B.Cu, length 2.0414 mm
+    @(228.2989 mm, 102.9528 mm): NPTH pad of DOT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1427 mm)
+    Rule: board setup constraints hole; error
+    @(221.4340 mm, 72.0571 mm): Via [col2] on F.Cu - B.Cu
+    @(221.3707 mm, 70.6158 mm): NPTH pad of O
+[shorting_items]: Items shorting two nets (nets VCC and col0)
+    Local override; error
+    @(258.0025 mm, 89.6180 mm): Track [VCC] on B.Cu, length 1.1434 mm
+    @(259.2000 mm, 87.1700 mm): Pad 1 [col0] of ENTER on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(D42-A) and VCC)
+    Local override; error
+    @(271.9000 mm, 103.6800 mm): Pad 2 [Net-(D42-A)] of SHIFT on B.Cu
+    @(273.4027 mm, 100.4282 mm): Track [VCC] on B.Cu, length 9.0598 mm
+[shorting_items]: Items shorting two nets (nets row7 and GND)
+    Local override; error
+    @(199.9569 mm, 135.9855 mm): Pad 1 [row7] of D32 on F.Cu
+    @(204.4828 mm, 135.3574 mm): Track [GND] on F.Cu, length 6.8202 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1884 mm)
+    Rule: board setup constraints hole; error
+    @(94.6584 mm, 89.4978 mm): Track [VCC] on B.Cu, length 4.0335 mm
+    @(92.2200 mm, 91.7641 mm): NPTH pad of D
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(251.3149 mm, 72.8219 mm): Track [row4] on F.Cu, length 8.3889 mm
+    @(247.1500 mm, 70.7000 mm): NPTH pad of P
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2416 mm)
+    Rule: board setup constraints hole; error
+    @(242.3245 mm, 72.2204 mm): Via [row4] on F.Cu - B.Cu
+    @(242.0700 mm, 70.7000 mm): NPTH pad of P
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1514 mm)
+    Rule: board setup constraints hole; error
+    @(270.5164 mm, 103.0905 mm): Track [Net-(D42-A)] on B.Cu, length 1.8267 mm
+    @(268.7400 mm, 103.7200 mm): NPTH pad of SHIFT
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(134.3498 mm, 114.3558 mm): Track [VCC] on B.Cu, length 4.2443 mm
+    @(133.3104 mm, 111.7186 mm): NPTH pad of B
+[shorting_items]: Items shorting two nets (nets Net-(D49-DOUT) and col0)
+    Local override; error
+    @(24.8296 mm, 103.3582 mm): Track [Net-(D49-DOUT)] on B.Cu, length 9.0504 mm
+    @(26.8000 mm, 106.2200 mm): Pad 1 [col0] of SHIFT on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1541 mm)
+    Local override; error
+    @(159.5850 mm, 83.3074 mm): Track [col4] on F.Cu, length 3.1227 mm
+    @(157.6200 mm, 83.8000 mm): PTH pad 5 [col3] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(127.9428 mm, 119.0720 mm): Track [Net-(D56-DOUT)] on F.Cu, length 1.6214 mm
+    @(130.0800 mm, 116.3900 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(175.9265 mm, 103.9343 mm): Track [VCC] on B.Cu, length 16.6611 mm
+    @(174.9493 mm, 115.6767 mm): NPTH pad of N
+[shorting_items]: Items shorting two nets (nets col5 and VCC)
+    Local override; error
+    @(123.5134 mm, 112.8494 mm): Pad 1 [col5] of B on B.Cu
+    @(121.7220 mm, 114.0038 mm): Track [VCC] on B.Cu, length 6.3245 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2118 mm)
+    Rule: board setup constraints hole; error
+    @(165.6298 mm, 127.4970 mm): Via [GND] on F.Cu - B.Cu
+    @(163.2428 mm, 128.2789 mm): NPTH pad of SPACE
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(129.0893 mm, 117.9255 mm): Via [Net-(D56-DOUT)] on F.Cu - B.Cu
+    @(130.0800 mm, 116.3900 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2361 mm)
+    Rule: board setup constraints hole; error
+    @(133.7668 mm, 116.8815 mm): Track [Net-(D56-DOUT)] on B.Cu, length 2.0516 mm
+    @(135.1093 mm, 117.1058 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(129.4960 mm, 118.3322 mm): Track [Net-(D56-DOUT)] on B.Cu, length 0.5752 mm
+    @(130.0800 mm, 116.3900 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(132.3161 mm, 118.3322 mm): Track [Net-(D56-DOUT)] on B.Cu, length 2.8201 mm
+    @(130.0800 mm, 116.3900 mm): NPTH pad of B
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(192.0418 mm, 107.1682 mm): Track [Net-(D28-A)] on B.Cu, length 2.0414 mm
+    @(190.5790 mm, 108.3211 mm): NPTH pad of M
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(193.7175 mm, 110.5812 mm): Track [Net-(D28-A)] on B.Cu, length 5.6527 mm
+    @(193.8094 mm, 112.9926 mm): NPTH pad of M
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2307 mm)
+    Rule: board setup constraints hole; error
+    @(65.8529 mm, 108.3248 mm): Track [col2] on B.Cu, length 2.8666 mm
+    @(68.4707 mm, 107.6242 mm): NPTH pad of X
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(134.3498 mm, 117.4942 mm): Track [VCC] on B.Cu, length 3.1384 mm
+    @(135.1093 mm, 117.1058 mm): NPTH pad of B
+[shorting_items]: Items shorting two nets (nets VCC and Net-(D19-A))
+    Local override; error
+    @(138.5329 mm, 80.7378 mm): Track [VCC] on B.Cu, length 19.4495 mm
+    @(136.3045 mm, 92.8667 mm): Pad 2 [Net-(D19-A)] of G on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(135.8323 mm, 94.6954 mm): Track [Net-(D19-A)] on B.Cu, length 5.4809 mm
+    @(134.9693 mm, 97.8483 mm): NPTH pad of G
+[shorting_items]: Items shorting two nets (nets BAT+ and GND)
+    Local override; error
+    @(143.4016 mm, 71.5202 mm): Track [BAT+] on F.Cu, length 16.2053 mm
+    @(157.6200 mm, 71.1000 mm): PTH pad 26 [GND] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0271 mm)
+    Rule: board setup constraints hole; error
+    @(234.2314 mm, 124.2418 mm): Track [Net-(D36-A)] on B.Cu, length 4.7385 mm
+    @(233.0793 mm, 126.6642 mm): NPTH pad of OPT
+[shorting_items]: Items shorting two nets (nets GND and Net-(D16-A))
+    Local override; error
+    @(119.5041 mm, 90.6971 mm): Track [GND] on B.Cu, length 9.7705 mm
+    @(117.4445 mm, 90.1826 mm): Pad 2 [Net-(D16-A)] of F on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0938 mm)
+    Local override; error
+    @(158.6787 mm, 76.7117 mm): Track [GND] on B.Cu, length 0.0834 mm
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1604 mm)
+    Rule: board setup constraints hole; error
+    @(188.8137 mm, 84.4871 mm): Track [GND] on B.Cu, length 4.4345 mm
+    @(190.7190 mm, 89.0611 mm): NPTH pad of J
+[shorting_items]: Items shorting two nets (nets GND and col5)
+    Local override; error
+    @(160.4044 mm, 84.7455 mm): Track [GND] on B.Cu, length 16.1580 mm
+    @(162.7663 mm, 95.5646 mm): Pad 1 [col5] of H on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1727 mm)
+    Local override; error
+    @(158.7242 mm, 76.7117 mm): Track [GND] on B.Cu, length 0.0455 mm
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-D2{slash}PIN2-Pad2) and GND)
+    Local override; error
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+    @(143.6515 mm, 76.8501 mm): Track [GND] on F.Cu, length 14.9343 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2409 mm)
+    Rule: board setup constraints hole; error
+    @(175.1157 mm, 97.9574 mm): Via [VCC] on F.Cu - B.Cu
+    @(175.0893 mm, 96.4167 mm): NPTH pad of H
+[shorting_items]: Items shorting two nets (nets col1 and col4)
+    Local override; error
+    @(142.1527 mm, 86.7855 mm): Track [col1] on F.Cu, length 20.9442 mm
+    @(157.6200 mm, 86.3400 mm): PTH pad 6 [col4] of U1
+[shorting_items]: Items shorting two nets (nets Net-(D16-A) and GND)
+    Local override; error
+    @(117.4445 mm, 90.1826 mm): Pad 2 [Net-(D16-A)] of F on B.Cu
+    @(119.5041 mm, 90.6971 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1635 mm)
+    Local override; error
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+    @(158.7242 mm, 76.7117 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(D18-A) and GND)
+    Local override; error
+    @(136.5445 mm, 73.6842 mm): Pad 2 [Net-(D18-A)] of T on B.Cu
+    @(137.3717 mm, 75.2462 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-C6{slash}PIN8-Pad8) and col2)
+    Local override; error
+    @(157.6200 mm, 91.4200 mm): PTH pad 8 [unconnected-(U1-C6/PIN8-Pad8)] of U1
+    @(145.7856 mm, 91.6842 mm): Track [col2] on F.Cu, length 12.0424 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(197.0371 mm, 90.2008 mm): Track [col2] on F.Cu, length 6.8301 mm
+    @(190.7190 mm, 89.0611 mm): NPTH pad of J
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1195 mm)
+    Rule: board setup constraints hole; error
+    @(33.8000 mm, 89.7500 mm): NPTH pad of TAB
+    @(35.0695 mm, 91.6312 mm): Via [Net-(D48-DOUT)] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(130.0800 mm, 116.3900 mm): NPTH pad of B
+    @(129.0893 mm, 117.9255 mm): Via [Net-(D56-DOUT)] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(221.4707 mm, 109.0558 mm): NPTH pad of DOT
+    @(221.5491 mm, 110.0427 mm): Via [col2] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0129 mm)
+    Rule: board setup constraints hole; error
+    @(157.6200 mm, 88.8800 mm): PTH pad 7 [col5] of U1
+    @(158.4925 mm, 89.1868 mm): Via [row4] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2158 mm)
+    Rule: board setup constraints hole; error
+    @(57.9300 mm, 89.7500 mm): NPTH pad of A
+    @(58.8323 mm, 90.7753 mm): Via [VCC] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0051 mm)
+    Rule: board setup constraints hole; error
+    @(231.4217 mm, 102.4679 mm): Pad 2 [Net-(D35-A)] of DOT on B.Cu
+    @(233.4517 mm, 100.7262 mm): Via [row5] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0467 mm)
+    Rule: board setup constraints hole; error
+    @(58.5500 mm, 84.6300 mm): Pad 2 [Net-(D5-A)] of A on B.Cu
+    @(60.8467 mm, 83.2026 mm): Via [VCC] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(165.0307 mm, 97.8483 mm): NPTH pad of H
+    @(164.0335 mm, 98.4021 mm): Via [row6] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.5445 mm, 73.6842 mm): Pad 2 [Net-(D18-A)] of T on B.Cu
+    @(137.3717 mm, 75.2462 mm): Via [GND] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(82.0776 mm, 130.4634 mm): Pad 1 [row3] of D10 on F.Cu
+    @(82.1815 mm, 129.9322 mm): Via [VCC] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(117.4445 mm, 90.1826 mm): Pad 2 [Net-(D16-A)] of F on B.Cu
+    @(119.5041 mm, 90.6971 mm): Via [GND] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0665 mm)
+    Rule: board setup constraints hole; error
+    @(164.8907 mm, 117.1083 mm): NPTH pad of N
+    @(165.0426 mm, 118.3153 mm): Via [col5] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2000 mm; actual 0.1638 mm)
+    Rule: board setup constraints edge; error
+    @(276.0028 mm, 62.2073 mm): Segment on Edge.Cuts
+    @(275.5284 mm, 93.2964 mm): Via [Net-(D41-A)] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2000 mm; actual 0.1123 mm)
+    Rule: board setup constraints edge; error
+    @(276.0028 mm, 62.2073 mm): Segment on Edge.Cuts
+    @(275.5863 mm, 74.4408 mm): Via [Net-(D40-A)] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(146.0000 mm, 105.0000 mm): Rectangle on Edge.Cuts
+    @(146.9340 mm, 106.8327 mm): Track [col4] on B.Cu, length 18.1910 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(146.0000 mm, 105.0000 mm): Rectangle on Edge.Cuts
+    @(133.3985 mm, 105.5127 mm): Track [col3] on F.Cu, length 25.5770 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(146.0000 mm, 105.0000 mm): Rectangle on Edge.Cuts
+    @(146.9340 mm, 106.8327 mm): Track [col4] on F.Cu, length 12.9100 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(146.0000 mm, 105.0000 mm): Rectangle on Edge.Cuts
+    @(158.0344 mm, 114.5439 mm): Track [col5] on F.Cu, length 16.5364 mm
+[invalid_outline]: Board has malformed outline (not a closed shape) (gap 0.0707 mm)
+    Local override; error
+    @(141.0506 mm, 69.8177 mm): Segment on Edge.Cuts
+    @(159.0931 mm, 69.8077 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape) (gap 0.0000 mm)
+    Local override; error
+    @(158.9523 mm, 69.8177 mm): Segment on Edge.Cuts
+    @(141.0506 mm, 69.8177 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape) (gap 0.0707 mm)
+    Local override; error
+    @(158.9523 mm, 69.8177 mm): Segment on Edge.Cuts
+    @(140.9098 mm, 69.8077 mm): Segment on Edge.Cuts
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(233.4517 mm, 100.7262 mm): Via [row5] on F.Cu - B.Cu
+    @(231.4217 mm, 102.4679 mm): Pad 2 [Net-(D35-A)] of DOT on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(233.4517 mm, 100.7262 mm): Track [row5] on B.Cu, length 0.1382 mm
+    @(231.4217 mm, 102.4679 mm): Pad 2 [Net-(D35-A)] of DOT on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(233.3540 mm, 100.6285 mm): Track [row5] on B.Cu, length 2.8229 mm
+    @(231.4217 mm, 102.4679 mm): Pad 2 [Net-(D35-A)] of DOT on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(60.8467 mm, 83.2026 mm): Via [VCC] on F.Cu - B.Cu
+    @(58.5500 mm, 84.6300 mm): Pad 2 [Net-(D5-A)] of A on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(82.1815 mm, 129.9322 mm): Via [VCC] on F.Cu - B.Cu
+    @(82.0776 mm, 130.4634 mm): Pad 1 [row3] of D10 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.5041 mm, 90.6971 mm): Track [GND] on B.Cu, length 9.7705 mm
+    @(117.4445 mm, 90.1826 mm): Pad 2 [Net-(D16-A)] of F on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(60.8467 mm, 88.7609 mm): Track [VCC] on B.Cu, length 5.5583 mm
+    @(58.5500 mm, 84.6300 mm): Pad 2 [Net-(D5-A)] of A on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(75.2596 mm, 129.9322 mm): Track [VCC] on F.Cu, length 6.9219 mm
+    @(82.0776 mm, 130.4634 mm): Pad 1 [row3] of D10 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(160.4044 mm, 84.7455 mm): Track [GND] on B.Cu, length 16.1580 mm
+    @(162.7663 mm, 95.5646 mm): Pad 1 [col5] of H on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.6515 mm, 76.8501 mm): Track [GND] on F.Cu, length 14.9343 mm
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(212.4062 mm, 132.0991 mm): Track [row7] on F.Cu, length 29.5076 mm
+    @(199.4977 mm, 132.7177 mm): Pad 2 [Net-(D32-A)] of D32 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(157.8280 mm, 91.6842 mm): Track [col2] on F.Cu, length 1.4149 mm
+    @(157.6200 mm, 91.4200 mm): PTH pad 8 [unconnected-(U1-C6/PIN8-Pad8)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(41.4450 mm, 91.9644 mm): Track [VCC] on B.Cu, length 12.0154 mm
+    @(39.5000 mm, 84.6300 mm): Pad 2 [Net-(D2-A)] of TAB on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(41.9959 mm, 98.5719 mm): Track [GND] on F.Cu, length 6.2386 mm
+    @(44.5869 mm, 98.7305 mm): Pad 2 [Net-(D3-A)] of D3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.4177 mm, 79.3089 mm): Track [BAT+] on F.Cu, length 5.8144 mm
+    @(142.4000 mm, 78.7200 mm): PTH pad 22 [reset] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(44.2723 mm, 100.8483 mm): Track [GND] on B.Cu, length 12.5334 mm
+    @(45.8500 mm, 106.2200 mm): Pad 1 [col1] of Z on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(213.9580 mm, 114.2252 mm): Track [VCC] on B.Cu, length 19.0649 mm
+    @(212.5617 mm, 105.1521 mm): Pad 2 [Net-(D31-A)] of , on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(243.9438 mm, 95.6936 mm): Track [GND] on F.Cu, length 8.5701 mm
+    @(240.9956 mm, 95.4568 mm): Pad 1 [row5] of D38 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(157.3769 mm, 72.8155 mm): Track [BAT+] on F.Cu, length 9.9402 mm
+    @(157.6200 mm, 73.6400 mm): PTH pad 1 [LED] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(235.3190 mm, 128.9817 mm): Track [VCC] on B.Cu, length 10.2627 mm
+    @(232.9717 mm, 121.5079 mm): Pad 2 [Net-(D36-A)] of OPT on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(117.4760 mm, 118.2498 mm): Track [VCC] on B.Cu, length 6.0048 mm
+    @(123.5134 mm, 112.8494 mm): Pad 1 [col5] of B on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(173.5006 mm, 138.0586 mm): Track [Net-(D63-DOUT)] on F.Cu, length 44.0436 mm
+    @(130.7415 mm, 137.5716 mm): Pad 2 [Net-(D21-A)] of D21 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(183.5648 mm, 134.4608 mm): Track [VCC] on B.Cu, length 7.4492 mm
+    @(181.0135 mm, 128.9416 mm): Pad 2 [Net-(D25-A)] of SPACE on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(133.8509 mm, 136.9365 mm): Track [VCC] on F.Cu, length 6.4156 mm
+    @(130.7415 mm, 137.5716 mm): Pad 2 [Net-(D21-A)] of D21 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(158.4925 mm, 89.1868 mm): Via [row4] on F.Cu - B.Cu
+    @(157.6200 mm, 88.8800 mm): PTH pad 7 [col5] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(204.4828 mm, 135.3574 mm): Track [GND] on F.Cu, length 6.8202 mm
+    @(199.9569 mm, 135.9855 mm): Pad 1 [row7] of D32 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(81.6754 mm, 95.1523 mm): Track [GND] on B.Cu, length 17.7928 mm
+    @(79.7245 mm, 84.8142 mm): Pad 2 [Net-(D8-A)] of S on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.3717 mm, 87.1285 mm): Track [GND] on B.Cu, length 11.8823 mm
+    @(136.5445 mm, 73.6842 mm): Pad 2 [Net-(D18-A)] of T on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(158.4925 mm, 89.1868 mm): Via [row4] on F.Cu - B.Cu
+    @(157.6200 mm, 88.8800 mm): PTH pad 7 [col5] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(171.3743 mm, 139.5060 mm): Track [GND] on B.Cu, length 8.1239 mm
+    @(168.9961 mm, 133.2176 mm): Pad 1 [col5] of SPACE on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(254.0820 mm, 109.9044 mm): Track [VCC] on B.Cu, length 9.5087 mm
+    @(252.8500 mm, 103.6800 mm): Pad 2 [Net-(D39-A)] of BLSH on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(175.9265 mm, 103.9343 mm): Track [VCC] on B.Cu, length 16.6611 mm
+    @(174.8417 mm, 110.5204 mm): Pad 2 [Net-(D24-A)] of N on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(195.5351 mm, 116.1974 mm): Track [GND] on B.Cu, length 14.5501 mm
+    @(193.7018 mm, 107.8363 mm): Pad 2 [Net-(D28-A)] of M on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(121.7220 mm, 114.0038 mm): Track [VCC] on B.Cu, length 6.3245 mm
+    @(123.5134 mm, 112.8494 mm): Pad 1 [col5] of B on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(158.6197 mm, 76.6527 mm): Track [GND] on B.Cu, length 5.1344 mm
+    @(157.6200 mm, 73.6400 mm): PTH pad 1 [LED] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(214.1849 mm, 132.7027 mm): Track [VCC] on B.Cu, length 10.2432 mm
+    @(211.7543 mm, 124.5276 mm): Pad 2 [Net-(D32-A)] of CMD on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(158.6197 mm, 76.6527 mm): Track [GND] on B.Cu, length 5.1344 mm
+    @(157.6200 mm, 76.1800 mm): PTH pad 2 [unconnected-(U1-D2/PIN2-Pad2)] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(257.1940 mm, 88.8095 mm): Track [VCC] on B.Cu, length 7.7349 mm
+    @(259.2000 mm, 87.1700 mm): Pad 1 [col0] of ENTER on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(258.0025 mm, 89.6180 mm): Track [VCC] on B.Cu, length 1.1434 mm
+    @(259.2000 mm, 87.1700 mm): Pad 1 [col0] of ENTER on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(138.5329 mm, 80.7378 mm): Track [VCC] on B.Cu, length 19.4495 mm
+    @(136.3045 mm, 92.8667 mm): Pad 2 [Net-(D19-A)] of G on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(273.4027 mm, 100.4282 mm): Track [VCC] on B.Cu, length 9.0598 mm
+    @(271.9000 mm, 103.6800 mm): Pad 2 [Net-(D42-A)] of SHIFT on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.4016 mm, 71.5202 mm): Track [BAT+] on F.Cu, length 16.2053 mm
+    @(157.6200 mm, 71.1000 mm): PTH pad 26 [GND] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(24.8296 mm, 103.3582 mm): Track [Net-(D49-DOUT)] on B.Cu, length 9.0504 mm
+    @(26.8000 mm, 106.2200 mm): Pad 1 [col0] of SHIFT on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(158.9742 mm, 81.8200 mm): Track [col0] on F.Cu, length 15.6618 mm
+    @(157.6200 mm, 81.2600 mm): PTH pad 4 [GND] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.5041 mm, 90.6971 mm): Via [GND] on F.Cu - B.Cu
+    @(117.4445 mm, 90.1826 mm): Pad 2 [Net-(D16-A)] of F on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(137.3717 mm, 75.2462 mm): Via [GND] on F.Cu - B.Cu
+    @(136.5445 mm, 73.6842 mm): Pad 2 [Net-(D18-A)] of T on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(142.1527 mm, 86.7855 mm): Track [col1] on F.Cu, length 20.9442 mm
+    @(157.6200 mm, 86.3400 mm): PTH pad 6 [col4] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(158.4925 mm, 89.1868 mm): Track [row4] on B.Cu, length 2.8331 mm
+    @(157.6200 mm, 91.4200 mm): PTH pad 8 [unconnected-(U1-C6/PIN8-Pad8)] of U1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(145.7856 mm, 91.6842 mm): Track [col2] on F.Cu, length 12.0424 mm
+    @(157.6200 mm, 91.4200 mm): PTH pad 8 [unconnected-(U1-C6/PIN8-Pad8)] of U1
+
+** Found 34 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(240.9956 mm, 95.4568 mm): Pad 1 [row5] of D38 on F.Cu
+    @(235.2769 mm, 94.6955 mm): Pad 1 [row5] of D34 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(259.9119 mm, 95.7305 mm): Pad 1 [row5] of D41 on F.Cu
+    @(255.3806 mm, 96.7867 mm): Track [row5] on F.Cu, length 0.3871 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.2560 mm, 121.6957 mm): Track [col5] on B.Cu, length 5.4467 mm
+    @(165.0426 mm, 121.0648 mm): Track [col5] on B.Cu, length 2.7495 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.7352 mm, 87.4829 mm): Track [col5] on B.Cu, length 9.7864 mm
+    @(164.8140 mm, 80.4149 mm): Track [col5] on B.Cu, length 4.3246 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.4073 mm, 137.3016 mm): Pad 2 [Net-(D25-A)] of D25 on F.Cu
+    @(179.3220 mm, 136.0414 mm): Track [Net-(D25-A)] on B.Cu, length 1.6043 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(259.9119 mm, 92.4305 mm): Pad 2 [Net-(D41-A)] of D41 on F.Cu
+    @(274.0232 mm, 93.4867 mm): Track [Net-(D41-A)] on F.Cu, length 1.3149 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.8665 mm, 140.5694 mm): Pad 1 [row7] of D25 on F.Cu
+    @(158.8540 mm, 139.1689 mm): Track [row7] on F.Cu, length 11.4095 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(214.5428 mm, 136.3896 mm): Track [row7] on F.Cu, length 0.5715 mm
+    @(214.3809 mm, 134.5990 mm): Track [row7] on F.Cu, length 0.4255 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(199.4977 mm, 132.7177 mm): Pad 2 [Net-(D32-A)] of D32 on F.Cu
+    @(213.9110 mm, 132.7177 mm): Track [Net-(D32-A)] on F.Cu, length 0.7498 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(251.5269 mm, 103.0255 mm): Track [Net-(D39-A)] on B.Cu, length 1.8267 mm
+    @(238.2769 mm, 98.9955 mm): Pad 2 [Net-(D39-A)] of D39 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.1930 mm, 85.7266 mm): Track [GND] on F.Cu, length 1.3875 mm
+    @(161.2119 mm, 84.7455 mm): Track [GND] on B.Cu, length 0.8075 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(219.1063 mm, 68.3320 mm): Pad 1 [col2] of O on B.Cu
+    @(222.8724 mm, 73.4955 mm): Track [col2] on F.Cu, length 2.0342 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(220.3210 mm, 125.0998 mm): Track [col2] on B.Cu, length 2.0413 mm
+    @(225.1853 mm, 123.1725 mm): Track [col2] on B.Cu, length 5.1424 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(216.9373 mm, 127.2616 mm): Pad 2 [Net-(D36-A)] of D36 on F.Cu
+    @(232.5439 mm, 120.8170 mm): Track [Net-(D36-A)] on B.Cu, length 2.0414 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(200.4644 mm, 72.3940 mm): Track [col3] on B.Cu, length 14.6678 mm
+    @(204.7842 mm, 76.1520 mm): Track [col3] on F.Cu, length 1.8902 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.0776 mm, 130.4634 mm): Pad 1 [row3] of D10 on F.Cu
+    @(78.2273 mm, 135.0294 mm): Track [row3] on F.Cu, length 2.7349 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.7712 mm, 136.9633 mm): Track [row3] on F.Cu, length 2.1724 mm
+    @(101.0527 mm, 136.9933 mm): Pad 1 [row3] of D14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.5369 mm, 142.3455 mm): Track [row3] on F.Cu, length 1.0708 mm
+    @(130.2823 mm, 140.8394 mm): Pad 1 [row3] of D21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.5369 mm, 127.1955 mm): Pad 2 [Net-(D10-A)] of D10 on F.Cu
+    @(81.3740 mm, 131.9338 mm): Track [Net-(D10-A)] on B.Cu, length 6.7327 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.5869 mm, 102.0305 mm): Pad 1 [row2] of D3 on F.Cu
+    @(61.4769 mm, 115.6755 mm): Track [row2] on F.Cu, length 19.5725 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.2369 mm, 116.4355 mm): Track [row2] on F.Cu, length 1.0748 mm
+    @(64.1869 mm, 102.0030 mm): Pad 1 [row2] of D6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(64.1869 mm, 98.7030 mm): Pad 2 [Net-(D6-A)] of D6 on F.Cu
+    @(59.5894 mm, 103.0505 mm): Track [Net-(D6-A)] on B.Cu, length 1.8267 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(39.5486 mm, 73.7972 mm): Track [Net-(D1-A)] on F.Cu, length 0.7047 mm
+    @(41.1000 mm, 73.3000 mm): Pad 2 [Net-(D1-A)] of D1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(242.3015 mm, 74.2155 mm): Track [row4] on F.Cu, length 0.0106 mm
+    @(242.5145 mm, 77.0128 mm): Track [row4] on F.Cu, length 7.7980 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(253.4399 mm, 65.0904 mm): Track [Net-(D37-A)] on B.Cu, length 1.8267 mm
+    @(240.4619 mm, 73.2305 mm): Pad 2 [Net-(D37-A)] of D37 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(272.5569 mm, 66.8822 mm): Track [Net-(D40-A)] on B.Cu, length 4.2842 mm
+    @(259.3394 mm, 73.4655 mm): Pad 2 [Net-(D40-A)] of D40 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(240.9956 mm, 92.1568 mm): Pad 2 [Net-(D38-A)] of D38 on F.Cu
+    @(253.4019 mm, 85.8522 mm): Track [Net-(D38-A)] on B.Cu, length 5.3655 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(238.2769 mm, 102.2955 mm): Pad 1 [row6] of D39 on F.Cu
+    @(237.0955 mm, 113.8037 mm): Via [row6] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(237.7414 mm, 115.9555 mm): Track [row6] on F.Cu, length 15.2555 mm
+    @(257.3869 mm, 102.2055 mm): Pad 1 [row6] of D42 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(40.5794 mm, 103.0505 mm): Track [Net-(D3-A)] on B.Cu, length 1.8267 mm
+    @(44.5869 mm, 98.7305 mm): Pad 2 [Net-(D3-A)] of D3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.5733 mm, 138.6940 mm): Track [Net-(D21-A)] on F.Cu, length 1.1935 mm
+    @(130.7415 mm, 137.5716 mm): Pad 2 [Net-(D21-A)] of D21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.2540 mm, 135.2213 mm): Track [Net-(D14-A)] on F.Cu, length 2.5022 mm
+    @(101.5119 mm, 133.7255 mm): Pad 2 [Net-(D14-A)] of D14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.3769 mm, 72.8155 mm): Track [BAT+] on F.Cu, length 9.9402 mm
+    @(143.4016 mm, 71.5202 mm): Track [BAT+] on F.Cu, length 16.2053 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(270.5164 mm, 103.0905 mm): Track [Net-(D42-A)] on B.Cu, length 1.8267 mm
+    @(257.3869 mm, 98.9055 mm): Pad 2 [Net-(D42-A)] of D42 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
