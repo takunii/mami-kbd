@@ -1,0 +1,7 @@
+file_format: "1"
+id: mami42
+name: mami42
+type: shield
+requires: [nice_nano_v2]
+features:
+  - keys

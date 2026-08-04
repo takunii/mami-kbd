@@ -1,0 +1,6 @@
+if SHIELD_MAMI42
+
+config ZMK_KEYBOARD_NAME
+    default "mami42"
+
+endif # SHIELD_MAMI42

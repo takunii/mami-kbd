@@ -1,2 +1,14 @@
 *.history
 *~
+.DS_Store
+
+# Local ZMK/west build workspace (fetched by `west init`/`west update`;
+# GitHub Actions clones these fresh, no need to commit)
+/.west/
+/.west-build/
+/zmk/
+/zephyr/
+/modules/
+/tools/
+/bootloader/
+/build/

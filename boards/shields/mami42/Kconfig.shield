@@ -1,0 +1,2 @@
+config SHIELD_MAMI42
+    def_bool $(shield_is,mami42)

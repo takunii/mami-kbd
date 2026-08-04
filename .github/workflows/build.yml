@@ -1,0 +1,20 @@
+name: Build ZMK firmware
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/**"
+      - "boards/**"
+      - "build.yaml"
+      - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "config/**"
+      - "boards/**"
+      - "build.yaml"
+      - ".github/workflows/build.yml"
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
