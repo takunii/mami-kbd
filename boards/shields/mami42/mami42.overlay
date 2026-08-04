@@ -129,7 +129,7 @@
         <&key_physical_attrs  100  100   986   100  -800  1200   100>  /* SW29 */
         <&key_physical_attrs  100  100   973   200  -800  1200   100>  /* SW30 */
         <&key_physical_attrs  100  100   960   300  -800  1200   100>  /* SW31 */
-        <&key_physical_attrs  100  100   926   400  -800  1200   100>  /* SW32 */
+        <&key_physical_attrs  125  100   926   400  -800  1200   100>  /* SW32 */
         <&key_physical_attrs  100  100  1086   100  -800  1200   100>  /* SW33 */
         <&key_physical_attrs  100  100  1073   200  -800  1200   100>  /* SW34 */
         <&key_physical_attrs  100  100  1060   300  -800  1200   100>  /* SW35 */
