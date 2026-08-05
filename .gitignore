@@ -7,7 +7,11 @@
 /.west/
 /.west-build/
 /zmk/
-/zephyr/
+# /zephyr/ is NOT ignored wholesale: zephyr/module.yml is a tracked file
+# required so west/Zephyr discover boards/shields/ at the repo root.
+# Everything else under /zephyr/ (the RTOS clone from `west update`) is ignored.
+/zephyr/*
+!/zephyr/module.yml
 /modules/
 /tools/
 /bootloader/
