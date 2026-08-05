@@ -119,21 +119,21 @@
         , <&key_physical_attrs  100  100   528   200   800   200   100>  /* SW19 */
         , <&key_physical_attrs  100  100   541   300   800   200   100>  /* SW20 */
         , <&key_physical_attrs  200  100   475   400   800   200   100>  /* SW21 */
-        , <&key_physical_attrs  100  100   786   100  -800  1200   100>  /* SW22 */
-        , <&key_physical_attrs  100  100   773   200  -800  1200   100>  /* SW23 */
-        , <&key_physical_attrs  100  100   760   300  -800  1200   100>  /* SW24 */
-        , <&key_physical_attrs  200  100   726   400  -800  1200   100>  /* SW25 */
-        , <&key_physical_attrs  100  100   886   100  -800  1200   100>  /* SW26 */
-        , <&key_physical_attrs  100  100   873   200  -800  1200   100>  /* SW27 */
-        , <&key_physical_attrs  100  100   860   300  -800  1200   100>  /* SW28 */
-        , <&key_physical_attrs  100  100   986   100  -800  1200   100>  /* SW29 */
-        , <&key_physical_attrs  100  100   973   200  -800  1200   100>  /* SW30 */
-        , <&key_physical_attrs  100  100   960   300  -800  1200   100>  /* SW31 */
-        , <&key_physical_attrs  125  100   926   400  -800  1200   100>  /* SW32 */
-        , <&key_physical_attrs  100  100  1086   100  -800  1200   100>  /* SW33 */
-        , <&key_physical_attrs  100  100  1073   200  -800  1200   100>  /* SW34 */
-        , <&key_physical_attrs  100  100  1060   300  -800  1200   100>  /* SW35 */
-        , <&key_physical_attrs  100  100  1026   400  -800  1200   100>  /* SW36 */
+        , <&key_physical_attrs  100  100   786   100  (-800)  1200   100>  /* SW22 */
+        , <&key_physical_attrs  100  100   773   200  (-800)  1200   100>  /* SW23 */
+        , <&key_physical_attrs  100  100   760   300  (-800)  1200   100>  /* SW24 */
+        , <&key_physical_attrs  200  100   726   400  (-800)  1200   100>  /* SW25 */
+        , <&key_physical_attrs  100  100   886   100  (-800)  1200   100>  /* SW26 */
+        , <&key_physical_attrs  100  100   873   200  (-800)  1200   100>  /* SW27 */
+        , <&key_physical_attrs  100  100   860   300  (-800)  1200   100>  /* SW28 */
+        , <&key_physical_attrs  100  100   986   100  (-800)  1200   100>  /* SW29 */
+        , <&key_physical_attrs  100  100   973   200  (-800)  1200   100>  /* SW30 */
+        , <&key_physical_attrs  100  100   960   300  (-800)  1200   100>  /* SW31 */
+        , <&key_physical_attrs  125  100   926   400  (-800)  1200   100>  /* SW32 */
+        , <&key_physical_attrs  100  100  1086   100  (-800)  1200   100>  /* SW33 */
+        , <&key_physical_attrs  100  100  1073   200  (-800)  1200   100>  /* SW34 */
+        , <&key_physical_attrs  100  100  1060   300  (-800)  1200   100>  /* SW35 */
+        , <&key_physical_attrs  100  100  1026   400  (-800)  1200   100>  /* SW36 */
         , <&key_physical_attrs  100  100  1200   100     0     0     0>  /* SW37 */
         , <&key_physical_attrs  100  100  1200   200     0     0     0>  /* SW38 */
         , <&key_physical_attrs  100  100  1200   300     0     0     0>  /* SW39 */
