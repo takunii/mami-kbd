@@ -158,7 +158,7 @@
             display-name = "mac_sym";
             bindings = <
             &kp EXCL       // SW1
-            &trans         // SW2
+            &studio_unlock // SW2
             &trans         // SW3
             &kp AT         // SW4
             &arrow_macro   // SW5
@@ -302,7 +302,7 @@
             display-name = "win_sym";
             bindings = <
             &kp EXCL       // SW1
-            &trans         // SW2
+            &studio_unlock // SW2
             &trans         // SW3
             &kp AT         // SW4
             &arrow_macro   // SW5
