@@ -1,2 +1,2 @@
 config SHIELD_MAMI42
-    def_bool $(shield_is,mami42)
+    def_bool $(shields_list_contains,mami42)
