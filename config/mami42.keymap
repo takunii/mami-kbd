@@ -28,6 +28,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     macros {
@@ -161,8 +162,8 @@
             display-name = "mac_sym";
             bindings = <
             &kp EXCL       // SW1
-            &trans         // SW2
-            &trans         // SW3
+            &rgb_ug RGB_TOG // SW2
+            &rgb_ug RGB_EFF // SW3
             &kp AT         // SW4
             &arrow_macro   // SW5
             &kp GRAVE      // SW6
@@ -305,8 +306,8 @@
             display-name = "win_sym";
             bindings = <
             &kp EXCL       // SW1
-            &trans         // SW2
-            &trans         // SW3
+            &rgb_ug RGB_TOG // SW2
+            &rgb_ug RGB_EFF // SW3
             &kp AT         // SW4
             &arrow_macro   // SW5
             &kp GRAVE      // SW6
