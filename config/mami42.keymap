@@ -61,52 +61,49 @@
 
         mac_base {
             display-name = "mac_base";
-            // NOTE: 初期動作確認用に全キーを &studio_unlock にしている。
-            // 通常のキーマップに戻すときは元の &kp/&mo バインディングに
-            // 戻すこと(下記コメントの元の値を参照)。
             bindings = <
-            &studio_unlock // SW1  (row0,col0)   was &kp TAB
-            &studio_unlock // SW2  (row1,col0)   was &kp ESC
-            &studio_unlock // SW3  (row2,col0)   was &kp LSHFT
-            &studio_unlock // SW4  (row0,col1)   was &kp Q
-            &studio_unlock // SW5  (row1,col1)   was &kp A
-            &studio_unlock // SW6  (row2,col1)   was &kp Z
-            &studio_unlock // SW7  (row0,col2)   was &kp W
-            &studio_unlock // SW8  (row1,col2)   was &kp S
-            &studio_unlock // SW9  (row2,col2)   was &kp X
-            &studio_unlock // SW10 (row3,col2) 左親指  was &kp LGUI
-            &studio_unlock // SW11 (row0,col3)   was &kp E
-            &studio_unlock // SW12 (row1,col3)   was &kp D
-            &studio_unlock // SW13 (row2,col3)   was &kp C
-            &studio_unlock // SW14 (row3,col3) 左親指  was &mo 1
-            &studio_unlock // SW15 (row0,col4)   was &kp R
-            &studio_unlock // SW16 (row1,col4)   was &kp F
-            &studio_unlock // SW17 (row2,col4)   was &kp V
-            &studio_unlock // SW18 (row0,col5)   was &kp T
-            &studio_unlock // SW19 (row1,col5)   was &kp G
-            &studio_unlock // SW20 (row2,col5)   was &kp B
-            &studio_unlock // SW21 (row3,col5) 左親指  was &kp SPACE
-            &studio_unlock // SW22 (row4,col5)   was &kp Y
-            &studio_unlock // SW23 (row5,col5)   was &kp H
-            &studio_unlock // SW24 (row6,col5)   was &kp N
-            &studio_unlock // SW25 (row7,col5) 右親指  was &kp RET
-            &studio_unlock // SW26 (row4,col4)   was &kp U
-            &studio_unlock // SW27 (row5,col4)   was &kp J
-            &studio_unlock // SW28 (row6,col4)   was &kp M
-            &studio_unlock // SW29 (row4,col3)   was &kp I
-            &studio_unlock // SW30 (row5,col3)   was &kp K
-            &studio_unlock // SW31 (row6,col3)   was &kp COMMA
-            &studio_unlock // SW32 (row7,col3) 右親指  was &mo 2
-            &studio_unlock // SW33 (row4,col2)   was &kp O
-            &studio_unlock // SW34 (row5,col2)   was &kp L
-            &studio_unlock // SW35 (row6,col2)   was &kp DOT
-            &studio_unlock // SW36 (row7,col2) 右親指  was &kp RGUI
-            &studio_unlock // SW37 (row4,col1)   was &kp P
-            &studio_unlock // SW38 (row5,col1)   was &kp SEMI
-            &studio_unlock // SW39 (row6,col1)   was &kp FSLH
-            &studio_unlock // SW40 (row4,col0)   was &kp BSPC
-            &studio_unlock // SW41 (row5,col0)   was &kp SQT
-            &studio_unlock // SW42 (row6,col0)   was &kp RSHFT
+            &studio_unlock // SW1  (row0,col0)
+            &kp ESC     // SW2  (row1,col0)
+            &kp LSHFT   // SW3  (row2,col0)
+            &kp Q       // SW4  (row0,col1)
+            &kp A       // SW5  (row1,col1)
+            &kp Z       // SW6  (row2,col1)
+            &kp W       // SW7  (row0,col2)
+            &kp S       // SW8  (row1,col2)
+            &kp X       // SW9  (row2,col2)
+            &kp LGUI    // SW10 (row3,col2) 左親指
+            &kp E       // SW11 (row0,col3)
+            &kp D       // SW12 (row1,col3)
+            &kp C       // SW13 (row2,col3)
+            &mo 1       // SW14 (row3,col3) 左親指
+            &kp R       // SW15 (row0,col4)
+            &kp F       // SW16 (row1,col4)
+            &kp V       // SW17 (row2,col4)
+            &kp T       // SW18 (row0,col5)
+            &kp G       // SW19 (row1,col5)
+            &kp B       // SW20 (row2,col5)
+            &kp SPACE   // SW21 (row3,col5) 左親指
+            &kp Y       // SW22 (row4,col5)
+            &kp H       // SW23 (row5,col5)
+            &kp N       // SW24 (row6,col5)
+            &kp RET     // SW25 (row7,col5) 右親指
+            &kp U       // SW26 (row4,col4)
+            &kp J       // SW27 (row5,col4)
+            &kp M       // SW28 (row6,col4)
+            &kp I       // SW29 (row4,col3)
+            &kp K       // SW30 (row5,col3)
+            &kp COMMA   // SW31 (row6,col3)
+            &mo 2       // SW32 (row7,col3) 右親指
+            &kp O       // SW33 (row4,col2)
+            &kp L       // SW34 (row5,col2)
+            &kp DOT     // SW35 (row6,col2)
+            &kp RGUI    // SW36 (row7,col2) 右親指
+            &kp P       // SW37 (row4,col1)
+            &kp SEMI    // SW38 (row5,col1)
+            &kp FSLH    // SW39 (row6,col1)
+            &kp BSPC    // SW40 (row4,col0)
+            &kp SQT     // SW41 (row5,col0)
+            &kp RSHFT   // SW42 (row6,col0)
             >;
         };
 
