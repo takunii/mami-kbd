@@ -5,13 +5,17 @@
  *   0 mac_base   : Mac用ベースレイヤー (QWERTY)
  *   1 mac_num    : Mac用 数字/矢印/記号/BT選択/RGBレイヤー
  *   2 mac_system : Mac用 ファンクションキー/画面輝度/音量レイヤー
- *   3 win_base   : Windows用ベースレイヤー (QWERTY, LGUI/RGUI の代わりに LCTRL/RCTRL)
- *   4 win_num    : Windows用 数字/矢印キーレイヤー
- *   5 win_sym    : Windows用 記号レイヤー
+ *   3 win_base   : Windows用ベースレイヤー
+ *                  (mac_baseのSW10とSW14を入れ替えたもの)
+ *   4 win_num    : Windows用 数字/矢印/記号/BT選択/RGBレイヤー (mac_numと同一)
+ *   5 win_system : Windows用 ファンクションキー/画面輝度/音量レイヤー (mac_systemと同一)
  *
- * OS切り替え: 左手中央親指(MO 1/4キー) + 右手中央親指(MO 2/5キー) の同時押しコンボで
- *             win_base(レイヤー3)をトグルします。mac/win それぞれの base layer は
- *             すべてのキーを明示的に定義しているので、win_base を on にするだけで
+ * OS切り替え: 左手中央親指キー(mac_baseではSW14、win_baseではSW10。
+ *             どちらもMO(1/4)キー) + 右手中央親指キー(SW32、MO(2/5)キー)の
+ *             同時押しコンボでwin_base(レイヤー3)をトグルします。コンボは
+ *             物理位置(SW14+SW32)で発火するため、実際のバインディング内容に
+ *             関わらず動作します。mac/win それぞれの base layer はすべての
+ *             キーを明示的に定義しているので、win_base を on にするだけで
  *             mac_base を隠す(Windowsモードになる)、off にすると mac_base に戻ります。
  *
  * このファイルはたたき台です。実際の割り当ては ZMK Studio でも調整できます。
@@ -45,7 +49,7 @@
 
         combo_os_toggle {
             timeout-ms = <50>;
-            key-positions = <13 31>;  // 左MO(1/4)キー(SW14) + 右MO(2/5)キー(SW32)
+            key-positions = <13 31>;  // 左中央親指(SW14) + 右中央親指(SW32)
             bindings = <&tog 3>;
         };
 
@@ -205,145 +209,148 @@
 
         win_base {
             display-name = "win_base";
+            // mac_base の SW10 と SW14 を入れ替えたもの
             bindings = <
-            &kp TAB     // SW1  (row0,col0)
-            &kp ESC     // SW2  (row1,col0)
-            &kp LSHFT   // SW3  (row2,col0)
-            &kp Q       // SW4  (row0,col1)
-            &kp A       // SW5  (row1,col1)
-            &kp Z       // SW6  (row2,col1)
-            &kp W       // SW7  (row0,col2)
-            &kp S       // SW8  (row1,col2)
-            &kp X       // SW9  (row2,col2)
-            &kp LCTRL   // SW10 (row3,col2) 左親指
-            &kp E       // SW11 (row0,col3)
-            &kp D       // SW12 (row1,col3)
-            &kp C       // SW13 (row2,col3)
-            &mo 4       // SW14 (row3,col3) 左親指
-            &kp R       // SW15 (row0,col4)
-            &kp F       // SW16 (row1,col4)
-            &kp V       // SW17 (row2,col4)
-            &kp T       // SW18 (row0,col5)
-            &kp G       // SW19 (row1,col5)
-            &kp B       // SW20 (row2,col5)
-            &kp SPACE   // SW21 (row3,col5) 左親指
-            &kp Y       // SW22 (row4,col5)
-            &kp H       // SW23 (row5,col5)
-            &kp N       // SW24 (row6,col5)
-            &kp RET     // SW25 (row7,col5) 右親指
-            &kp U       // SW26 (row4,col4)
-            &kp J       // SW27 (row5,col4)
-            &kp M       // SW28 (row6,col4)
-            &kp I       // SW29 (row4,col3)
-            &kp K       // SW30 (row5,col3)
-            &kp COMMA   // SW31 (row6,col3)
-            &mo 5       // SW32 (row7,col3) 右親指
-            &kp O       // SW33 (row4,col2)
-            &kp L       // SW34 (row5,col2)
-            &kp DOT     // SW35 (row6,col2)
-            &kp RCTRL   // SW36 (row7,col2) 右親指
-            &kp P       // SW37 (row4,col1)
-            &kp SEMI    // SW38 (row5,col1)
-            &kp FSLH    // SW39 (row6,col1)
-            &kp BSPC    // SW40 (row4,col0)
-            &kp SQT     // SW41 (row5,col0)
-            &kp RSHFT   // SW42 (row6,col0)
+            &kp GRAVE       // SW1  (row0,col0)
+            &mt LCTRL TAB   // SW2  (row1,col0)
+            &kp LSHFT       // SW3  (row2,col0)
+            &kp Q           // SW4  (row0,col1)
+            &kp A           // SW5  (row1,col1)
+            &kp Z           // SW6  (row2,col1)
+            &kp W           // SW7  (row0,col2)
+            &kp S           // SW8  (row1,col2)
+            &kp X           // SW9  (row2,col2)
+            &mo 4           // SW10 (row3,col2) 左親指 (mac_baseのSW14と入替)
+            &kp E           // SW11 (row0,col3)
+            &kp D           // SW12 (row1,col3)
+            &kp C           // SW13 (row2,col3)
+            &kp LALT        // SW14 (row3,col3) 左親指 (mac_baseのSW10と入替)
+            &kp R           // SW15 (row0,col4)
+            &kp F           // SW16 (row1,col4)
+            &kp V           // SW17 (row2,col4)
+            &kp T           // SW18 (row0,col5)
+            &kp G           // SW19 (row1,col5)
+            &kp B           // SW20 (row2,col5)
+            &lt 4 BSPC      // SW21 (row3,col5) 左親指
+            &kp Y           // SW22 (row4,col5)
+            &kp H           // SW23 (row5,col5)
+            &kp N           // SW24 (row6,col5)
+            &lt 4 SPACE     // SW25 (row7,col5) 右親指
+            &kp U           // SW26 (row4,col4)
+            &kp J           // SW27 (row5,col4)
+            &kp M           // SW28 (row6,col4)
+            &kp I           // SW29 (row4,col3)
+            &kp K           // SW30 (row5,col3)
+            &kp COMMA       // SW31 (row6,col3)
+            &mo 5           // SW32 (row7,col3) 右親指
+            &kp O           // SW33 (row4,col2)
+            &kp L           // SW34 (row5,col2)
+            &kp DOT         // SW35 (row6,col2)
+            &mo 5           // SW36 (row7,col2) 右親指
+            &kp P           // SW37 (row4,col1)
+            &kp SEMI        // SW38 (row5,col1)
+            &kp FSLH        // SW39 (row6,col1)
+            &kp MINUS       // SW40 (row4,col0)
+            &kp SQT         // SW41 (row5,col0)
+            &kp RSHFT       // SW42 (row6,col0)
             >;
         };
 
         win_num {
             display-name = "win_num";
+            // mac_num と同一 (SW10/SW14は共に&transのため入替の影響なし)
             bindings = <
-            &kp N1        // SW1
-            &bt BT_SEL 0  // SW2
-            &bt BT_SEL 1  // SW3
-            &kp N2        // SW4
-            &bt BT_SEL 2  // SW5
-            &trans        // SW6
-            &kp N3      // SW7
-            &trans      // SW8
-            &trans      // SW9
-            &trans      // SW10 左親指
-            &kp N4      // SW11
-            &trans      // SW12
-            &trans      // SW13
-            &trans      // SW14 左親指
-            &kp N5      // SW15
-            &trans      // SW16
-            &trans      // SW17
-            &kp N6      // SW18
-            &trans      // SW19
-            &trans      // SW20
-            &trans      // SW21 左親指
-            &kp N7      // SW22
-            &kp LEFT    // SW23
-            &trans      // SW24
-            &trans      // SW25 右親指
-            &kp N8      // SW26
-            &kp DOWN    // SW27
-            &trans      // SW28
-            &kp N9      // SW29
-            &kp UP      // SW30
-            &trans      // SW31
-            &trans      // SW32 右親指
-            &kp N0      // SW33
-            &kp RIGHT   // SW34
-            &trans      // SW35
-            &trans      // SW36 右親指
-            &kp MINUS   // SW37
-            &kp HOME    // SW38
-            &kp PG_UP   // SW39
-            &kp EQUAL   // SW40
-            &kp END     // SW41
-            &kp PG_DN   // SW42
+            &kp ESC       // SW1  (row0,col0)
+            &bt BT_SEL 0  // SW2  (row1,col0)
+            &bt BT_SEL 1  // SW3  (row2,col0)
+            &kp N1        // SW4  (row0,col1)
+            &kp LEFT      // SW5  (row1,col1)
+            &kp HOME      // SW6  (row2,col1)
+            &kp N2        // SW7  (row0,col2)
+            &kp UP        // SW8  (row1,col2)
+            &kp PG_UP     // SW9  (row2,col2)
+            &trans        // SW10 (row3,col2) 左親指
+            &kp N3        // SW11 (row0,col3)
+            &kp DOWN      // SW12 (row1,col3)
+            &kp PG_DN     // SW13 (row2,col3)
+            &trans        // SW14 (row3,col3) 左親指
+            &kp N4        // SW15 (row0,col4)
+            &kp RIGHT     // SW16 (row1,col4)
+            &kp END       // SW17 (row2,col4)
+            &kp N5        // SW18 (row0,col5)
+            &bt BT_SEL 2  // SW19 (row1,col5)
+            &rgb_ug RGB_TOG // SW20 (row2,col5)
+            &kp BSPC      // SW21 (row3,col5) 左親指
+            &kp N6        // SW22 (row4,col5)
+            &rgb_ug RGB_EFF // SW23 (row5,col5)
+            &rgb_ug RGB_HUI // SW24 (row6,col5)
+            &kp SPACE     // SW25 (row7,col5) 右親指
+            &kp N7        // SW26 (row4,col4)
+            &kp LBRC      // SW27 (row5,col4)
+            &rgb_ug RGB_HUD // SW28 (row6,col4)
+            &kp N8        // SW29 (row4,col3)
+            &kp RBRC      // SW30 (row5,col3)
+            &rgb_ug RGB_BRI // SW31 (row6,col3)
+            &trans        // SW32 (row7,col3) 右親指
+            &kp N9        // SW33 (row4,col2)
+            &kp SEMI      // SW34 (row5,col2)
+            &rgb_ug RGB_BRD // SW35 (row6,col2)
+            &trans        // SW36 (row7,col2) 右親指
+            &kp EQUAL     // SW37 (row4,col1)
+            &kp SQT       // SW38 (row5,col1)
+            &trans        // SW39 (row6,col1)
+            &kp N0        // SW40 (row4,col0)
+            &kp BSLH      // SW41 (row5,col0)
+            &trans        // SW42 (row6,col0)
             >;
         };
 
-        win_sym {
-            display-name = "win_sym";
+        win_system {
+            display-name = "win_system";
+            // mac_system と同一 (SW10/SW14は共に&transのため入替の影響なし)
             bindings = <
-            &kp EXCL       // SW1
-            &rgb_ug RGB_TOG // SW2
-            &rgb_ug RGB_EFF // SW3
-            &kp AT         // SW4
-            &arrow_macro   // SW5
-            &kp GRAVE      // SW6
-            &kp HASH       // SW7
-            &rgb_ug RGB_HUI // SW8
-            &kp TILDE      // SW9
-            &trans         // SW10 左親指
-            &kp DLLR       // SW11
-            &rgb_ug RGB_HUD // SW12
-            &trans         // SW13
-            &trans         // SW14 左親指
-            &kp PRCNT      // SW15
-            &rgb_ug RGB_BRI // SW16
-            &rgb_ug RGB_BRD // SW17
-            &kp CARET      // SW18
-            &trans         // SW19
-            &trans         // SW20
-            &trans         // SW21 左親指
-            &kp AMPS       // SW22
-            &kp LBKT       // SW23
-            &trans         // SW24
-            &trans         // SW25 右親指
-            &kp ASTRK      // SW26
-            &kp RBKT       // SW27
-            &trans         // SW28
-            &kp LPAR       // SW29
-            &kp LBRC       // SW30
-            &trans         // SW31
-            &trans         // SW32 右親指
-            &kp RPAR       // SW33
-            &kp RBRC       // SW34
-            &trans         // SW35
-            &trans         // SW36 右親指
-            &kp UNDER      // SW37
-            &kp PIPE       // SW38
-            &trans         // SW39
-            &kp PLUS       // SW40
-            &kp BSLH       // SW41
-            &trans         // SW42
+            &trans        // SW1  (row0,col0)
+            &trans        // SW2  (row1,col0)
+            &trans        // SW3  (row2,col0)
+            &kp F1        // SW4  (row0,col1)
+            &trans        // SW5  (row1,col1)
+            &kp C_BRI_DN  // SW6  (row2,col1)
+            &kp F2        // SW7  (row0,col2)
+            &trans        // SW8  (row1,col2)
+            &kp C_BRI_UP  // SW9  (row2,col2)
+            &trans        // SW10 (row3,col2) 左親指
+            &kp F3        // SW11 (row0,col3)
+            &trans        // SW12 (row1,col3)
+            &kp C_VOL_DN  // SW13 (row2,col3)
+            &trans        // SW14 (row3,col3) 左親指
+            &kp F4        // SW15 (row0,col4)
+            &trans        // SW16 (row1,col4)
+            &kp C_VOL_UP  // SW17 (row2,col4)
+            &kp F5        // SW18 (row0,col5)
+            &trans        // SW19 (row1,col5)
+            &kp C_MUTE    // SW20 (row2,col5)
+            &trans        // SW21 (row3,col5) 左親指
+            &kp F6        // SW22 (row4,col5)
+            &trans        // SW23 (row5,col5)
+            &trans        // SW24 (row6,col5)
+            &trans        // SW25 (row7,col5) 右親指
+            &kp F7        // SW26 (row4,col4)
+            &trans        // SW27 (row5,col4)
+            &trans        // SW28 (row6,col4)
+            &kp F8        // SW29 (row4,col3)
+            &trans        // SW30 (row5,col3)
+            &trans        // SW31 (row6,col3)
+            &trans        // SW32 (row7,col3) 右親指
+            &kp F9        // SW33 (row4,col2)
+            &trans        // SW34 (row5,col2)
+            &trans        // SW35 (row6,col2)
+            &trans        // SW36 (row7,col2) 右親指
+            &kp F10       // SW37 (row4,col1)
+            &trans        // SW38 (row5,col1)
+            &trans        // SW39 (row6,col1)
+            &kp F12       // SW40 (row4,col0)
+            &trans        // SW41 (row5,col0)
+            &trans        // SW42 (row6,col0)
             >;
         };
     };
