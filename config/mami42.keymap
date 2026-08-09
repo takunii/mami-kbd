@@ -62,96 +62,96 @@
         mac_base {
             display-name = "mac_base";
             bindings = <
-            &kp TAB     // SW1  (row0,col0)
-            &kp ESC     // SW2  (row1,col0)
-            &kp LSHFT   // SW3  (row2,col0)
-            &kp Q       // SW4  (row0,col1)
-            &kp A       // SW5  (row1,col1)
-            &kp Z       // SW6  (row2,col1)
-            &kp W       // SW7  (row0,col2)
-            &kp S       // SW8  (row1,col2)
-            &kp X       // SW9  (row2,col2)
-            &kp LGUI    // SW10 (row3,col2) 左親指
-            &kp E       // SW11 (row0,col3)
-            &kp D       // SW12 (row1,col3)
-            &kp C       // SW13 (row2,col3)
-            &mo 1       // SW14 (row3,col3) 左親指
-            &kp R       // SW15 (row0,col4)
-            &kp F       // SW16 (row1,col4)
-            &kp V       // SW17 (row2,col4)
-            &kp T       // SW18 (row0,col5)
-            &kp G       // SW19 (row1,col5)
-            &kp B       // SW20 (row2,col5)
-            &kp SPACE   // SW21 (row3,col5) 左親指
-            &kp Y       // SW22 (row4,col5)
-            &kp H       // SW23 (row5,col5)
-            &kp N       // SW24 (row6,col5)
-            &kp RET     // SW25 (row7,col5) 右親指
-            &kp U       // SW26 (row4,col4)
-            &kp J       // SW27 (row5,col4)
-            &kp M       // SW28 (row6,col4)
-            &kp I       // SW29 (row4,col3)
-            &kp K       // SW30 (row5,col3)
-            &kp COMMA   // SW31 (row6,col3)
-            &mo 2       // SW32 (row7,col3) 右親指
-            &kp O       // SW33 (row4,col2)
-            &kp L       // SW34 (row5,col2)
-            &kp DOT     // SW35 (row6,col2)
-            &kp RGUI    // SW36 (row7,col2) 右親指
-            &kp P       // SW37 (row4,col1)
-            &kp SEMI    // SW38 (row5,col1)
-            &kp FSLH    // SW39 (row6,col1)
-            &kp BSPC    // SW40 (row4,col0)
-            &kp SQT     // SW41 (row5,col0)
-            &kp RSHFT   // SW42 (row6,col0)
+            &kp GRAVE       // SW1  (row0,col0)
+            &mt LCTRL TAB   // SW2  (row1,col0)
+            &kp LSHFT       // SW3  (row2,col0)
+            &kp Q           // SW4  (row0,col1)
+            &kp A           // SW5  (row1,col1)
+            &kp Z           // SW6  (row2,col1)
+            &kp W           // SW7  (row0,col2)
+            &kp S           // SW8  (row1,col2)
+            &kp X           // SW9  (row2,col2)
+            &kp LALT        // SW10 (row3,col2) 左親指
+            &kp E           // SW11 (row0,col3)
+            &kp D           // SW12 (row1,col3)
+            &kp C           // SW13 (row2,col3)
+            &mo 1           // SW14 (row3,col3) 左親指
+            &kp R           // SW15 (row0,col4)
+            &kp F           // SW16 (row1,col4)
+            &kp V           // SW17 (row2,col4)
+            &kp T           // SW18 (row0,col5)
+            &kp G           // SW19 (row1,col5)
+            &kp B           // SW20 (row2,col5)
+            &lt 1 BSPC      // SW21 (row3,col5) 左親指
+            &kp Y           // SW22 (row4,col5)
+            &kp H           // SW23 (row5,col5)
+            &kp N           // SW24 (row6,col5)
+            &lt 1 SPACE     // SW25 (row7,col5) 右親指
+            &kp U           // SW26 (row4,col4)
+            &kp J           // SW27 (row5,col4)
+            &kp M           // SW28 (row6,col4)
+            &kp I           // SW29 (row4,col3)
+            &kp K           // SW30 (row5,col3)
+            &kp COMMA       // SW31 (row6,col3)
+            &mo 2           // SW32 (row7,col3) 右親指
+            &kp O           // SW33 (row4,col2)
+            &kp L           // SW34 (row5,col2)
+            &kp DOT         // SW35 (row6,col2)
+            &mo 2           // SW36 (row7,col2) 右親指
+            &kp MINUS       // SW37 (row4,col1)
+            &kp SEMI        // SW38 (row5,col1)
+            &kp FSLH        // SW39 (row6,col1)
+            &kp BSPC        // SW40 (row4,col0)
+            &kp SQT         // SW41 (row5,col0)
+            &kp RSHFT       // SW42 (row6,col0)
             >;
         };
 
         mac_num {
             display-name = "mac_num";
             bindings = <
-            &kp N1        // SW1
-            &bt BT_SEL 0  // SW2
-            &bt BT_SEL 1  // SW3
-            &kp N2        // SW4
-            &bt BT_SEL 2  // SW5
-            &trans        // SW6
-            &kp N3      // SW7
-            &trans      // SW8
-            &trans      // SW9
-            &trans      // SW10 左親指
-            &kp N4      // SW11
-            &trans      // SW12
-            &trans      // SW13
-            &trans      // SW14 左親指
-            &kp N5      // SW15
-            &trans      // SW16
-            &trans      // SW17
-            &kp N6      // SW18
-            &trans      // SW19
-            &trans      // SW20
-            &trans      // SW21 左親指
-            &kp N7      // SW22
-            &kp LEFT    // SW23
-            &trans      // SW24
-            &trans      // SW25 右親指
-            &kp N8      // SW26
-            &kp DOWN    // SW27
-            &trans      // SW28
-            &kp N9      // SW29
-            &kp UP      // SW30
-            &trans      // SW31
-            &trans      // SW32 右親指
-            &kp N0      // SW33
-            &kp RIGHT   // SW34
-            &trans      // SW35
-            &trans      // SW36 右親指
-            &kp MINUS   // SW37
-            &kp HOME    // SW38
-            &kp PG_UP   // SW39
-            &kp EQUAL   // SW40
-            &kp END     // SW41
-            &kp PG_DN   // SW42
+            &kp ESC       // SW1  (row0,col0)
+            &bt BT_SEL 0  // SW2  (row1,col0)
+            &bt BT_SEL 1  // SW3  (row2,col0)
+            &kp N1        // SW4  (row0,col1)
+            &kp LEFT      // SW5  (row1,col1)
+            &kp HOME      // SW6  (row2,col1)
+            &kp N2        // SW7  (row0,col2)
+            &kp UP        // SW8  (row1,col2)
+            &kp PG_UP     // SW9  (row2,col2)
+            &trans        // SW10 (row3,col2) 左親指
+            &kp N3        // SW11 (row0,col3)
+            &kp DOWN      // SW12 (row1,col3)
+            &kp PG_DN     // SW13 (row2,col3)
+            &trans        // SW14 (row3,col3) 左親指
+            &kp N4        // SW15 (row0,col4)
+            &kp RIGHT     // SW16 (row1,col4)
+            &kp END       // SW17 (row2,col4)
+            &kp N5        // SW18 (row0,col5)
+            &bt BT_SEL 2  // SW19 (row1,col5)
+            &trans        // SW20 (row2,col5)
+            &kp BSPC      // SW21 (row3,col5) 左親指
+            &kp N6        // SW22 (row4,col5)
+            &trans        // SW23 (row5,col5)
+            &trans        // SW24 (row6,col5)
+            &kp SPACE     // SW25 (row7,col5) 右親指
+            &kp N7        // SW26 (row4,col4)
+            &kp LBRC      // SW27 (row5,col4)
+            &trans        // SW28 (row6,col4)
+            &kp N8        // SW29 (row4,col3)
+            &kp RBRC      // SW30 (row5,col3)
+            &trans        // SW31 (row6,col3)
+            &trans        // SW32 (row7,col3) 右親指
+            &kp N9        // SW33 (row4,col2)
+            &kp SEMI      // SW34 (row5,col2)
+            &trans        // SW35 (row6,col2)
+            &trans        // SW36 (row7,col2) 右親指
+            &kp EQUAL     // SW37 (row4,col1)
+            &kp SQT       // SW38 (row5,col1)
+            &trans        // SW39 (row6,col1)
+            &kp N0        // SW40 (row4,col0)
+            &kp BSLH      // SW41 (row5,col0)
+            &trans        // SW42 (row6,col0)
             >;
         };
 
