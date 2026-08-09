@@ -133,7 +133,7 @@
         , <&key_physical_attrs  100  100  1086   100  (-800)  1200   100>  /* SW33 */
         , <&key_physical_attrs  100  100  1073   200  (-800)  1200   100>  /* SW34 */
         , <&key_physical_attrs  100  100  1060   300  (-800)  1200   100>  /* SW35 */
-        , <&key_physical_attrs  100  100  1026   400  (-800)  1200   100>  /* SW36 */
+        , <&key_physical_attrs  100  100  1051   400  (-800)  1200   100>  /* SW36 */
         , <&key_physical_attrs  100  100  1200   100     0     0     0>  /* SW37 */
         , <&key_physical_attrs  100  100  1200   200     0     0     0>  /* SW38 */
         , <&key_physical_attrs  100  100  1200   300     0     0     0>  /* SW39 */
