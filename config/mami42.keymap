@@ -33,6 +33,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     macros {
@@ -41,6 +42,36 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GT>;
+        };
+
+        // BT_SEL/&out に単体の名前を付けて、ZMK Studioの一覧で
+        // 「BLT1」「BLT2」「BLT3」「USB」として単独選択できるようにする
+        blt1: blt1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            display-name = "BLT1";
+            bindings = <&bt BT_SEL 0>;
+        };
+
+        blt2: blt2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            display-name = "BLT2";
+            bindings = <&bt BT_SEL 1>;
+        };
+
+        blt3: blt3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            display-name = "BLT3";
+            bindings = <&bt BT_SEL 2>;
+        };
+
+        usb_out: usb_out {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            display-name = "USB";
+            bindings = <&out OUT_USB>;
         };
     };
 
@@ -115,8 +146,8 @@
             display-name = "mac_num";
             bindings = <
             &kp ESC       // SW1  (row0,col0)
-            &bt BT_SEL 0  // SW2  (row1,col0)
-            &bt BT_SEL 1  // SW3  (row2,col0)
+            &blt1         // SW2  (row1,col0)
+            &blt2         // SW3  (row2,col0)
             &kp N1        // SW4  (row0,col1)
             &kp LEFT      // SW5  (row1,col1)
             &kp HOME      // SW6  (row2,col1)
@@ -132,7 +163,7 @@
             &kp RIGHT     // SW16 (row1,col4)
             &kp END       // SW17 (row2,col4)
             &kp N5        // SW18 (row0,col5)
-            &bt BT_SEL 2  // SW19 (row1,col5)
+            &blt3         // SW19 (row1,col5)
             &rgb_ug RGB_TOG // SW20 (row2,col5)
             &kp BSPC      // SW21 (row3,col5) 左親指
             &kp N6        // SW22 (row4,col5)
@@ -261,8 +292,8 @@
             // mac_num と同一 (SW10/SW14は共に&transのため入替の影響なし)
             bindings = <
             &kp ESC       // SW1  (row0,col0)
-            &bt BT_SEL 0  // SW2  (row1,col0)
-            &bt BT_SEL 1  // SW3  (row2,col0)
+            &blt1         // SW2  (row1,col0)
+            &blt2         // SW3  (row2,col0)
             &kp N1        // SW4  (row0,col1)
             &kp LEFT      // SW5  (row1,col1)
             &kp HOME      // SW6  (row2,col1)
@@ -278,7 +309,7 @@
             &kp RIGHT     // SW16 (row1,col4)
             &kp END       // SW17 (row2,col4)
             &kp N5        // SW18 (row0,col5)
-            &bt BT_SEL 2  // SW19 (row1,col5)
+            &blt3         // SW19 (row1,col5)
             &rgb_ug RGB_TOG // SW20 (row2,col5)
             &kp BSPC      // SW21 (row3,col5) 左親指
             &kp N6        // SW22 (row4,col5)
